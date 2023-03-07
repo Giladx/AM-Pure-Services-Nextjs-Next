@@ -172,8 +172,8 @@ const Home = (props) => {
           </div>
           <Packages></Packages>
           <AboutUs
-            rootClassName="about-us-root-class-name"
             image_src="https://images.unsplash.com/photo-1592967050810-fb4aa3f8bf9d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEwfHxNaWNoaWdhbnxlbnwwfHx8fDE2NzgyMDU5NDE&amp;ixlib=rb-4.0.3&amp;w=1000"
+            rootClassName="about-us-root-class-name"
           ></AboutUs>
           <Process></Process>
           <Blog rootClassName="blog-root-class-name2"></Blog>

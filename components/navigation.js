@@ -231,12 +231,27 @@ const Navigation = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .navigation-image {
+              width: 140px;
+              height: auto;
+            }
             .navigation-register {
               margin-right: 0px;
               margin-bottom: 0px;
             }
+            .navigation-nav {
+              display: none;
+            }
+            .navigation-icon {
+              width: var(--dl-size-size-small);
+              height: var(--dl-size-size-small);
+            }
             .navigation-image1 {
               width: 140px;
+            }
+            .navigation-icon2 {
+              width: var(--dl-size-size-small);
+              height: var(--dl-size-size-small);
             }
             .navigation-call-now {
               margin-top: var(--dl-space-space-oneandhalfunits);
