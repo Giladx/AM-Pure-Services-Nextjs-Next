@@ -125,8 +125,13 @@ const Navigation = (props) => {
             justify-content: center;
           }
           .navigation-register1 {
+            color: var(--dl-color-scheme-green);
             width: auto;
+            font-size: 14px;
+            border-color: var(--dl-color-scheme-green);
+            border-width: 1px;
             text-decoration: none;
+            background-color: var(--dl-color-scheme-lightgreen);
           }
           .navigation-burger-menu {
             display: none;
@@ -193,6 +198,9 @@ const Navigation = (props) => {
             .navigation-image {
               width: 140px;
             }
+            .navigation-register1 {
+              font-size: 14px;
+            }
             .navigation-image1 {
               width: 140px;
             }
@@ -201,13 +209,21 @@ const Navigation = (props) => {
             .navigation-max-width {
               min-width: 100%;
             }
+            .navigation-register1 {
+              font-size: 14px;
+            }
           }
           @media (max-width: 991px) {
             .navigation-max-width {
               position: relative;
             }
             .navigation-register {
+              color: var(--dl-color-scheme-green);
               display: flex;
+              font-size: 12px;
+              border-color: var(--dl-color-scheme-green);
+              border-width: 1px;
+              background-color: var(--dl-color-scheme-lightgreen);
             }
             .navigation-nav {
               display: none;
@@ -223,6 +239,7 @@ const Navigation = (props) => {
               padding-right: 16px;
             }
             .navigation-register {
+              font-size: 12px;
               margin-right: 0px;
               margin-bottom: 0px;
             }
@@ -236,8 +253,13 @@ const Navigation = (props) => {
               height: auto;
             }
             .navigation-register {
+              color: var(--dl-color-scheme-green);
+              font-size: 12px;
+              border-color: var(--dl-color-scheme-green);
+              border-width: 1px;
               margin-right: 0px;
               margin-bottom: 0px;
+              background-color: var(--dl-color-scheme-lightgreen);
             }
             .navigation-nav {
               display: none;
