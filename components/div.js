@@ -42,6 +42,7 @@ const Div = (props) => {
       <style jsx>
         {`
           .div-text {
+            color: var(--dl-color-scheme-green);
             width: 100%;
             height: auto;
             font-size: 5em;
