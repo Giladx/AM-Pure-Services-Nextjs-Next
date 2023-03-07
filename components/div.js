@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 const Div = (props) => {
   return (
     <>
-      <div className="mySwiper swiper">
+      <div className="mySwiper swiper div-div">
         <div className="swiper-wrapper">
           <div className="swiper-slide">
             <strong className="div-text">{props.slide1}</strong>
@@ -66,6 +66,9 @@ const Div = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .div-div {
+              height: auto;
+            }
             .div-root-class-name {
               height: 450px;
             }

@@ -2,8 +2,6 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 
-import DangerousHTML from 'dangerous-html/react'
-
 import Navigation from '../components/navigation'
 import Div from '../components/div'
 import Packages from '../components/packages'
@@ -36,25 +34,6 @@ const Home = (props) => {
                       Text="WE BELIEVE IN ONE WAY: INTEGRITY"
                       rootClassName="div-root-class-name"
                     ></Div>
-                    <Div Text="WE BELIEVE IN ONE WAY: INTEGRITY"></Div>
-                    <Div Text="WE WILL PROVIDE YOU CLEAN, PURE AIR"></Div>
-                    <Div Text="WE CARE FOR PEOPLE HEALTH"></Div>
-                    <Div Text="PURE CLEAN AIR DUCT FOR HEALTHY LIFE"></Div>
-                    <Div Text="WE WILL GIVE YOU BEST PERFORMANCE"></Div>
-                    <Div Text="WE BELIEVE IN SAVING ENERGY "></Div>
-                  </div>
-                  <div className="home-code-embed">
-                    <DangerousHTML
-                      html={`<script>
-    new SimpleSlider('.simple-slider-second', {
-    speed: 600,
-    delay: 3000,
-    autoplay: true,
-    loop: true
-    });
-</script>
-`}
-                    ></DangerousHTML>
                   </div>
                 </div>
                 <Link href="/monthly-specials">
@@ -246,9 +225,6 @@ const Home = (props) => {
             width: 100%;
             height: var(--dl-size-size-xxlarge);
             position: relative;
-          }
-          .home-code-embed {
-            height: 20px;
           }
           .home-link {
             margin-bottom: 128px;
