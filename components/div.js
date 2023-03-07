@@ -7,15 +7,20 @@ const Div = (props) => {
   return (
     <>
       <div className="mySwiper swiper">
+        <div>
+          <DangerousHTML
+            html={`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />`}
+          ></DangerousHTML>
+        </div>
         <div className="swiper-wrapper">
-          <div className="div-slide-1 swiper-slide">
-            <span className="div-text">{props.slide1}</span>
+          <div className="swiper-slide">
+            <strong className="div-text">{props.slide1}</strong>
           </div>
           <div className="div-slide-2 swiper-slide">
-            <span className="div-text1">{props.slide11}</span>
+            <strong className="div-text1">{props.slide11}</strong>
           </div>
           <div className="div-slide-3 swiper-slide">
-            <span className="div-text2">{props.slide111}</span>
+            <strong className="div-text2">{props.slide111}</strong>
           </div>
         </div>
         <div>
@@ -47,13 +52,6 @@ const Div = (props) => {
       </div>
       <style jsx>
         {`
-          .div-slide-1 {
-            flex: 0 0 auto;
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-          }
           .div-text {
             width: 100%;
             height: auto;

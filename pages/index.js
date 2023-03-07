@@ -31,7 +31,7 @@ const Home = (props) => {
             <div className="home-max-width max-content-container">
               <div className="home-heading-container">
                 <div className="home-slider-div simple-slider-second simple-slider">
-                  <div className="slider-wrapper home-wrap-div">
+                  <div className="home-wrap-div">
                     <Div
                       Text="WE BELIEVE IN ONE WAY: INTEGRITY"
                       rootClassName="div-root-class-name"

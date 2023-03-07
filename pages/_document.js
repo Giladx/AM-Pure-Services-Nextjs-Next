@@ -48,7 +48,7 @@ class CustomDocument extends Document {
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                '</noscript><link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">\n<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />\n<style>\n.services-card:hover > div{\nbackground-color: #fff\n}\n\n@keyframes sprite {\n    from {\n        background-position: 0 0%;\n    }\n\n    to {\n        background-position: 0 100%;\n    }\n}\n</style>\n<noscript>',
+                '</noscript><link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">\n<style>\n.services-card:hover > div{\nbackground-color: #fff\n}\n\n@keyframes sprite {\n    from {\n        background-position: 0 0%;\n    }\n\n    to {\n        background-position: 0 100%;\n    }\n}\n</style>\n<noscript>',
             }}
           ></noscript>
         </Head>
