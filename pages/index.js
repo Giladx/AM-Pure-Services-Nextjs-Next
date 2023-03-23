@@ -28,7 +28,7 @@ const Home = (props) => {
           <div className="home-hero section-container">
             <div className="home-max-width max-content-container">
               <div className="home-heading-container">
-                <div className="home-slider-div simple-slider-second simple-slider">
+                <div className="home-slider-div">
                   <div className="home-wrap-div">
                     <Div
                       Text="WE BELIEVE IN ONE WAY: INTEGRITY"
@@ -226,8 +226,9 @@ const Home = (props) => {
           }
           .home-slider-div {
             width: 100%;
-            height: var(--dl-size-size-xxlarge);
+            height: auto;
             position: relative;
+            align-self: center;
           }
           .home-link {
             margin-bottom: 128px;
@@ -535,13 +536,13 @@ const Home = (props) => {
           }
           @media (max-width: 767px) {
             .home-heading-container {
-              width: 670px;
+              width: auto;
               height: 738px;
               padding-bottom: 0px;
             }
             .home-slider-div {
               width: 100%;
-              height: 380px;
+              height: auto;
             }
             .home-wrap-div {
               width: 100%;
@@ -610,19 +611,19 @@ const Home = (props) => {
           }
           @media (max-width: 479px) {
             .home-heading-container {
-              width: 400px;
+              width: auto;
               height: 0px;
               align-items: center;
               justify-content: center;
             }
             .home-slider-div {
               width: 100%;
-              height: 380px;
+              height: auto;
               align-self: center;
               margin-bottom: var(--dl-space-space-twounits);
             }
             .home-wrap-div {
-              height: 100%;
+              height: auto;
             }
             .home-link {
               margin-bottom: 128px;
