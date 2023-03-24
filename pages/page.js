@@ -42,7 +42,6 @@ const Page = (props) => {
             font-weight: 900;
           }
           .page-text1 {
-            width: 100%;
             font-size: 3rem;
             font-style: normal;
             text-align: center;

@@ -9,7 +9,7 @@ import AboutUs from '../components/about-us'
 import Process from '../components/process'
 import Blog from '../components/blog'
 import Banner from '../components/banner'
-import Footer1 from '../components/footer1'
+import Footer from '../components/footer'
 
 const Home = (props) => {
   return (
@@ -178,8 +178,8 @@ const Home = (props) => {
           <Process></Process>
           <Blog rootClassName="blog-root-class-name2"></Blog>
           <Banner rootClassName="banner-root-class-name"></Banner>
-          <Footer1></Footer1>
         </main>
+        <Footer></Footer>
       </div>
       <style jsx>
         {`

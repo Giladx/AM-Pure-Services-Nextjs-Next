@@ -5,7 +5,7 @@ import Navigation from '../components/navigation'
 import Packages from '../components/packages'
 import Blog from '../components/blog'
 import Banner from '../components/banner'
-import Footer1 from '../components/footer1'
+import Footer from '../components/footer'
 
 const MonthlySpecials = (props) => {
   return (
@@ -37,7 +37,7 @@ const MonthlySpecials = (props) => {
           <Blog rootClassName="blog-root-class-name1"></Blog>
           <Banner rootClassName="banner-root-class-name3"></Banner>
         </main>
-        <Footer1></Footer1>
+        <Footer></Footer>
       </div>
       <style jsx>
         {`

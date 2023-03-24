@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Navigation from '../components/navigation'
 import Blog from '../components/blog'
 import Banner from '../components/banner'
-import Footer1 from '../components/footer1'
+import Footer from '../components/footer'
 
 const AirDuctCleaning = (props) => {
   return (
@@ -577,7 +577,7 @@ const AirDuctCleaning = (props) => {
           <Blog rootClassName="blog-root-class-name4"></Blog>
           <Banner rootClassName="banner-root-class-name12"></Banner>
         </main>
-        <Footer1></Footer1>
+        <Footer></Footer>
       </div>
       <style jsx>
         {`

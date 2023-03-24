@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Navigation from '../components/navigation'
 import Blog from '../components/blog'
 import Banner from '../components/banner'
-import Footer1 from '../components/footer1'
+import Footer from '../components/footer'
 
 const Restrictions = (props) => {
   return (
@@ -222,7 +222,7 @@ const Restrictions = (props) => {
           <Blog rootClassName="blog-root-class-name"></Blog>
         </main>
         <Banner rootClassName="banner-root-class-name2"></Banner>
-        <Footer1></Footer1>
+        <Footer></Footer>
       </div>
       <style jsx>
         {`

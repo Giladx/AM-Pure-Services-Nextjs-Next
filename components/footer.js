@@ -1,342 +1,405 @@
 import React from 'react'
+import Link from 'next/link'
 
 import PropTypes from 'prop-types'
 
 const Footer = (props) => {
   return (
     <>
-      <footer
+      <div
         className={`footer-footer section-container ${props.rootClassName} `}
       >
         <div className="footer-max-width max-content-container">
-          <div className="footer-bottom-container">
-            <div className="footer-left-side">
-              <img
-                alt="image"
-                src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
-                className="footer-image"
-              />
-              <span className="footer-text">
-                Register for the most insightful marketing conference of Europe.
-                Over 30 speakers, 2 days full of digital marketing and social
-                media news, best practices and insights from all over the world.
-              </span>
-              <div className="footer-social-media">
-                <span className="footer-text01">Follow market1</span>
-                <div className="footer-container">
-                  <svg viewBox="0 0 1024 1024" className="footer-icon">
-                    <path d="M384 384h177.106v90.782h2.532c24.64-44.194 84.958-90.782 174.842-90.782 186.946 0 221.52 116.376 221.52 267.734v308.266h-184.61v-273.278c0-65.184-1.334-149.026-96.028-149.026-96.148 0-110.82 70.986-110.82 144.292v278.012h-184.542v-576z"></path>
-                    <path d="M64 384h192v576h-192v-576z"></path>
-                    <path d="M256 224c0 53.019-42.981 96-96 96s-96-42.981-96-96c0-53.019 42.981-96 96-96s96 42.981 96 96z"></path>
-                  </svg>
-                  <svg viewBox="0 0 1024 1024" className="footer-icon04">
-                    <path d="M512 92.2c136.8 0 153 0.6 206.8 3 50 2.2 77 10.6 95 17.6 23.8 9.2 41 20.4 58.8 38.2 18 18 29 35 38.4 58.8 7 18 15.4 45.2 17.6 95 2.4 54 3 70.2 3 206.8s-0.6 153-3 206.8c-2.2 50-10.6 77-17.6 95-9.2 23.8-20.4 41-38.2 58.8-18 18-35 29-58.8 38.4-18 7-45.2 15.4-95 17.6-54 2.4-70.2 3-206.8 3s-153-0.6-206.8-3c-50-2.2-77-10.6-95-17.6-23.8-9.2-41-20.4-58.8-38.2-18-18-29-35-38.4-58.8-7-18-15.4-45.2-17.6-95-2.4-54-3-70.2-3-206.8s0.6-153 3-206.8c2.2-50 10.6-77 17.6-95 9.2-23.8 20.4-41 38.2-58.8 18-18 35-29 58.8-38.4 18-7 45.2-15.4 95-17.6 53.8-2.4 70-3 206.8-3zM512 0c-139 0-156.4 0.6-211 3-54.4 2.4-91.8 11.2-124.2 23.8-33.8 13.2-62.4 30.6-90.8 59.2-28.6 28.4-46 57-59.2 90.6-12.6 32.6-21.4 69.8-23.8 124.2-2.4 54.8-3 72.2-3 211.2s0.6 156.4 3 211c2.4 54.4 11.2 91.8 23.8 124.2 13.2 33.8 30.6 62.4 59.2 90.8 28.4 28.4 57 46 90.6 59 32.6 12.6 69.8 21.4 124.2 23.8 54.6 2.4 72 3 211 3s156.4-0.6 211-3c54.4-2.4 91.8-11.2 124.2-23.8 33.6-13 62.2-30.6 90.6-59s46-57 59-90.6c12.6-32.6 21.4-69.8 23.8-124.2 2.4-54.6 3-72 3-211s-0.6-156.4-3-211c-2.4-54.4-11.2-91.8-23.8-124.2-12.6-34-30-62.6-58.6-91-28.4-28.4-57-46-90.6-59-32.6-12.6-69.8-21.4-124.2-23.8-54.8-2.6-72.2-3.2-211.2-3.2v0z"></path>
-                    <path d="M512 249c-145.2 0-263 117.8-263 263s117.8 263 263 263 263-117.8 263-263c0-145.2-117.8-263-263-263zM512 682.6c-94.2 0-170.6-76.4-170.6-170.6s76.4-170.6 170.6-170.6c94.2 0 170.6 76.4 170.6 170.6s-76.4 170.6-170.6 170.6z"></path>
-                    <path d="M846.8 238.6c0 33.91-27.49 61.4-61.4 61.4s-61.4-27.49-61.4-61.4c0-33.91 27.49-61.4 61.4-61.4s61.4 27.49 61.4 61.4z"></path>
-                  </svg>
-                  <svg viewBox="0 0 1024 1024" className="footer-icon08">
-                    <path d="M920.021 283.179c12.245 65.237 19.115 140.587 18.645 218.667 0.811 65.195-5.248 139.392-18.645 214.229-2.432 8.875-6.4 17.195-11.605 24.533-9.685 13.696-23.808 24.107-40.491 28.8-25.771 6.869-91.989 11.733-165.419 14.549-95.147 3.669-190.507 3.669-190.507 3.669s-95.36 0-190.507-3.627c-73.429-2.816-139.648-7.637-164.949-14.421-8.747-2.432-16.896-6.315-24.149-11.435-13.269-9.387-23.509-22.869-28.587-39.381-12.16-65.109-18.944-140.203-18.475-218.027-0.896-65.707 5.163-140.459 18.645-215.893 2.432-8.875 6.4-17.195 11.605-24.533 9.685-13.696 23.808-24.107 40.491-28.8 25.771-6.869 91.989-11.733 165.419-14.549 95.147-3.627 190.507-3.627 190.507-3.627s95.36 0 190.549 3.328c73.344 2.56 140.032 6.955 164.523 12.928 9.344 2.688 17.963 7.040 25.515 12.757 13.099 9.899 22.955 23.936 27.435 40.875zM1003.093 263.552c-9.259-36.949-30.635-67.84-59.008-89.301-15.915-12.032-33.963-21.077-53.291-26.667-38.315-9.387-115.029-13.781-185.259-16.213-96.725-3.371-193.536-3.371-193.536-3.371s-96.939 0-193.749 3.712c-70.059 2.688-147.2 7.467-184.192 17.365-37.291 10.539-67.456 32.853-88.064 61.867-11.52 16.256-20.011 34.603-25.045 54.101-0.256 1.024-0.469 2.091-0.64 3.029-14.635 80.981-21.291 161.835-20.309 233.856-0.512 82.091 6.869 163.456 20.352 234.752 0.256 1.323 0.555 2.645 0.896 3.755 10.453 36.693 32.853 66.859 61.909 87.381 15.232 10.752 32.299 18.859 50.389 23.936 37.504 10.027 114.603 14.805 184.661 17.493 96.853 3.712 193.792 3.712 193.792 3.712s96.939 0 193.749-3.712c70.059-2.688 147.157-7.467 184.192-17.365 37.248-10.539 67.456-32.853 88.021-61.867 11.52-16.256 20.053-34.603 25.045-54.059 0.256-1.067 0.512-2.133 0.64-3.029 14.507-80.384 21.163-160.64 20.309-232.107 0.512-82.133-6.869-163.541-20.352-234.837-0.171-0.853-0.341-1.707-0.512-2.432zM458.667 567.509v-132.352l116.352 66.176zM437.077 677.931l245.333-139.52c20.48-11.648 27.648-37.717 16-58.197-3.968-6.997-9.643-12.459-16-16l-245.333-139.52c-20.48-11.648-46.549-4.48-58.197 16-3.84 6.741-5.632 14.080-5.589 21.077v279.040c0 23.552 19.115 42.667 42.667 42.667 7.765 0 15.019-2.091 21.077-5.589z"></path>
-                  </svg>
-                  <svg viewBox="0 0 1024 1024" className="footer-icon10">
-                    <path d="M1024 226.4c-37.6 16.8-78.2 28-120.6 33 43.4-26 76.6-67.2 92.4-116.2-40.6 24-85.6 41.6-133.4 51-38.4-40.8-93-66.2-153.4-66.2-116 0-210 94-210 210 0 16.4 1.8 32.4 5.4 47.8-174.6-8.8-329.4-92.4-433-219.6-18 31-28.4 67.2-28.4 105.6 0 72.8 37 137.2 93.4 174.8-34.4-1-66.8-10.6-95.2-26.2 0 0.8 0 1.8 0 2.6 0 101.8 72.4 186.8 168.6 206-17.6 4.8-36.2 7.4-55.4 7.4-13.6 0-26.6-1.4-39.6-3.8 26.8 83.4 104.4 144.2 196.2 146-72 56.4-162.4 90-261 90-17 0-33.6-1-50.2-3 93.2 59.8 203.6 94.4 322.2 94.4 386.4 0 597.8-320.2 597.8-597.8 0-9.2-0.2-18.2-0.6-27.2 41-29.4 76.6-66.4 104.8-108.6z"></path>
-                  </svg>
-                </div>
+          <div className="footer-top-part">
+            <div className="footer-links-container">
+              <div className="footer-product-container">
+                <span className="footer-text">{props.text1}</span>
+                <Link href="/monthly-specials">
+                  <a className="footer-link">{props.text2}</a>
+                </Link>
+                <Link href="/air-duct-cleaning">
+                  <a className="footer-link01">{props.text3}</a>
+                </Link>
+                <Link href="/dryer-vent">
+                  <a className="footer-link02">{props.text4}</a>
+                </Link>
+                <Link href="/uv-light">
+                  <a className="footer-link03">{props.text5}</a>
+                </Link>
               </div>
             </div>
-            <div className="footer-links">
-              <div className="footer-container1">
-                <span className="footer-text02">Product</span>
-                <span className="footer-link">ABOUT</span>
-                <span className="footer-link">Agenda</span>
-                <span className="footer-link">Register</span>
-                <span className="footer-link">Speakers</span>
-                <span className="footer-link">Location</span>
-                <span className="footer-text08 footer-link">Workshops</span>
-              </div>
-              <div className="footer-container2">
-                <span className="footer-text09">
-                  <span>Contact</span>
+            <div className="footer-navigate-container">
+              <span className="footer-text01">{props.text6}</span>
+              <Link href="/about">
+                <a className="footer-link04">
+                  <span>ABOUT</span>
                   <br></br>
-                  <span></span>
-                </span>
-                <span className="footer-link">contact us</span>
-                <span className="footer-link">Sponsorship</span>
-                <span className="footer-link">become a speaker</span>
-                <span className="footer-link">partnerships</span>
-                <span className="footer-text16 footer-link">sales</span>
-              </div>
+                </a>
+              </Link>
+              <Link href="/restrictions">
+                <a className="footer-link05">{props.text7}</a>
+              </Link>
+              <Link href="/contact">
+                <a className="footer-link06">{props.text8}</a>
+              </Link>
             </div>
-          </div>
-          <div className="footer-copyright">
-            <span className="footer-text17">
-              <span>
-                <span>
-                  © All rights reserved
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
+            <div className="footer-contact-container">
+              <span className="footer-text04">{props.text9}</span>
+              <a href="tel:+18885031722" className="footer-link07">
+                {props.text11}
+              </a>
               <a
-                href="https://www.teleporthq.io"
+                href="https://www.google.com/maps/place/Farmington+Hills,+MI+48331,+USA/@42.4981031,-83.4425518,13z/data=!3m1!4b1!4m5!3m4!1s0x8824b01110963c0d:0xb9db7893378fa2e6!8m2!3d42.508645!4d-83.4109834"
                 target="_blank"
                 rel="noreferrer noopener"
+                className="footer-link08"
               >
-                <span className="footer-text21">@TeleportHQ.</span>
+                <span>Farmington Hills,</span>
+                <br></br>
               </a>
-              <span>
-                <span>
-                  {' '}
-                  Powered by
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
               <a
-                href="https://www.vercel.com"
+                href="https://www.google.com/maps/place/Farmington+Hills,+MI+48331,+USA/@42.4981031,-83.4425518,13z/data=!3m1!4b1!4m5!3m4!1s0x8824b01110963c0d:0xb9db7893378fa2e6!8m2!3d42.508645!4d-83.4109834"
                 target="_blank"
                 rel="noreferrer noopener"
+                className="footer-link09"
               >
-                <span className="footer-text25">Vercel</span>
+                <span>MI 48331, USA</span>
+                <br></br>
               </a>
-              <span>
-                <span>
-                  . Image source:
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
               <a
-                href="https://www.unsplash.com"
-                target="_blank"
-                rel="noreferrer noopener"
+                href="mailto:service@ampureservices.com?subject=Site Service Request"
+                className="footer-link10"
               >
-                <span className="footer-text29">Unsplash</span>
+                {props.text10}
               </a>
-              <span>.</span>
-            </span>
+            </div>
+            <div className="footer-subscribe-container">
+              <span className="footer-text09">{props.text}</span>
+              <input
+                type="text"
+                placeholder={props.textinput_placeholder}
+                className="footer-textinput input"
+              />
+              <button className="button-primary button">{props.button}</button>
+            </div>
           </div>
         </div>
-      </footer>
+        <div className="footer-separator"></div>
+        <footer className="footer-max-width1 max-content-container">
+          <Link href="/">
+            <a>
+              <img
+                alt={props.image_alt}
+                src={props.image_src}
+                width="150"
+                height="59"
+                className="footer-image"
+              />
+            </a>
+          </Link>
+          <Link href="/">
+            <a className="footer-link12">{props.text12}</a>
+          </Link>
+          <a
+            href="https://011.ninja"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="footer-link13"
+          >
+            {props.text121}
+          </a>
+        </footer>
+      </div>
       <style jsx>
         {`
           .footer-footer {
-            background-color: var(--dl-color-scheme-black);
+            position: relative;
           }
           .footer-max-width {
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: space-between;
+            padding-left: 0px;
+            padding-right: 0px;
           }
-          .footer-bottom-container {
+          .footer-top-part {
             width: 100%;
             display: flex;
-            margin-bottom: var(--dl-space-space-sixunits);
+            align-items: stretch;
+            flex-direction: row;
             justify-content: space-between;
           }
-          .footer-left-side {
-            flex: 0 0 auto;
+          .footer-links-container {
             width: 50%;
             display: flex;
             align-items: flex-start;
-            flex-direction: column;
+            flex-direction: row;
+            justify-content: space-between;
           }
-          .footer-image {
-            margin-bottom: var(--dl-space-space-twounits);
+          .footer-product-container {
+            flex: 0 0 auto;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
           }
           .footer-text {
-            color: var(--dl-color-scheme-white);
-            max-width: 350px;
-            margin-bottom: 60px;
-            text-transform: none;
-          }
-          .footer-social-media {
-            flex: 0 0 auto;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .footer-text01 {
-            color: var(--dl-color-scheme-white);
-            font-size: 20px;
-            font-style: normal;
+            color: var(--dl-color-scheme-green);
             font-weight: 700;
-            line-height: 1.1;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .footer-container {
+          .footer-link {
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .footer-link01 {
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .footer-link02 {
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .footer-link03 {
+            text-decoration: none;
+          }
+          .footer-navigate-container {
             flex: 0 0 auto;
             display: flex;
             align-items: flex-start;
-            flex-direction: row;
-          }
-          .footer-icon {
-            fill: var(--dl-color-scheme-white);
-            width: 24px;
-            height: 24px;
-            transition: 0.3s;
-            margin-right: var(--dl-space-space-twounits);
-          }
-          .footer-icon:hover {
-            fill: var(--dl-color-scheme-green);
-            cursor: pointer;
-          }
-          .footer-icon04 {
-            fill: var(--dl-color-scheme-white);
-            width: 24px;
-            height: 24px;
-            transition: 0.3s;
-            margin-right: var(--dl-space-space-twounits);
-          }
-          .footer-icon04:hover {
-            fill: var(--dl-color-scheme-green);
-            cursor: pointer;
-          }
-          .footer-icon08 {
-            fill: var(--dl-color-scheme-white);
-            width: 24px;
-            height: 24px;
-            transition: 0.3s;
-            margin-right: var(--dl-space-space-twounits);
-          }
-          .footer-icon08:hover {
-            fill: var(--dl-color-scheme-green);
-            cursor: pointer;
-          }
-          .footer-icon10 {
-            fill: var(--dl-color-scheme-white);
-            width: 24px;
-            height: 24px;
-            transition: 0.3s;
-          }
-          .footer-icon10:hover {
-            fill: var(--dl-color-scheme-green);
-            cursor: pointer;
-          }
-          .footer-links {
-            flex: 0 0 auto;
-            width: 40%;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: row;
-          }
-          .footer-container1 {
-            flex: 0 0 auto;
-            width: 50%;
-            display: flex;
-            align-items: flex-start;
+            margin-left: var(--dl-space-space-oneandhalfunits);
             flex-direction: column;
+            justify-content: flex-start;
           }
-          .footer-text02 {
-            color: var(--dl-color-scheme-white);
-            cursor: default;
-            font-size: 18px;
-            font-style: normal;
+          .footer-text01 {
+            color: var(--dl-color-scheme-green);
             font-weight: 700;
-            margin-bottom: var(--dl-space-space-threeunits);
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .footer-text08 {
-            margin-bottom: 0px;
+          .footer-link04 {
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
           }
-          .footer-container2 {
+          .footer-link05 {
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .footer-link06 {
+            text-decoration: none;
+          }
+          .footer-contact-container {
+            display: flex;
+            align-items: flex-start;
+            margin-left: var(--dl-space-space-oneandhalfunits);
+            margin-right: var(--dl-space-space-oneandhalfunits);
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .footer-text04 {
+            color: var(--dl-color-scheme-green);
+            font-weight: 700;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .footer-link07 {
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .footer-link08 {
+            margin-bottom: var(--dl-space-space-unit);
+            text-transform: uppercase;
+            text-decoration: none;
+          }
+          .footer-link09 {
+            margin-bottom: var(--dl-space-space-unit);
+            text-transform: uppercase;
+            text-decoration: none;
+          }
+          .footer-link10 {
+            font-size: 14px;
+            font-style: normal;
+            font-family: Rubik;
+            font-weight: 900;
+            line-height: 1.6;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+            text-decoration: none;
+          }
+          .footer-subscribe-container {
             flex: 0 0 auto;
-            width: 50%;
+            width: 35%;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
           .footer-text09 {
-            color: var(--dl-color-scheme-white);
-            cursor: default;
-            font-size: 18px;
-            font-style: normal;
+            color: var(--dl-color-scheme-green);
             font-weight: 700;
-            margin-bottom: var(--dl-space-space-threeunits);
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .footer-text16 {
-            margin-bottom: 0px;
+          .footer-textinput {
+            outline: none;
+            align-self: stretch;
+            padding-top: 4px;
+            border-color: rgba(0, 0, 0, 0.1);
+            padding-left: 0px;
+            border-radius: 0px;
+            margin-bottom: var(--dl-space-space-twounits);
+            padding-bottom: 4px;
+            border-top-width: 0px;
+            border-left-width: 0px;
+            border-right-width: 0px;
+            border-bottom-width: 1px;
           }
-          .footer-copyright {
-            flex: 0 0 auto;
+          .footer-separator {
             width: 100%;
-            display: flex;
-            align-items: flex-start;
-            padding-top: var(--dl-space-space-twounits);
-            flex-direction: column;
-            padding-bottom: var(--dl-space-space-twounits);
+            height: 1px;
+            margin-top: var(--dl-space-space-twounits);
+            margin-bottom: var(--dl-space-space-twounits);
+            background-color: #d9d9d9;
           }
-          .footer-text17 {
-            color: var(--dl-color-scheme-white80);
-            font-size: 14px;
-            text-transform: none;
+          .footer-max-width1 {
+            flex-direction: row;
+            justify-content: space-between;
           }
-          .footer-text21 {
-            text-decoration: underline;
+          .footer-image {
+            width: 144px;
+            object-fit: cover;
+            text-decoration: none;
           }
-          .footer-text25 {
-            text-decoration: underline;
+          .footer-link12 {
+            width: auto;
+            text-align: center;
+            text-decoration: none;
           }
-          .footer-text29 {
-            text-decoration: underline;
+          .footer-link13 {
+            text-decoration: none;
+          }
+
+          .footer-root-class-name1 {
+            display: none;
+          }
+          .footer-root-class-name2 {
+            display: none;
+          }
+
+          @media (max-width: 1600px) {
+            .footer-navigate-container {
+              margin-left: var(--dl-space-space-oneandhalfunits);
+            }
+            .footer-contact-container {
+              margin-left: var(--dl-space-space-oneandhalfunits);
+            }
+            .footer-link12 {
+              width: auto;
+              text-align: center;
+            }
+          }
+          @media (max-width: 1200px) {
+            .footer-max-width {
+              padding-left: 0px;
+              padding-right: 0px;
+            }
+            .footer-navigate-container {
+              margin-left: var(--dl-space-space-oneandhalfunits);
+            }
+            .footer-contact-container {
+              align-self: flex-start;
+              margin-left: var(--dl-space-space-oneandhalfunits);
+            }
+            .footer-link07 {
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .footer-link08 {
+              text-transform: uppercase;
+              text-decoration: none;
+            }
+            .footer-link09 {
+              text-transform: uppercase;
+            }
+            .footer-link10 {
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 900;
+              line-height: 1.3;
+              margin-bottom: var(--dl-space-space-unit);
+              letter-spacing: auto;
+            }
+            .footer-link12 {
+              width: auto;
+              text-align: center;
+            }
           }
           @media (max-width: 991px) {
-            .footer-bottom-container {
-              flex-direction: column-reverse;
+            .footer-link12 {
+              text-align: center;
             }
-            .footer-left-side {
-              width: 100%;
+            .footer-link13 {
+              text-align: center;
             }
-            .footer-links {
+          }
+          @media (max-width: 767px) {
+            .footer-top-part {
+              align-items: center;
+              flex-direction: column;
+              justify-content: space-between;
+            }
+            .footer-links-container {
               width: 100%;
-              margin-bottom: var(--dl-space-space-threeunits);
+              align-items: flex-start;
+              margin-bottom: var(--dl-space-space-oneandhalfunits);
+              flex-direction: row;
+            }
+            .footer-product-container {
+              margin-left: var(--dl-space-space-oneandhalfunits);
+            }
+            .footer-navigate-container {
+              align-self: flex-start;
+              margin-bottom: var(--dl-space-space-oneandhalfunits);
+            }
+            .footer-subscribe-container {
+              width: 100%;
+              padding-left: var(--dl-space-space-oneandhalfunits);
+              padding-right: var(--dl-space-space-oneandhalfunits);
+            }
+            .footer-link12 {
+              text-align: center;
+            }
+            .footer-link13 {
+              text-align: center;
             }
           }
           @media (max-width: 479px) {
-            .footer-links {
-              flex-wrap: wrap;
+            .footer-top-part {
+              align-items: center;
+              flex-direction: column;
             }
-            .footer-container1 {
-              width: 100%;
-              margin-bottom: var(--dl-space-space-threeunits);
+            .footer-links-container {
+              position: relative;
             }
-            .footer-text02 {
-              margin-bottom: var(--dl-space-space-twounits);
+            .footer-product-container {
+              width: auto;
             }
-            .footer-container2 {
-              width: 100%;
-              margin-bottom: var(--dl-space-space-threeunits);
+            .footer-navigate-container {
+              width: auto;
+              align-self: flex-start;
+              margin-left: var(--dl-space-space-oneandhalfunits);
+              margin-bottom: var(--dl-space-space-oneandhalfunits);
+              flex-direction: column;
             }
-            .footer-text09 {
-              margin-bottom: var(--dl-space-space-twounits);
+            .footer-contact-container {
+              width: auto;
+              align-items: flex-start;
+              margin-left: var(--dl-space-space-oneandhalfunits);
+              margin-bottom: 0px;
+            }
+            .footer-link10 {
+              margin-bottom: var(--dl-space-space-oneandhalfunits);
+            }
+            .footer-max-width1 {
+              flex-direction: column;
+            }
+            .footer-image {
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .footer-link12 {
+              text-align: center;
             }
           }
         `}
@@ -346,13 +409,47 @@ const Footer = (props) => {
 }
 
 Footer.defaultProps = {
-  rootClassName1: '',
+  text3: 'AIR DUCT CLEANING',
+  text1: 'Product',
+  textinput_placeholder: 'Enter your e-mail address',
   rootClassName: '',
+  button: 'Subscribe',
+  text6: 'Info',
+  text8: 'CONTACT',
+  text4: 'DRYER VENT CLEANING',
+  image_alt: 'image',
+  text10: 'SERVICE@AMPURESERVICES.COM',
+  text12: 'All rights reserved @ AM Pure Services',
+  text9: 'Contact Us',
+  text2: 'MONTHLY SPECIALS',
+  text5: 'UV LIGHT',
+  text: 'Subscribe to our newsletter',
+  text11: '(888) 503-1722',
+  image_src: '/playground_assets/logo-651.svg',
+  text7: 'RESTRICTIONS',
+  text121: 'Designed by 011.ninja',
 }
 
 Footer.propTypes = {
-  rootClassName1: PropTypes.string,
+  text3: PropTypes.string,
+  text1: PropTypes.string,
+  textinput_placeholder: PropTypes.string,
   rootClassName: PropTypes.string,
+  button: PropTypes.string,
+  text6: PropTypes.string,
+  text8: PropTypes.string,
+  text4: PropTypes.string,
+  image_alt: PropTypes.string,
+  text10: PropTypes.string,
+  text12: PropTypes.string,
+  text9: PropTypes.string,
+  text2: PropTypes.string,
+  text5: PropTypes.string,
+  text: PropTypes.string,
+  text11: PropTypes.string,
+  image_src: PropTypes.string,
+  text7: PropTypes.string,
+  text121: PropTypes.string,
 }
 
 export default Footer

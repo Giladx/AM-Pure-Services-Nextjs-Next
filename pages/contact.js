@@ -6,7 +6,7 @@ import DangerousHTML from 'dangerous-html/react'
 import Navigation from '../components/navigation'
 import Process from '../components/process'
 import Banner from '../components/banner'
-import Footer1 from '../components/footer1'
+import Footer from '../components/footer'
 
 const Contact = (props) => {
   return (
@@ -127,7 +127,7 @@ const Contact = (props) => {
         </div>
         <Process rootClassName="process-root-class-name"></Process>
         <Banner rootClassName="banner-root-class-name7"></Banner>
-        <Footer1 rootClassName="footer1-root-class-name1"></Footer1>
+        <Footer rootClassName="footer-root-class-name1"></Footer>
       </div>
       <style jsx>
         {`

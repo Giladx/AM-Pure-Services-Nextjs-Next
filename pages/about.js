@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 import Navigation from '../components/navigation'
 import Banner from '../components/banner'
-import Footer1 from '../components/footer1'
+import Footer from '../components/footer'
 
 const About = (props) => {
   return (
@@ -84,7 +84,7 @@ const About = (props) => {
           </span>
           <Banner rootClassName="banner-root-class-name4"></Banner>
         </main>
-        <Footer1></Footer1>
+        <Footer></Footer>
       </div>
       <style jsx>
         {`

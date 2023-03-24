@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Navigation from '../components/navigation'
 import Blog from '../components/blog'
 import Banner from '../components/banner'
-import Footer1 from '../components/footer1'
+import Footer from '../components/footer'
 
 const Services = (props) => {
   return (
@@ -32,7 +32,7 @@ const Services = (props) => {
         </div>
         <Blog rootClassName="blog-root-class-name5"></Blog>
         <Banner rootClassName="banner-root-class-name6"></Banner>
-        <Footer1 rootClassName="footer1-root-class-name"></Footer1>
+        <Footer rootClassName="footer-root-class-name"></Footer>
       </div>
       <style jsx>
         {`

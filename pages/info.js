@@ -14,7 +14,7 @@ const Info = (props) => {
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/22dabe9a-fd15-434a-ba18-d5a5efd124ab/9b2dfd80-db34-45ba-a7c4-c1045c6ffc8a?org_if_sml=1"
           />
         </Head>
-        <div className="info-container1">
+        <div className="info-dead-end">
           <h1 className="info-text">
             <span>sorry your password could not be verified.</span>
             <br></br>
@@ -45,7 +45,7 @@ const Info = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .info-container1 {
+          .info-dead-end {
             flex: 0 0 auto;
             width: 100%;
             height: auto;
@@ -63,7 +63,7 @@ const Info = (props) => {
             margin-bottom: var(--dl-space-space-twounits);
           }
           .info-image {
-            width: 25em;
+            width: 45em;
             align-self: center;
             object-fit: cover;
             margin-bottom: var(--dl-space-space-twounits);
@@ -77,7 +77,7 @@ const Info = (props) => {
           }
           @media (max-width: 479px) {
             .info-image {
-              width: auto;
+              width: 100%;
             }
           }
         `}
