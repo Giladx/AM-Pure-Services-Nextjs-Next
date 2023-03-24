@@ -427,7 +427,7 @@ Footer.defaultProps = {
   text11: '(888) 503-1722',
   image_src: '/playground_assets/logo-651.svg',
   text7: 'RESTRICTIONS',
-  text121: 'Designed by 011.ninja',
+  text121: 'Developed by 011.ninja',
 }
 
 Footer.propTypes = {

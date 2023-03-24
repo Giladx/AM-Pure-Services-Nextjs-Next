@@ -231,6 +231,16 @@ const Navigation = (props) => {
             .navigation-burger-menu {
               display: flex;
             }
+            .navigation-icon {
+              fill: var(--dl-color-scheme-green);
+              width: 30px;
+              height: 30px;
+            }
+            .navigation-icon2 {
+              fill: var(--dl-color-scheme-green);
+              width: 30px;
+              height: 30px;
+            }
           }
           @media (max-width: 767px) {
             .navigation-max-width {
@@ -243,8 +253,18 @@ const Navigation = (props) => {
               margin-right: 0px;
               margin-bottom: 0px;
             }
+            .navigation-icon {
+              fill: var(--dl-color-scheme-green);
+              width: 30px;
+              height: 30px;
+            }
             .navigation-image1 {
               width: 180px;
+            }
+            .navigation-icon2 {
+              fill: var(--dl-color-scheme-green);
+              width: 30px;
+              height: 30px;
             }
           }
           @media (max-width: 479px) {
@@ -265,7 +285,7 @@ const Navigation = (props) => {
               display: none;
             }
             .navigation-icon {
-              fill: var(--dl-color-scheme-darkgray);
+              fill: var(--dl-color-scheme-green);
               width: 30px;
               height: 30px;
             }
@@ -273,7 +293,7 @@ const Navigation = (props) => {
               width: 140px;
             }
             .navigation-icon2 {
-              fill: var(--dl-color-scheme-darkgray);
+              fill: var(--dl-color-scheme-green);
               width: 30px;
               height: 30px;
             }
