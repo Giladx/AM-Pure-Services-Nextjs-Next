@@ -70,7 +70,7 @@ const Footer1 = (props) => {
                 href="mailto:service@ampureservices.com?subject=Site Service Request"
                 className="footer1-link10"
               >
-                {props.text10}
+                {props.email_text}
               </a>
             </div>
             <div className="footer1-subscribe-container">
@@ -97,8 +97,22 @@ const Footer1 = (props) => {
               />
             </a>
           </Link>
-          <span className="footer1-text10">{props.text12}</span>
-          <span>{props.text121}</span>
+          <a
+            href={props.cc_link}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="footer1-link12"
+          >
+            {props.cctext}
+          </a>
+          <a
+            href={props.ninja_link}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="footer1-link13"
+          >
+            {props.ninjatext}
+          </a>
         </footer>
       </div>
       <style jsx>
@@ -254,8 +268,12 @@ const Footer1 = (props) => {
             object-fit: cover;
             text-decoration: none;
           }
-          .footer1-text10 {
-            width: 100%;
+          .footer1-link12 {
+            width: auto;
+            text-decoration: none;
+          }
+          .footer1-link13 {
+            text-decoration: none;
           }
 
           .footer1-root-class-name1 {
@@ -379,8 +397,8 @@ Footer1.defaultProps = {
   text8: 'CONTACT',
   text4: 'DRYER VENT CLEANING',
   image_alt: 'image',
-  text10: 'SERVICE@AMPURESERVICES.COM',
-  text12: 'All rights reserved @ AM Pure Services',
+  email_text: 'SERVICE@AMPURESERVICES.COM',
+  cctext: 'All rights reserved @ AM Pure Services',
   text9: 'Contact Us',
   text2: 'MONTHLY SPECIALS',
   text5: 'UV LIGHT',
@@ -388,7 +406,9 @@ Footer1.defaultProps = {
   text11: '(888) 503-1722',
   image_src: '/playground_assets/logo-651.svg',
   text7: 'RESTRICTIONS',
-  text121: '| Designed by 011.ninja',
+  ninjatext: 'Designed by 011.ninja',
+  cc_link: '',
+  ninja_link: 'https://011.ninja',
 }
 
 Footer1.propTypes = {
@@ -401,8 +421,8 @@ Footer1.propTypes = {
   text8: PropTypes.string,
   text4: PropTypes.string,
   image_alt: PropTypes.string,
-  text10: PropTypes.string,
-  text12: PropTypes.string,
+  email_text: PropTypes.string,
+  cctext: PropTypes.string,
   text9: PropTypes.string,
   text2: PropTypes.string,
   text5: PropTypes.string,
@@ -410,7 +430,9 @@ Footer1.propTypes = {
   text11: PropTypes.string,
   image_src: PropTypes.string,
   text7: PropTypes.string,
-  text121: PropTypes.string,
+  ninjatext: PropTypes.string,
+  cc_link: PropTypes.string,
+  ninja_link: PropTypes.string,
 }
 
 export default Footer1
