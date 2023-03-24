@@ -63,7 +63,7 @@ const Info = (props) => {
             margin-bottom: var(--dl-space-space-twounits);
           }
           .info-image {
-            width: 45em;
+            width: 25em;
             align-self: center;
             object-fit: cover;
             margin-bottom: var(--dl-space-space-twounits);
@@ -77,7 +77,7 @@ const Info = (props) => {
           }
           @media (max-width: 479px) {
             .info-image {
-              width: 100%;
+              width: auto;
             }
           }
         `}
