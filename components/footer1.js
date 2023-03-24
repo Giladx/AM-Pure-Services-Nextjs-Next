@@ -97,22 +97,8 @@ const Footer1 = (props) => {
               />
             </a>
           </Link>
-          <a
-            href={props.CC}
-            target="_blank"
-            rel="noreferrer noopener"
-            className="footer1-link12"
-          >
-            {props.text12}
-          </a>
-          <a
-            href="https://011.ninja"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="footer1-link13"
-          >
-            {props.dev}
-          </a>
+          <span className="footer1-text10">{props.text12}</span>
+          <span>{props.text121}</span>
         </footer>
       </div>
       <style jsx>
@@ -268,13 +254,8 @@ const Footer1 = (props) => {
             object-fit: cover;
             text-decoration: none;
           }
-          .footer1-link12 {
-            width: auto;
-            text-decoration: none;
-          }
-          .footer1-link13 {
-            width: auto;
-            text-decoration: none;
+          .footer1-text10 {
+            width: 100%;
           }
 
           .footer1-root-class-name1 {
@@ -407,8 +388,7 @@ Footer1.defaultProps = {
   text11: '(888) 503-1722',
   image_src: '/playground_assets/logo-651.svg',
   text7: 'RESTRICTIONS',
-  dev: 'Developed by 011.ninja',
-  CC: '',
+  text121: '| Designed by 011.ninja',
 }
 
 Footer1.propTypes = {
@@ -430,8 +410,7 @@ Footer1.propTypes = {
   text11: PropTypes.string,
   image_src: PropTypes.string,
   text7: PropTypes.string,
-  dev: PropTypes.string,
-  CC: PropTypes.string,
+  text121: PropTypes.string,
 }
 
 export default Footer1

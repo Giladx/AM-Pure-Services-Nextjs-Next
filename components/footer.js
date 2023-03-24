@@ -346,13 +346,13 @@ const Footer = (props) => {
 }
 
 Footer.defaultProps = {
-  rootClassName: '',
   rootClassName1: '',
+  rootClassName: '',
 }
 
 Footer.propTypes = {
-  rootClassName: PropTypes.string,
   rootClassName1: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default Footer
