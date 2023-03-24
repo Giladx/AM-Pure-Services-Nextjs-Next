@@ -97,47 +97,22 @@ const Footer1 = (props) => {
               />
             </a>
           </Link>
-          <span className="footer1-text10">
-            <span>
-              All rights reserved @
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span className="footer1-text12">am pure services</span>
-            <span className="footer1-text13">
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span>
-              | Designed by
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span className="footer1-text15">011.ninja</span>
-            <span>
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span>
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-          </span>
+          <a
+            href={props.CC}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="footer1-link12"
+          >
+            {props.text12}
+          </a>
+          <a
+            href="https://011.ninja"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="footer1-link13"
+          >
+            {props.dev}
+          </a>
         </footer>
       </div>
       <style jsx>
@@ -289,21 +264,17 @@ const Footer1 = (props) => {
             justify-content: space-between;
           }
           .footer1-image {
-            width: 150px;
+            width: 144px;
             object-fit: cover;
             text-decoration: none;
           }
-          .footer1-text10 {
-            align-self: center;
+          .footer1-link12 {
+            width: auto;
+            text-decoration: none;
           }
-          .footer1-text12 {
-            font-weight: 700;
-          }
-          .footer1-text13 {
-            font-weight: 700;
-          }
-          .footer1-text15 {
-            font-weight: 700;
+          .footer1-link13 {
+            width: auto;
+            text-decoration: none;
           }
 
           .footer1-root-class-name1 {
@@ -410,9 +381,6 @@ const Footer1 = (props) => {
             .footer1-image {
               margin-bottom: var(--dl-space-space-unit);
             }
-            .footer1-text10 {
-              text-align: center;
-            }
           }
         `}
       </style>
@@ -431,6 +399,7 @@ Footer1.defaultProps = {
   text4: 'DRYER VENT CLEANING',
   image_alt: 'image',
   text10: 'SERVICE@AMPURESERVICES.COM',
+  text12: 'All rights reserved @ AM Pure Services',
   text9: 'Contact Us',
   text2: 'MONTHLY SPECIALS',
   text5: 'UV LIGHT',
@@ -438,6 +407,8 @@ Footer1.defaultProps = {
   text11: '(888) 503-1722',
   image_src: '/playground_assets/logo-651.svg',
   text7: 'RESTRICTIONS',
+  dev: 'Developed by 011.ninja',
+  CC: '',
 }
 
 Footer1.propTypes = {
@@ -451,6 +422,7 @@ Footer1.propTypes = {
   text4: PropTypes.string,
   image_alt: PropTypes.string,
   text10: PropTypes.string,
+  text12: PropTypes.string,
   text9: PropTypes.string,
   text2: PropTypes.string,
   text5: PropTypes.string,
@@ -458,6 +430,8 @@ Footer1.propTypes = {
   text11: PropTypes.string,
   image_src: PropTypes.string,
   text7: PropTypes.string,
+  dev: PropTypes.string,
+  CC: PropTypes.string,
 }
 
 export default Footer1
