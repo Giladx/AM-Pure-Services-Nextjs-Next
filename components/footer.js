@@ -146,6 +146,7 @@ const Footer = (props) => {
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .footer-link {
+            color: var(--dl-color-scheme-darkblue);
             margin-bottom: var(--dl-space-space-unit);
             text-decoration: none;
           }
