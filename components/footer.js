@@ -266,10 +266,14 @@ const Footer = (props) => {
           }
           .footer-link12 {
             width: auto;
+            font-style: normal;
             text-align: center;
+            font-weight: 300;
             text-decoration: none;
           }
           .footer-link13 {
+            font-style: normal;
+            font-weight: 300;
             text-decoration: none;
           }
 
