@@ -265,15 +265,15 @@ const Navigation = (props) => {
               display: none;
             }
             .navigation-icon {
-              width: var(--dl-size-size-small);
-              height: var(--dl-size-size-small);
+              width: 35px;
+              height: 35px;
             }
             .navigation-image1 {
               width: 140px;
             }
             .navigation-icon2 {
-              width: var(--dl-size-size-small);
-              height: var(--dl-size-size-small);
+              width: 35px;
+              height: 35px;
             }
             .navigation-call-now {
               margin-top: var(--dl-space-space-oneandhalfunits);
