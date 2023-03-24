@@ -12,13 +12,13 @@ const Div = (props) => {
             <h1 className="div-text">{props.slide12}</h1>
           </div>
           <div className="div-div3 hslide">
-            <h1 className="div-heading">{props.slide121}</h1>
+            <h1 className="div-text1">{props.slide121}</h1>
           </div>
           <div className="div-div4 hslide">
-            <h1 className="div-text1">{props.slide1211}</h1>
+            <h1 className="div-text2">{props.slide1211}</h1>
           </div>
           <div className="div-div5 hslide">
-            <h1 className="div-text2">{props.slide12111}</h1>
+            <h1 className="div-text3">{props.slide12111}</h1>
           </div>
         </div>
         <div>
@@ -57,8 +57,6 @@ const Div = (props) => {
           }
           .div-div2 {
             height: auto;
-            align-self: center;
-            justify-content: center;
           }
           .div-text {
             color: var(--dl-color-scheme-green);
@@ -71,7 +69,7 @@ const Div = (props) => {
             align-self: center;
             justify-content: center;
           }
-          .div-heading {
+          .div-text1 {
             color: var(--dl-color-scheme-green);
             width: 100%;
             padding: var(--dl-space-space-twounits);
@@ -82,7 +80,7 @@ const Div = (props) => {
             align-self: center;
             justify-content: center;
           }
-          .div-text1 {
+          .div-text2 {
             color: var(--dl-color-scheme-green);
             width: 100%;
             padding: var(--dl-space-space-twounits);
@@ -93,7 +91,7 @@ const Div = (props) => {
             align-self: center;
             justify-content: center;
           }
-          .div-text2 {
+          .div-text3 {
             color: var(--dl-color-scheme-green);
             width: 100%;
             padding: var(--dl-space-space-twounits);
@@ -108,13 +106,13 @@ const Div = (props) => {
             .div-text {
               font-size: 3em;
             }
-            .div-heading {
-              font-size: 3em;
-            }
             .div-text1 {
               font-size: 3em;
             }
             .div-text2 {
+              font-size: 3em;
+            }
+            .div-text3 {
               font-size: 3em;
             }
           }
@@ -136,19 +134,19 @@ const Div = (props) => {
 }
 
 Div.defaultProps = {
-  rootClassName: '',
-  slide12: 'PURE CLEAN AIR DUCT FOR HEALTHY LIFE',
-  slide121: 'WE CARE FOR PEOPLE HEALTH',
-  slide1211: 'WE BELIEVE IN SAVING ENERGY',
+  slide121: 'WE BELIEVE IN ONE WAY: INTEGRITY',
   slide12111: 'WE BELIEVE IN ONE WAY: INTEGRITY',
+  slide12: 'PURE CLEAN AIR DUCT FOR HEALTHY LIFE',
+  rootClassName: '',
+  slide1211: 'WE BELIEVE IN ONE WAY: INTEGRITY',
 }
 
 Div.propTypes = {
-  rootClassName: PropTypes.string,
-  slide12: PropTypes.string,
   slide121: PropTypes.string,
-  slide1211: PropTypes.string,
   slide12111: PropTypes.string,
+  slide12: PropTypes.string,
+  rootClassName: PropTypes.string,
+  slide1211: PropTypes.string,
 }
 
 export default Div
