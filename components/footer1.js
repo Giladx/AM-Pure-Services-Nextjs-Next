@@ -97,12 +97,7 @@ const Footer1 = (props) => {
               />
             </a>
           </Link>
-          <a
-            href={props.cc_link}
-            target="_blank"
-            rel="noreferrer noopener"
-            className="footer1-link12"
-          >
+          <a href={props.cc_link} className="footer1-link12">
             {props.cctext}
           </a>
           <a
