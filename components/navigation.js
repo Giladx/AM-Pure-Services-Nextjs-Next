@@ -265,15 +265,17 @@ const Navigation = (props) => {
               display: none;
             }
             .navigation-icon {
-              width: 35px;
-              height: 35px;
+              fill: var(--dl-color-scheme-darkgray);
+              width: 30px;
+              height: 30px;
             }
             .navigation-image1 {
               width: 140px;
             }
             .navigation-icon2 {
-              width: 35px;
-              height: 35px;
+              fill: var(--dl-color-scheme-darkgray);
+              width: 30px;
+              height: 30px;
             }
             .navigation-call-now {
               margin-top: var(--dl-space-space-oneandhalfunits);
