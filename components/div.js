@@ -97,11 +97,6 @@ const Div = (props) => {
             padding: var(--dl-space-space-twounits);
             font-size: 3em;
           }
-          .div-root-class-name {
-            top: 0px;
-            left: 0px;
-            position: static;
-          }
           @media (max-width: 1600px) {
             .div-text {
               font-size: 3em;
@@ -114,17 +109,6 @@ const Div = (props) => {
             }
             .div-text3 {
               font-size: 3em;
-            }
-          }
-          @media (max-width: 767px) {
-            .div-root-class-name {
-              width: auto;
-            }
-          }
-          @media (max-width: 479px) {
-            .div-root-class-name {
-              width: 100%;
-              height: auto;
             }
           }
         `}

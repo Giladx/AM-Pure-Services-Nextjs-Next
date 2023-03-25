@@ -12,7 +12,7 @@ const ListContainer = (props) => {
             html={`<style>
 
 :root {
-  --w: 500;
+  --w: 720;
   --speed: 3s;
 }
 
@@ -21,13 +21,13 @@ li{
 }
 
 .g-container {
-  width: 500px;
+  width: 720px;
   /*margin: auto;*/
   height: 136px;
   line-height: 36px;
-  font-size: 20px;
+  /*font-size: 20px;*/
   background: #ffffff00;
-  color: #000;
+  /*color: #000;*/
   overflow: hidden;
   /*border: 2px dashed #000;*/
   margin-top: 5em;
@@ -42,7 +42,7 @@ ul {
 
 ul li {
   flex-shrink: 0;
-  width: 500px;
+  width: 720px;
   height: 100%;
   box-sizing: border-box;
   padding-left: 10px;
@@ -77,6 +77,18 @@ ul li {
     transform: translate(calc(var(--w) * -1px), 0);
   }
 }
+
+@media screen and (max-width: 479px){
+  ul li {
+  width: 369px;
+}
+
+.g-container {
+  width: 360px;
+}
+:root {
+  --w: 360;
+}}
 </style>`}
           ></DangerousHTML>
         </div>
@@ -110,78 +122,120 @@ ul li {
           }
           .list-container-g-container {
             flex: 0 0 auto;
-            width: 500px;
+            width: 720px;
             height: auto;
             display: flex;
             position: relative;
             align-items: flex-start;
           }
           .list-container-ul {
-            width: 500px;
+            width: 720px;
             align-self: flex-start;
+            align-items: center;
           }
           .list-container-text {
             color: var(--dl-color-scheme-green);
-            width: 500px;
+            width: 720px;
             padding: var(--dl-space-space-twounits);
-            font-size: 2em;
+            font-size: 3em;
           }
           .list-container-text1 {
             color: var(--dl-color-scheme-green);
-            width: 500px;
+            width: 720px;
             padding: var(--dl-space-space-twounits);
-            font-size: 2em;
+            font-size: 3em;
           }
           .list-container-heading {
             color: var(--dl-color-scheme-green);
-            width: 500px;
+            width: 720px;
             padding: var(--dl-space-space-twounits);
-            font-size: 2em;
+            font-size: 3em;
             padding-bottom: 32px;
           }
           .list-container-heading1 {
             color: var(--dl-color-scheme-green);
-            width: 500px;
+            width: 720px;
             padding: var(--dl-space-space-twounits);
-            font-size: 2em;
+            font-size: 3em;
           }
           .list-container-heading2 {
             color: var(--dl-color-scheme-green);
-            width: 500px;
+            width: 720px;
             padding: var(--dl-space-space-twounits);
-            font-size: 2em;
+            font-size: 3em;
           }
           .list-container-text2 {
             color: var(--dl-color-scheme-green);
-            width: 500px;
+            width: 720px;
             padding: var(--dl-space-space-twounits);
-            font-size: 2em;
+            font-size: 3em;
           }
           .list-container-root-class-name {
             width: 500px;
             align-self: center;
           }
-          @media (max-width: 479px) {
-            .list-container-div {
-              width: 500px;
+
+          @media (max-width: 1600px) {
+            .list-container-g-container {
+              width: 720px;
+            }
+            .list-container-ul {
+              width: 720px;
+              align-items: center;
             }
             .list-container-text {
-              font-size: 1.8em;
+              width: 720px;
             }
             .list-container-text1 {
-              font-size: 1.8em;
+              width: 720px;
             }
             .list-container-heading {
-              font-size: 1.8em;
+              width: 720px;
             }
             .list-container-heading1 {
-              font-size: 1.8em;
+              width: 720px;
             }
             .list-container-heading2 {
-              font-size: 1.8em;
+              width: 720px;
             }
             .list-container-text2 {
-              font-size: 1.8em;
+              width: 720px;
+            }
+          }
+          @media (max-width: 479px) {
+            .list-container-div {
+              width: 100%;
+              justify-content: center;
+            }
+            .list-container-g-container {
+              width: 360px;
+            }
+            .list-container-ul {
+              width: 360px;
+            }
+            .list-container-text {
+              width: 360px;
+              font-size: 2em;
+            }
+            .list-container-text1 {
+              width: 360px;
+              font-size: 2em;
+            }
+            .list-container-heading {
+              width: 360px;
+              font-size: 2em;
+            }
+            .list-container-heading1 {
+              width: 360px;
+              font-size: 2em;
+            }
+            .list-container-heading2 {
+              width: 360px;
+              font-size: 2em;
+            }
+            .list-container-text2 {
+              width: 360px;
+              font-size: 2em;
             }
           }
         `}

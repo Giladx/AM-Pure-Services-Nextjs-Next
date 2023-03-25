@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 import Navigation from '../components/navigation'
-import Div from '../components/div'
+import ListContainer from '../components/list-container'
 import Packages from '../components/packages'
 import AboutUs from '../components/about-us'
 import Process from '../components/process'
@@ -28,13 +28,9 @@ const Home = (props) => {
           <div className="home-hero section-container">
             <div className="home-max-width max-content-container">
               <div className="home-heading-container">
+                <ListContainer rootClassName="list-container-root-class-name1"></ListContainer>
                 <div className="home-slider-div">
-                  <div className="home-wrap-div">
-                    <Div
-                      Text="WE BELIEVE IN ONE WAY: INTEGRITY"
-                      rootClassName="div-root-class-name"
-                    ></Div>
-                  </div>
+                  <div className="home-wrap-div"></div>
                 </div>
                 <Link href="/monthly-specials">
                   <a className="home-link button-primary button-lg button">
@@ -229,6 +225,9 @@ const Home = (props) => {
             height: auto;
             position: relative;
             align-self: center;
+          }
+          .home-wrap-div {
+            border: 2px dashed rgba(120, 120, 120, 0.4);
           }
           .home-link {
             margin-bottom: 128px;
