@@ -8,7 +8,7 @@ const ListContainer = (props) => {
     <>
       <div className={`list-container-div ${props.rootClassName} `}>
         <div className="list-container-g-container g-container">
-          <ul className="list">
+          <ul className="list-container-ul list">
             <li className="list-item">
               <h1 className="list-container-text">{props.slide121}</h1>
             </li>
@@ -104,7 +104,11 @@ ul li {
             width: 500px;
             height: auto;
             display: flex;
+            position: relative;
             align-items: flex-start;
+          }
+          .list-container-ul {
+            align-self: flex-start;
           }
           .list-container-text {
             color: var(--dl-color-scheme-green);
