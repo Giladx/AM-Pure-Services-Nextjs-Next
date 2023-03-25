@@ -42,7 +42,7 @@ li{
   background: #ffffff00;
   color: #000;
   overflow: hidden;
-  border: 2px dashed #000;
+  /*border: 2px dashed #000;*/
   margin-top: 5em;
 }
 
@@ -108,6 +108,7 @@ ul li {
             align-items: flex-start;
           }
           .list-container-ul {
+            width: 500px;
             align-self: flex-start;
           }
           .list-container-text {
@@ -131,17 +132,6 @@ ul li {
           .list-container-root-class-name {
             width: 500px;
             align-self: center;
-          }
-          @media (max-width: 1600px) {
-            .list-container-text {
-              font-size: 2em;
-            }
-            .list-container-text1 {
-              font-size: 3em;
-            }
-            .list-container-text2 {
-              font-size: 3em;
-            }
           }
           @media (max-width: 479px) {
             .list-container-div {
