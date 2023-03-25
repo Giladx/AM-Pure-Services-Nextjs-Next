@@ -21,16 +21,23 @@ const ListContainer = (props) => {
         <div>
           <DangerousHTML
             html={`<style>
+
+:root {
+  --w: 300;
+  --speed: 3s;
+}
+
 .g-container {
-  width: 300px;
-  margin: auto;
-  height: 36px;
+  width: 100%;
+  /*margin: auto;*/
+  height: 136px;
   line-height: 36px;
   font-size: 20px;
   background: #ffffff00;
   color: #000;
   overflow: hidden;
   border: 2px dashed #000;
+  margin-top: 5em;
 }
 
 ul {
