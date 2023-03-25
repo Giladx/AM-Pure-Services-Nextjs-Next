@@ -23,7 +23,7 @@ const ListContainer = (props) => {
             html={`<style>
 
 :root {
-  --w: 300;
+  --w: 100%;
   --speed: 3s;
 }
 
