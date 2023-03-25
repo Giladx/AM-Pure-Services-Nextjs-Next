@@ -31,7 +31,6 @@ const ListContainer = (props) => {
 
 li{
   list-style:none;
-  --s:3;
 }
 
 .g-container {
@@ -51,6 +50,7 @@ ul {
   display: flex;
   flex-wrap: nowrap;
   text-align: center;
+  --s:6;
 }
 
 ul li {
@@ -112,19 +112,19 @@ ul li {
           }
           .list-container-text {
             color: var(--dl-color-scheme-green);
-            width: 100%;
+            width: 500px;
             padding: var(--dl-space-space-twounits);
             font-size: 2em;
           }
           .list-container-text1 {
             color: var(--dl-color-scheme-green);
-            width: 100%;
+            width: 500px;
             padding: var(--dl-space-space-twounits);
             font-size: 2em;
           }
           .list-container-text2 {
             color: var(--dl-color-scheme-green);
-            width: 100%;
+            width: 500px;
             padding: var(--dl-space-space-twounits);
             font-size: 2em;
           }
