@@ -10,13 +10,16 @@ const ListContainer = (props) => {
         <div className="list-container-g-container g-container">
           <ul className="list-container-ul list">
             <li className="list-item">
-              <h1 className="list-container-text">{props.slide121}</h1>
+              <h1 className="list-container-text">{props.slide122}</h1>
             </li>
             <li className="list-item">
-              <h1 className="list-container-text1">{props.slide12}</h1>
+              <h1 className="list-container-text1">{props.slide121}</h1>
             </li>
             <li className="list-item">
-              <h1 className="list-container-text2">{props.slide122}</h1>
+              <h1 className="list-container-text2">{props.slide1211}</h1>
+            </li>
+            <li className="list-item">
+              <h1 className="list-container-text3">{props.slide12}</h1>
             </li>
           </ul>
         </div>
@@ -129,6 +132,12 @@ ul li {
             padding: var(--dl-space-space-twounits);
             font-size: 2em;
           }
+          .list-container-text3 {
+            color: var(--dl-color-scheme-green);
+            width: 500px;
+            padding: var(--dl-space-space-twounits);
+            font-size: 2em;
+          }
           .list-container-root-class-name {
             width: 500px;
             align-self: center;
@@ -148,13 +157,15 @@ ListContainer.defaultProps = {
   slide121: 'WE BELIEVE IN ONE WAY: INTEGRITY',
   slide12: 'PURE CLEAN AIR DUCT FOR HEALTHY LIFE',
   rootClassName: '',
-  slide122: 'PURE CLEAN AIR DUCT FOR HEALTHY LIFE',
+  slide1211: 'WE BELIEVE IN ONE WAY: INTEGRITY',
+  slide122: '',
 }
 
 ListContainer.propTypes = {
   slide121: PropTypes.string,
   slide12: PropTypes.string,
   rootClassName: PropTypes.string,
+  slide1211: PropTypes.string,
   slide122: PropTypes.string,
 }
 
