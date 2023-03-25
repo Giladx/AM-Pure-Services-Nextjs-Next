@@ -7,31 +7,6 @@ const ListContainer = (props) => {
   return (
     <>
       <div className={`list-container-div ${props.rootClassName} `}>
-        <div className="list-container-g-container g-container">
-          <ul className="list-container-ul list">
-            <li className="list-item">
-              <h1 className="list-container-text">{props.slide122}</h1>
-            </li>
-            <li className="list-item">
-              <h1 className="list-container-text1">{props.slide121}</h1>
-            </li>
-            <li className="list-item">
-              <h1 className="list-container-text2">{props.slide1211}</h1>
-            </li>
-            <li className="list-item">
-              <h1 className="list-container-heading">{props.slide123}</h1>
-            </li>
-            <li className="list-item">
-              <h1 className="list-container-heading1">{props.slide12}</h1>
-            </li>
-            <li className="list-item">
-              <h1 className="list-container-heading2">{props.slide124}</h1>
-            </li>
-            <li className="list-item">
-              <h1 className="list-container-heading3">{props.slide1241}</h1>
-            </li>
-          </ul>
-        </div>
         <div>
           <DangerousHTML
             html={`<style>
@@ -104,6 +79,31 @@ ul li {
 }
 </style>`}
           ></DangerousHTML>
+        </div>
+        <div className="list-container-g-container g-container">
+          <ul className="list-container-ul list">
+            <li className="list-item">
+              <h1 className="list-container-text">{props.slide122}</h1>
+            </li>
+            <li className="list-item">
+              <h1 className="list-container-text1">{props.slide121}</h1>
+            </li>
+            <li className="list-item">
+              <h1 className="list-container-text2">{props.slide1211}</h1>
+            </li>
+            <li className="list-item">
+              <h1 className="list-container-heading">{props.slide123}</h1>
+            </li>
+            <li className="list-item">
+              <h1 className="list-container-heading1">{props.slide12}</h1>
+            </li>
+            <li className="list-item">
+              <h1 className="list-container-heading2">{props.slide124}</h1>
+            </li>
+            <li className="list-item">
+              <h1 className="list-container-heading3">{props.slide1241}</h1>
+            </li>
+          </ul>
         </div>
       </div>
       <style jsx>
