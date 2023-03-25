@@ -76,7 +76,7 @@ ul li {
 
 @media screen and (max-width: 479px){
   ul li {
-  width: 369px;
+  width: 360px;
 }
 
 .g-container {
