@@ -121,7 +121,12 @@ const Contact = (props) => {
       } else if (window.attachEvent) {
         window.attachEvent("onmessage", handleIFrameMessage);
       }
-</script>`}
+</script>
+<style>
+#subHeader_welcomePage{
+  color:red;
+}
+</style>`}
             ></DangerousHTML>
           </div>
         </div>

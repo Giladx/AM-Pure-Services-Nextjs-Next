@@ -97,7 +97,6 @@ const Page = (props) => {
             }
             .page-text1 {
               width: 100%;
-              font-size: 2rem;
               align-self: center;
               text-align: center;
             }

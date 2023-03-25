@@ -419,6 +419,7 @@ Footer.defaultProps = {
   textinput_placeholder: 'Enter your e-mail address',
   rootClassName: '',
   button: 'Subscribe',
+  text121: 'Developed by 011.ninja',
   text6: 'Info',
   text8: 'CONTACT',
   text4: 'DRYER VENT CLEANING',
@@ -432,7 +433,6 @@ Footer.defaultProps = {
   text11: '(888) 503-1722',
   image_src: '/playground_assets/logo-651.svg',
   text7: 'RESTRICTIONS',
-  text121: 'Developed by 011.ninja',
 }
 
 Footer.propTypes = {
@@ -441,6 +441,7 @@ Footer.propTypes = {
   textinput_placeholder: PropTypes.string,
   rootClassName: PropTypes.string,
   button: PropTypes.string,
+  text121: PropTypes.string,
   text6: PropTypes.string,
   text8: PropTypes.string,
   text4: PropTypes.string,
@@ -454,7 +455,6 @@ Footer.propTypes = {
   text11: PropTypes.string,
   image_src: PropTypes.string,
   text7: PropTypes.string,
-  text121: PropTypes.string,
 }
 
 export default Footer

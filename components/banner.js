@@ -109,6 +109,9 @@ const Banner = (props) => {
           .banner-root-class-name14 {
             width: 100%;
           }
+          .banner-root-class-name15 {
+            width: 100%;
+          }
           @media (max-width: 1200px) {
             .banner-banner {
               width: 100%;

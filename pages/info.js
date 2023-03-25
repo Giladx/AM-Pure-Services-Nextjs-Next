@@ -22,8 +22,8 @@ const Info = (props) => {
             <br></br>
           </h1>
           <img
-            src="/playground_assets/fun1-1500w.gif"
             alt="image"
+            src="/playground_assets/fun1-1500w.gif"
             className="info-image"
           />
           <Link href="/">
