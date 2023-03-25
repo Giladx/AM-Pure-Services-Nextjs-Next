@@ -199,6 +199,46 @@ ul li {
               width: 720px;
             }
           }
+          @media (max-width: 991px) {
+            .list-container-text {
+              font-size: 4.3em;
+            }
+            .list-container-text1 {
+              font-size: 4.3em;
+            }
+            .list-container-heading {
+              font-size: 4.3em;
+            }
+            .list-container-heading1 {
+              font-size: 4.3em;
+            }
+            .list-container-heading2 {
+              font-size: 4.3em;
+            }
+            .list-container-text2 {
+              font-size: 4.3em;
+            }
+          }
+          @media (max-width: 767px) {
+            .list-container-text {
+              font-size: 4em;
+            }
+            .list-container-text1 {
+              font-size: 4em;
+            }
+            .list-container-heading {
+              font-size: 4em;
+            }
+            .list-container-heading1 {
+              font-size: 4em;
+            }
+            .list-container-heading2 {
+              font-size: 4em;
+            }
+            .list-container-text2 {
+              font-size: 4em;
+            }
+          }
           @media (max-width: 479px) {
             .list-container-div {
               width: auto;
@@ -212,27 +252,27 @@ ul li {
             }
             .list-container-text {
               width: 360px;
-              font-size: 3em;
+              font-size: 2.6em;
             }
             .list-container-text1 {
               width: 360px;
-              font-size: 3em;
+              font-size: 2.6em;
             }
             .list-container-heading {
               width: 360px;
-              font-size: 3em;
+              font-size: 2.6em;
             }
             .list-container-heading1 {
               width: 360px;
-              font-size: 3em;
+              font-size: 2.6em;
             }
             .list-container-heading2 {
               width: 360px;
-              font-size: 3em;
+              font-size: 2.6em;
             }
             .list-container-text2 {
               width: 360px;
-              font-size: 3em;
+              font-size: 2.6em;
             }
           }
         `}
