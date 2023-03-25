@@ -37,7 +37,7 @@ ul {
   display: flex;
   flex-wrap: nowrap;
   text-align: center;
-  --s:6;
+  --s:5;
 }
 
 ul li {
@@ -100,9 +100,6 @@ ul li {
             <li className="list-item">
               <h1 className="list-container-heading2">{props.slide124}</h1>
             </li>
-            <li className="list-item">
-              <h1 className="list-container-heading3">{props.slide1241}</h1>
-            </li>
           </ul>
         </div>
       </div>
@@ -160,12 +157,6 @@ ul li {
             padding: var(--dl-space-space-twounits);
             font-size: 2em;
           }
-          .list-container-heading3 {
-            color: var(--dl-color-scheme-green);
-            width: 500px;
-            padding: var(--dl-space-space-twounits);
-            font-size: 2em;
-          }
           .list-container-root-class-name {
             width: 500px;
             align-self: center;
@@ -189,7 +180,6 @@ ListContainer.defaultProps = {
   slide1211: 'WE CARE FOR PEOPLE HEALTH',
   slide123: 'WE BELIEVE IN SAVING ENERGY',
   slide124: 'PURE CLEAN AIR DUCT FOR HEALTHY LIFE',
-  slide1241: 'PURE CLEAN AIR DUCT FOR HEALTHY LIFE',
 }
 
 ListContainer.propTypes = {
@@ -200,7 +190,6 @@ ListContainer.propTypes = {
   slide1211: PropTypes.string,
   slide123: PropTypes.string,
   slide124: PropTypes.string,
-  slide1241: PropTypes.string,
 }
 
 export default ListContainer
