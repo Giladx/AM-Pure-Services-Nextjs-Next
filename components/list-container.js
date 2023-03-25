@@ -19,7 +19,16 @@ const ListContainer = (props) => {
               <h1 className="list-container-text2">{props.slide1211}</h1>
             </li>
             <li className="list-item">
-              <h1 className="list-container-text3">{props.slide12}</h1>
+              <h1 className="list-container-heading">{props.slide123}</h1>
+            </li>
+            <li className="list-item">
+              <h1 className="list-container-heading1">{props.slide12}</h1>
+            </li>
+            <li className="list-item">
+              <h1 className="list-container-heading2">{props.slide124}</h1>
+            </li>
+            <li className="list-item">
+              <h1 className="list-container-heading3">{props.slide1241}</h1>
             </li>
           </ul>
         </div>
@@ -53,7 +62,7 @@ ul {
   display: flex;
   flex-wrap: nowrap;
   text-align: center;
-  --s:3;
+  --s:6;
 }
 
 ul li {
@@ -132,7 +141,26 @@ ul li {
             padding: var(--dl-space-space-twounits);
             font-size: 2em;
           }
-          .list-container-text3 {
+          .list-container-heading {
+            color: var(--dl-color-scheme-green);
+            width: 500px;
+            padding: var(--dl-space-space-twounits);
+            font-size: 2em;
+            padding-bottom: 32px;
+          }
+          .list-container-heading1 {
+            color: var(--dl-color-scheme-green);
+            width: 500px;
+            padding: var(--dl-space-space-twounits);
+            font-size: 2em;
+          }
+          .list-container-heading2 {
+            color: var(--dl-color-scheme-green);
+            width: 500px;
+            padding: var(--dl-space-space-twounits);
+            font-size: 2em;
+          }
+          .list-container-heading3 {
             color: var(--dl-color-scheme-green);
             width: 500px;
             padding: var(--dl-space-space-twounits);
@@ -155,18 +183,24 @@ ul li {
 
 ListContainer.defaultProps = {
   slide121: 'WE BELIEVE IN ONE WAY: INTEGRITY',
-  slide12: 'PURE CLEAN AIR DUCT FOR HEALTHY LIFE',
+  slide12: 'WE WILL GIVE YOU BEST PERFORMANCE',
   rootClassName: '',
-  slide1211: 'WE BELIEVE IN ONE WAY: INTEGRITY',
   slide122: '',
+  slide1211: 'WE CARE FOR PEOPLE HEALTH',
+  slide123: 'WE BELIEVE IN SAVING ENERGY',
+  slide124: 'PURE CLEAN AIR DUCT FOR HEALTHY LIFE',
+  slide1241: 'PURE CLEAN AIR DUCT FOR HEALTHY LIFE',
 }
 
 ListContainer.propTypes = {
   slide121: PropTypes.string,
   slide12: PropTypes.string,
   rootClassName: PropTypes.string,
-  slide1211: PropTypes.string,
   slide122: PropTypes.string,
+  slide1211: PropTypes.string,
+  slide123: PropTypes.string,
+  slide124: PropTypes.string,
+  slide1241: PropTypes.string,
 }
 
 export default ListContainer
