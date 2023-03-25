@@ -29,9 +29,6 @@ const Home = (props) => {
             <div className="home-max-width max-content-container">
               <div className="home-heading-container">
                 <ListContainer rootClassName="list-container-root-class-name1"></ListContainer>
-                <div className="home-slider-div">
-                  <div className="home-wrap-div"></div>
-                </div>
                 <Link href="/monthly-specials">
                   <a className="home-link button-primary button-lg button">
                     MONTHLY SPECIALS
@@ -219,15 +216,6 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
             justify-content: center;
-          }
-          .home-slider-div {
-            width: 100%;
-            height: auto;
-            position: relative;
-            align-self: center;
-          }
-          .home-wrap-div {
-            border: 2px dashed rgba(120, 120, 120, 0.4);
           }
           .home-link {
             margin-bottom: 128px;
@@ -539,13 +527,6 @@ const Home = (props) => {
               height: 738px;
               padding-bottom: 0px;
             }
-            .home-slider-div {
-              width: 100%;
-              height: auto;
-            }
-            .home-wrap-div {
-              width: 100%;
-            }
             .home-image {
               margin-left: var(--dl-space-space-oneandhalfunits);
               margin-right: var(--dl-space-space-oneandhalfunits);
@@ -614,15 +595,6 @@ const Home = (props) => {
               height: 0px;
               align-items: center;
               justify-content: center;
-            }
-            .home-slider-div {
-              width: 100%;
-              height: auto;
-              align-self: center;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .home-wrap-div {
-              height: auto;
             }
             .home-link {
               margin-bottom: 128px;
