@@ -28,7 +28,7 @@ const ListContainer = (props) => {
 }
 
 .g-container {
-  width: 100%;
+  width: 500px;
   /*margin: auto;*/
   height: 136px;
   line-height: 36px;
@@ -111,6 +111,7 @@ ul li {
             font-size: 3em;
           }
           .list-container-root-class-name {
+            width: 500px;
             align-self: center;
           }
           @media (max-width: 1600px) {
