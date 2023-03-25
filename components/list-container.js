@@ -23,7 +23,7 @@ li{
 .g-container {
   width: 720px;
   height: 136px;
-  line-height: 36px;
+  line-height: 90px;
   background: #ffffff00;
   overflow: hidden;
   margin-top: 5em;
@@ -81,6 +81,7 @@ ul li {
 
 .g-container {
   width: 360px;
+  line-height: 60px;
 }
 :root {
   --w: 360;
