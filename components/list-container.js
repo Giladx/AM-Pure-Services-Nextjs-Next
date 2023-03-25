@@ -137,38 +137,38 @@ ul li {
             color: var(--dl-color-scheme-green);
             width: 720px;
             padding: var(--dl-space-space-twounits);
-            font-size: 3em;
+            font-size: 5em;
           }
           .list-container-text1 {
             color: var(--dl-color-scheme-green);
             width: 720px;
             padding: var(--dl-space-space-twounits);
-            font-size: 3em;
+            font-size: 5em;
           }
           .list-container-heading {
             color: var(--dl-color-scheme-green);
             width: 720px;
             padding: var(--dl-space-space-twounits);
-            font-size: 3em;
+            font-size: 5em;
             padding-bottom: 32px;
           }
           .list-container-heading1 {
             color: var(--dl-color-scheme-green);
             width: 720px;
             padding: var(--dl-space-space-twounits);
-            font-size: 3em;
+            font-size: 5em;
           }
           .list-container-heading2 {
             color: var(--dl-color-scheme-green);
             width: 720px;
             padding: var(--dl-space-space-twounits);
-            font-size: 3em;
+            font-size: 5em;
           }
           .list-container-text2 {
             color: var(--dl-color-scheme-green);
             width: 720px;
             padding: var(--dl-space-space-twounits);
-            font-size: 3em;
+            font-size: 5em;
           }
           .list-container-root-class-name {
             width: 500px;
@@ -204,7 +204,7 @@ ul li {
           }
           @media (max-width: 479px) {
             .list-container-div {
-              width: 100%;
+              width: auto;
               justify-content: center;
             }
             .list-container-g-container {
@@ -215,27 +215,27 @@ ul li {
             }
             .list-container-text {
               width: 360px;
-              font-size: 2em;
+              font-size: 3em;
             }
             .list-container-text1 {
               width: 360px;
-              font-size: 2em;
+              font-size: 3em;
             }
             .list-container-heading {
               width: 360px;
-              font-size: 2em;
+              font-size: 3em;
             }
             .list-container-heading1 {
               width: 360px;
-              font-size: 2em;
+              font-size: 3em;
             }
             .list-container-heading2 {
               width: 360px;
-              font-size: 2em;
+              font-size: 3em;
             }
             .list-container-text2 {
               width: 360px;
-              font-size: 2em;
+              font-size: 3em;
             }
           }
         `}
