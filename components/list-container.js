@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 const ListContainer = (props) => {
   return (
     <>
-      <div className={`g-container ${props.rootClassName} `}>
+      <div className={`g-container list-container-div ${props.rootClassName} `}>
         <ul className="list-container-ul list">
           <li className="list-item">
             <h1 className="list-container-text">{props.slide121}</h1>
@@ -103,7 +103,9 @@ ul li {
             padding: var(--dl-space-space-twounits);
             font-size: 3em;
           }
-
+          .list-container-root-class-name {
+            align-self: center;
+          }
           @media (max-width: 1600px) {
             .list-container-text {
               font-size: 3em;
@@ -115,6 +117,11 @@ ul li {
               font-size: 3em;
             }
           }
+          @media (max-width: 479px) {
+            .list-container-div {
+              width: 100%;
+            }
+          }
         `}
       </style>
     </>
@@ -122,16 +129,16 @@ ul li {
 }
 
 ListContainer.defaultProps = {
-  rootClassName: '',
-  slide12: 'PURE CLEAN AIR DUCT FOR HEALTHY LIFE',
   slide121: 'WE BELIEVE IN ONE WAY: INTEGRITY',
+  slide12: 'PURE CLEAN AIR DUCT FOR HEALTHY LIFE',
+  rootClassName: '',
   slide122: 'PURE CLEAN AIR DUCT FOR HEALTHY LIFE',
 }
 
 ListContainer.propTypes = {
-  rootClassName: PropTypes.string,
-  slide12: PropTypes.string,
   slide121: PropTypes.string,
+  slide12: PropTypes.string,
+  rootClassName: PropTypes.string,
   slide122: PropTypes.string,
 }
 

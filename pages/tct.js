@@ -26,9 +26,9 @@ const TCT = (props) => {
               <span className="tct-text">UV Light</span>
             </div>
           </div>
+          <ListContainer rootClassName="list-container-root-class-name"></ListContainer>
           <div className="tct-content">
             <div className="tct-content-wrap">
-              <ListContainer rootClassName="list-container-root-class-name"></ListContainer>
               <img
                 alt="image"
                 src="/playground_assets/ultra-violet.svg"
