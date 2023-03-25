@@ -163,7 +163,25 @@ ul li {
           }
           @media (max-width: 479px) {
             .list-container-div {
-              width: 100%;
+              width: 500px;
+            }
+            .list-container-text {
+              font-size: 1.8em;
+            }
+            .list-container-text1 {
+              font-size: 1.8em;
+            }
+            .list-container-heading {
+              font-size: 1.8em;
+            }
+            .list-container-heading1 {
+              font-size: 1.8em;
+            }
+            .list-container-heading2 {
+              font-size: 1.8em;
+            }
+            .list-container-text2 {
+              font-size: 1.8em;
             }
           }
         `}
