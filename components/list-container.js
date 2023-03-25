@@ -50,12 +50,12 @@ ul {
   display: flex;
   flex-wrap: nowrap;
   text-align: center;
-  --s:6;
+  --s:3;
 }
 
 ul li {
   flex-shrink: 0;
-  width: 100%;
+  width: 500px;
   height: 100%;
   box-sizing: border-box;
   padding-left: 10px;
@@ -67,7 +67,7 @@ ul {
 }
 
 ul li {
-  white-space: nowrap;
+  /*white-space: nowrap;*/
   cursor: pointer;
   animation: liMove calc(var(--speed)) infinite;
 }

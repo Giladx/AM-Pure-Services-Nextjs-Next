@@ -63,6 +63,7 @@
 }
 .list-item {
   display: list-item;
+  list-style: none;
 }
 .teleport-show {
   transform: translateX(0%) !important;
