@@ -83,13 +83,10 @@ ul li {
         <div className="list-container-g-container g-container">
           <ul className="list-container-ul list">
             <li className="list-item">
-              <h1 className="list-container-text">{props.slide122}</h1>
+              <h1 className="list-container-text">{props.slide121}</h1>
             </li>
             <li className="list-item">
-              <h1 className="list-container-text1">{props.slide121}</h1>
-            </li>
-            <li className="list-item">
-              <h1 className="list-container-text2">{props.slide1211}</h1>
+              <h1 className="list-container-text1">{props.slide1211}</h1>
             </li>
             <li className="list-item">
               <h1 className="list-container-heading">{props.slide123}</h1>
@@ -99,6 +96,9 @@ ul li {
             </li>
             <li className="list-item">
               <h1 className="list-container-heading2">{props.slide124}</h1>
+            </li>
+            <li className="list-item">
+              <h1 className="list-container-text2">{props.slide1212}</h1>
             </li>
           </ul>
         </div>
@@ -132,12 +132,6 @@ ul li {
             padding: var(--dl-space-space-twounits);
             font-size: 2em;
           }
-          .list-container-text2 {
-            color: var(--dl-color-scheme-green);
-            width: 500px;
-            padding: var(--dl-space-space-twounits);
-            font-size: 2em;
-          }
           .list-container-heading {
             color: var(--dl-color-scheme-green);
             width: 500px;
@@ -152,6 +146,12 @@ ul li {
             font-size: 2em;
           }
           .list-container-heading2 {
+            color: var(--dl-color-scheme-green);
+            width: 500px;
+            padding: var(--dl-space-space-twounits);
+            font-size: 2em;
+          }
+          .list-container-text2 {
             color: var(--dl-color-scheme-green);
             width: 500px;
             padding: var(--dl-space-space-twounits);
@@ -176,20 +176,20 @@ ListContainer.defaultProps = {
   slide121: 'WE BELIEVE IN ONE WAY: INTEGRITY',
   slide12: 'WE WILL GIVE YOU BEST PERFORMANCE',
   rootClassName: '',
-  slide122: '',
   slide1211: 'WE CARE FOR PEOPLE HEALTH',
   slide123: 'WE BELIEVE IN SAVING ENERGY',
   slide124: 'PURE CLEAN AIR DUCT FOR HEALTHY LIFE',
+  slide1212: 'WE BELIEVE IN ONE WAY: INTEGRITY',
 }
 
 ListContainer.propTypes = {
   slide121: PropTypes.string,
   slide12: PropTypes.string,
   rootClassName: PropTypes.string,
-  slide122: PropTypes.string,
   slide1211: PropTypes.string,
   slide123: PropTypes.string,
   slide124: PropTypes.string,
+  slide1212: PropTypes.string,
 }
 
 export default ListContainer
