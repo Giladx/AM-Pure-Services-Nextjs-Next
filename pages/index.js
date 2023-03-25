@@ -590,9 +590,12 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .home-max-width {
+              height: auto;
+            }
             .home-heading-container {
               width: auto;
-              height: 0px;
+              height: auto;
               align-items: center;
               justify-content: center;
             }
