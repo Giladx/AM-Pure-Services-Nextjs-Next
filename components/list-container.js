@@ -101,7 +101,7 @@ ul li {
           }
           .list-container-g-container {
             flex: 0 0 auto;
-            width: 100%;
+            width: 500px;
             height: auto;
             display: flex;
             align-items: flex-start;
@@ -110,19 +110,19 @@ ul li {
             color: var(--dl-color-scheme-green);
             width: 100%;
             padding: var(--dl-space-space-twounits);
-            font-size: 3em;
+            font-size: 2em;
           }
           .list-container-text1 {
             color: var(--dl-color-scheme-green);
             width: 100%;
             padding: var(--dl-space-space-twounits);
-            font-size: 3em;
+            font-size: 2em;
           }
           .list-container-text2 {
             color: var(--dl-color-scheme-green);
             width: 100%;
             padding: var(--dl-space-space-twounits);
-            font-size: 3em;
+            font-size: 2em;
           }
           .list-container-root-class-name {
             width: 500px;
@@ -130,7 +130,7 @@ ul li {
           }
           @media (max-width: 1600px) {
             .list-container-text {
-              font-size: 3em;
+              font-size: 2em;
             }
             .list-container-text1 {
               font-size: 3em;
