@@ -22,14 +22,10 @@ li{
 
 .g-container {
   width: 720px;
-  /*margin: auto;*/
   height: 136px;
   line-height: 36px;
-  /*font-size: 20px;*/
   background: #ffffff00;
-  /*color: #000;*/
   overflow: hidden;
-  /*border: 2px dashed #000;*/
   margin-top: 5em;
 }
 
