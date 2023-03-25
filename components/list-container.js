@@ -6,18 +6,20 @@ import PropTypes from 'prop-types'
 const ListContainer = (props) => {
   return (
     <>
-      <div className={`g-container list-container-div ${props.rootClassName} `}>
-        <ul className="list-container-ul list">
-          <li className="list-item">
-            <h1 className="list-container-text">{props.slide121}</h1>
-          </li>
-          <li className="list-item">
-            <h1 className="list-container-text1">{props.slide12}</h1>
-          </li>
-          <li className="list-item">
-            <h1 className="list-container-text2">{props.slide122}</h1>
-          </li>
-        </ul>
+      <div className={`list-container-div ${props.rootClassName} `}>
+        <div className="list-container-g-container g-container">
+          <ul className="list">
+            <li className="list-item">
+              <h1 className="list-container-text">{props.slide121}</h1>
+            </li>
+            <li className="list-item">
+              <h1 className="list-container-text1">{props.slide12}</h1>
+            </li>
+            <li className="list-item">
+              <h1 className="list-container-text2">{props.slide122}</h1>
+            </li>
+          </ul>
+        </div>
         <div>
           <DangerousHTML
             html={`<style>
@@ -25,6 +27,11 @@ const ListContainer = (props) => {
 :root {
   --w: 500;
   --speed: 3s;
+}
+
+li{
+  list-style:none;
+  --s:3;
 }
 
 .g-container {
@@ -89,8 +96,15 @@ ul li {
       </div>
       <style jsx>
         {`
-          .list-container-ul {
-            -s: 6;
+          .list-container-div {
+            display: flex;
+          }
+          .list-container-g-container {
+            flex: 0 0 auto;
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: flex-start;
           }
           .list-container-text {
             color: var(--dl-color-scheme-green);
