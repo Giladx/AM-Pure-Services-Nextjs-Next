@@ -29,7 +29,7 @@ const Footer = (props) => {
               </div>
             </div>
             <div className="footer-navigate-container">
-              <span className="footer-text01">{props.text6}</span>
+              <span className="footer-text1">{props.text6}</span>
               <Link href="/about">
                 <a className="footer-link04">
                   <span>ABOUT</span>
@@ -44,37 +44,19 @@ const Footer = (props) => {
               </Link>
             </div>
             <div className="footer-contact-container">
-              <span className="footer-text04">{props.text9}</span>
+              <span className="footer-text4">{props.text9}</span>
               <a href="tel:+18885031722" className="footer-link07">
                 {props.text11}
               </a>
               <a
-                href="https://www.google.com/maps/place/Farmington+Hills,+MI+48331,+USA/@42.4981031,-83.4425518,13z/data=!3m1!4b1!4m5!3m4!1s0x8824b01110963c0d:0xb9db7893378fa2e6!8m2!3d42.508645!4d-83.4109834"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="footer-link08"
-              >
-                <span>Farmington Hills,</span>
-                <br></br>
-              </a>
-              <a
-                href="https://www.google.com/maps/place/Farmington+Hills,+MI+48331,+USA/@42.4981031,-83.4425518,13z/data=!3m1!4b1!4m5!3m4!1s0x8824b01110963c0d:0xb9db7893378fa2e6!8m2!3d42.508645!4d-83.4109834"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="footer-link09"
-              >
-                <span>MI 48331, USA</span>
-                <br></br>
-              </a>
-              <a
                 href="mailto:service@ampureservices.com?subject=Site Service Request"
-                className="footer-link10"
+                className="footer-link08"
               >
                 {props.text10}
               </a>
             </div>
             <div className="footer-subscribe-container">
-              <span className="footer-text09">{props.text}</span>
+              <span className="footer-text5">{props.text}</span>
               <input
                 type="text"
                 placeholder={props.textinput_placeholder}
@@ -98,13 +80,13 @@ const Footer = (props) => {
             </a>
           </Link>
           <Link href="/">
-            <a className="footer-link12">{props.text12}</a>
+            <a className="footer-link10">{props.text12}</a>
           </Link>
           <a
             href="https://011.ninja"
             target="_blank"
             rel="noreferrer noopener"
-            className="footer-link13"
+            className="footer-link11"
           >
             {props.text121}
           </a>
@@ -169,7 +151,7 @@ const Footer = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .footer-text01 {
+          .footer-text1 {
             color: var(--dl-color-scheme-green);
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -193,7 +175,7 @@ const Footer = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .footer-text04 {
+          .footer-text4 {
             color: var(--dl-color-scheme-green);
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -203,16 +185,6 @@ const Footer = (props) => {
             text-decoration: none;
           }
           .footer-link08 {
-            margin-bottom: var(--dl-space-space-unit);
-            text-transform: uppercase;
-            text-decoration: none;
-          }
-          .footer-link09 {
-            margin-bottom: var(--dl-space-space-unit);
-            text-transform: uppercase;
-            text-decoration: none;
-          }
-          .footer-link10 {
             font-size: 14px;
             font-style: normal;
             font-family: Rubik;
@@ -229,7 +201,7 @@ const Footer = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .footer-text09 {
+          .footer-text5 {
             color: var(--dl-color-scheme-green);
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -264,14 +236,14 @@ const Footer = (props) => {
             object-fit: cover;
             text-decoration: none;
           }
-          .footer-link12 {
+          .footer-link10 {
             width: auto;
             font-style: normal;
             text-align: center;
             font-weight: 300;
             text-decoration: none;
           }
-          .footer-link13 {
+          .footer-link11 {
             font-style: normal;
             font-weight: 300;
             text-decoration: none;
@@ -291,7 +263,7 @@ const Footer = (props) => {
             .footer-contact-container {
               margin-left: var(--dl-space-space-oneandhalfunits);
             }
-            .footer-link12 {
+            .footer-link10 {
               width: auto;
               text-align: center;
             }
@@ -312,13 +284,6 @@ const Footer = (props) => {
               margin-bottom: var(--dl-space-space-unit);
             }
             .footer-link08 {
-              text-transform: uppercase;
-              text-decoration: none;
-            }
-            .footer-link09 {
-              text-transform: uppercase;
-            }
-            .footer-link10 {
               font-size: 16px;
               font-style: normal;
               font-weight: 900;
@@ -326,16 +291,16 @@ const Footer = (props) => {
               margin-bottom: var(--dl-space-space-unit);
               letter-spacing: auto;
             }
-            .footer-link12 {
+            .footer-link10 {
               width: auto;
               text-align: center;
             }
           }
           @media (max-width: 991px) {
-            .footer-link12 {
+            .footer-link10 {
               text-align: center;
             }
-            .footer-link13 {
+            .footer-link11 {
               text-align: center;
             }
           }
@@ -363,10 +328,10 @@ const Footer = (props) => {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .footer-link12 {
+            .footer-link10 {
               text-align: center;
             }
-            .footer-link13 {
+            .footer-link11 {
               text-align: center;
             }
           }
@@ -394,7 +359,7 @@ const Footer = (props) => {
               margin-left: var(--dl-space-space-oneandhalfunits);
               margin-bottom: 0px;
             }
-            .footer-link10 {
+            .footer-link08 {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
             .footer-max-width1 {
@@ -403,7 +368,7 @@ const Footer = (props) => {
             .footer-image {
               margin-bottom: var(--dl-space-space-unit);
             }
-            .footer-link12 {
+            .footer-link10 {
               text-align: center;
             }
           }

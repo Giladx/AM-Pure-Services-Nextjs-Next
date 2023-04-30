@@ -284,21 +284,21 @@ ul li {
 ListContainer.defaultProps = {
   slide121: 'WE BELIEVE IN ONE WAY: INTEGRITY',
   slide12: 'WE WILL GIVE YOU BEST PERFORMANCE',
-  rootClassName: '',
-  slide1211: 'WE CARE FOR PEOPLE HEALTH',
-  slide123: 'WE BELIEVE IN SAVING ENERGY',
-  slide124: 'PURE CLEAN AIR DUCT FOR HEALTHY LIFE',
   slide1212: 'WE BELIEVE IN ONE WAY: INTEGRITY',
+  slide124: 'PURE CLEAN AIR DUCT FOR HEALTHY LIFE',
+  rootClassName: '',
+  slide123: 'WE BELIEVE IN SAVING ENERGY',
+  slide1211: 'WE CARE FOR PEOPLE HEALTH',
 }
 
 ListContainer.propTypes = {
   slide121: PropTypes.string,
   slide12: PropTypes.string,
-  rootClassName: PropTypes.string,
-  slide1211: PropTypes.string,
-  slide123: PropTypes.string,
-  slide124: PropTypes.string,
   slide1212: PropTypes.string,
+  slide124: PropTypes.string,
+  rootClassName: PropTypes.string,
+  slide123: PropTypes.string,
+  slide1211: PropTypes.string,
 }
 
 export default ListContainer
