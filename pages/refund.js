@@ -3,31 +3,31 @@ import Head from 'next/head'
 
 import DangerousHTML from 'dangerous-html/react'
 
-const Estimate = (props) => {
+const Refund = (props) => {
   return (
     <>
-      <div className="estimate-container">
+      <div className="refund-container">
         <Head>
-          <title>Estimate - AM Pure Services Nextjs</title>
+          <title>Refund - AM Pure Services Nextjs</title>
           <meta
             property="og:title"
-            content="Estimate - AM Pure Services Nextjs"
+            content="Refund - AM Pure Services Nextjs"
           />
           <meta
             property="og:image"
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/22dabe9a-fd15-434a-ba18-d5a5efd124ab/9b2dfd80-db34-45ba-a7c4-c1045c6ffc8a?org_if_sml=1"
           />
         </Head>
-        <div className="estimate-div">
+        <div className="refund-div">
           <DangerousHTML
-            html={`  <iframe
-id="JotFormIFrame-212754518132048"
-title="Clone of AM Pure Services Job Contract part 1"
+            html={`<iframe
+id="JotFormIFrame-210101469985053"
+title="AM Pure Refund"
 onload="window.parent.scrollTo(0,0)"
 allowtransparency="true"
 allowfullscreen="true"
 allow="geolocation; microphone; camera"
-src="https://form.jotform.com/212754518132048"
+src="https://form.jotform.com/210101469985053"
 frameborder="0"
 style="
 min-width: 100%;
@@ -37,7 +37,7 @@ scrolling="no"
 >
 </iframe>
 <script type="text/javascript">
-var ifr = document.getElementById("JotFormIFrame-212754518132048");
+var ifr = document.getElementById("JotFormIFrame-210101469985053");
 if (ifr) {
   var src = ifr.src;
   var iframeParams = [];
@@ -72,7 +72,6 @@ window.handleIFrameMessage = function(e) {
       window.location.reload();
       break;
     case "loadScript":
-      if( !window.isPermitted(e.origin, ['jotform.com', 'jotform.pro']) ) { break; }
       var src = args[1];
       if (args.length > 3) {
           src = args[1] + ':' + args[2];
@@ -96,20 +95,6 @@ window.handleIFrameMessage = function(e) {
     iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
   }
 };
-window.isPermitted = function(originUrl, whitelisted_domains) {
-  var url = document.createElement('a');
-  url.href = originUrl;
-  var hostname = url.hostname;
-  var result = false;
-  if( typeof hostname !== 'undefined' ) {
-    whitelisted_domains.forEach(function(element) {
-        if( hostname.slice((-1 * element.length - 1)) === '.'.concat(element) ||  hostname === element ) {
-            result = true;
-        }
-    });
-    return result;
-  }
-};
 if (window.addEventListener) {
   window.addEventListener("message", handleIFrameMessage, false);
 } else if (window.attachEvent) {
@@ -121,7 +106,7 @@ if (window.addEventListener) {
       </div>
       <style jsx>
         {`
-          .estimate-container {
+          .refund-container {
             width: 100%;
             display: flex;
             overflow: auto;
@@ -129,7 +114,7 @@ if (window.addEventListener) {
             align-items: center;
             flex-direction: column;
           }
-          .estimate-div {
+          .refund-div {
             width: 100%;
           }
         `}
@@ -138,4 +123,4 @@ if (window.addEventListener) {
   )
 }
 
-export default Estimate
+export default Refund

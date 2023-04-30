@@ -48,7 +48,7 @@ class CustomDocument extends Document {
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                '</noscript><link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">\n<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />\n<style>\n.services-card:hover > div{\nbackground-color: #fff\n}\n\n@keyframes sprite {\n    from {\n        background-position: 0 0%;\n    }\n\n    to {\n        background-position: 0 100%;\n    }\n}\n</style>\n<noscript>',
+                "</noscript><link href=\"https://unpkg.com/aos@2.3.4/dist/aos.css\" rel=\"stylesheet\">\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css\" />\n<style>\n.services-card:hover > div{\nbackground-color: #fff\n}\n\n@keyframes sprite {\n    from {\n        background-position: 0 0%;\n    }\n\n    to {\n        background-position: 0 100%;\n    }\n}\n</style>\n\n<!-- Global site tag (gtag.js) - Google Analytics -->\n\t<script async rel=preconnect src=\"https://www.googletagmanager.com/gtag/js?id=UA-144786052-2\"></script>\n\t<script>\n\t\twindow.dataLayer = window.dataLayer || [];\n\n\t\tfunction gtag() {\n\t\t\tdataLayer.push(arguments);\n\t\t}\n\t\tgtag('js', new Date());\n\n\t\tgtag('config', 'UA-144786052-2');\n\t</script>\n\t<!-- Google Analytics END -->\n\n    <!--Google AD Word START-->\n\t<script>\n\t\twindow.dataLayer = window.dataLayer || [];\n\n\t\tfunction gtag() {\n\t\t\tdataLayer.push(arguments);\n\t\t}\n\t\tgtag('js', new Date());\n\n\t\tgtag('config', 'AW-790521265');\n\t</script>\n\t<!--Google AD Word END--><noscript>",
             }}
           ></noscript>
         </Head>
