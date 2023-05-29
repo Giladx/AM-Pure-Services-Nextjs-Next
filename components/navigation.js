@@ -309,10 +309,10 @@ const Navigation = (props) => {
 
 Navigation.defaultProps = {
   rootClassName: '',
-  image_src: '/playground_assets/logo-651.svg',
+  image_src: '/logo-651.svg',
   button: '(888)-503-1722',
   image_alt1: 'image',
-  image_src1: '/playground_assets/logo-651.svg',
+  image_src1: '/logo-651.svg',
   button2: '(888)-503-1722',
   button1: '(888)-503-1722',
   image_alt: 'logo',

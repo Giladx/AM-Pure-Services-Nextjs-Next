@@ -35,7 +35,7 @@ const AirDuctCleaning = (props) => {
             <div className="air-duct-cleaning-content-wrap">
               <img
                 alt="image"
-                src="/playground_assets/air_duct-1500w.webp"
+                src="/air_duct-1500w.webp"
                 className="air-duct-cleaning-image"
               />
               <span className="air-duct-cleaning-text003">
@@ -140,7 +140,7 @@ const AirDuctCleaning = (props) => {
               </span>
               <img
                 alt="image"
-                src="/playground_assets/vent_tech-1500w.webp"
+                src="/vent_tech-1500w.webp"
                 className="air-duct-cleaning-image1"
               />
               <span className="air-duct-cleaning-text027">
@@ -189,7 +189,7 @@ const AirDuctCleaning = (props) => {
               </span>
               <img
                 alt="image"
-                src="/playground_assets/air_ducts-1500w.webp"
+                src="/air_ducts-1500w.webp"
                 className="air-duct-cleaning-image2"
               />
               <span className="air-duct-cleaning-text039">

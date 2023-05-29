@@ -214,18 +214,18 @@ const Process = (props) => {
 }
 
 Process.defaultProps = {
-  text8: 'Strong design execution',
+  text8: 'Inspection of the results',
   rootClassName: '',
   text9:
-    'As a creative, using your professional judgement, you should begin filtering your various ideas and designs, retaining the strongest relevant material.',
+    'Upon completion of the cleaning, AM technicians will perform a quality inspection to show the results of the cleaning.',
   text7:
-    'Brainstorming is a process of toiling and generating new ideas alone or by holding intensive group discussions between team members in a team.',
-  text4: 'Finding the best idea',
+    'Upon inspection, AM technicians will determine the best effective cleaning plan. Considering both time and price.',
+  text4: 'Finding the dirt',
   text2: '02',
   text1: '01',
   text5:
-    'There are countless businesses already in existence, so it’s very likely that you won’t be the first person to think of an idea or product. There are countless businesses already in existence, so it’s very likely that you won’t be the first person to think of an idea or product. ',
-  text6: 'Intense Brain storming ',
+    "Our technicians will start with performing a starter cleaning and performing an inspection to clarify the air duct's condition.",
+  text6: 'Cleaning plan',
   text: 'Our process',
   text3: '03',
 }

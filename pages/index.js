@@ -42,7 +42,7 @@ const Home = (props) => {
               <div className="home-container1">
                 <img
                   alt="image"
-                  src="/playground_assets/elite-solid-border-1200w.webp"
+                  src="/elite-solid-border-1200w.webp"
                   width="162"
                   height="160"
                   data-aos="fade-right"
@@ -50,7 +50,7 @@ const Home = (props) => {
                 />
                 <img
                   alt="image"
-                  src="/playground_assets/soap-solid-border-1200w.webp"
+                  src="/soap-solid-border-1200w.webp"
                   width="160"
                   height="146"
                   data-aos="fade-up"
@@ -58,7 +58,7 @@ const Home = (props) => {
                 />
                 <img
                   alt="image"
-                  src="/playground_assets/toprated-solid-border-1200w.webp"
+                  src="/toprated-solid-border-1200w.webp"
                   width="162"
                   height="160"
                   data-aos="fade-left"
@@ -71,7 +71,7 @@ const Home = (props) => {
             <div data-aos="fade-up" className="home-image3">
               <img
                 alt="image"
-                src="/playground_assets/undraw_absorbed_in_re_ymd6-1500w-1500w.webp"
+                src="/undraw_absorbed_in_re_ymd6-1500w-1500w.webp"
                 className="home-image4"
               />
             </div>
@@ -157,7 +157,7 @@ const Home = (props) => {
             <div className="home-image5">
               <img
                 alt="image"
-                src="/playground_assets/undraw_all_the_data_h4ki.svg"
+                src="/undraw_all_the_data_h4ki.svg"
                 data-aos="fade-left"
                 className="home-image6"
               />
@@ -197,7 +197,7 @@ const Home = (props) => {
             position: relative;
             padding-top: 128px;
             background-size: cover;
-            background-image: url('/playground_assets/bg2.svg');
+            background-image: url('/bg2.svg');
           }
           .home-max-width {
             height: 100%;

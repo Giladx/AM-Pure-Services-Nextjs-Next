@@ -29,11 +29,7 @@ const TCT = (props) => {
           <ListContainer rootClassName="list-container-root-class-name"></ListContainer>
           <div className="tct-content">
             <div className="tct-content-wrap">
-              <img
-                alt="image"
-                src="/playground_assets/ultra-violet.svg"
-                className="tct-image"
-              />
+              <img alt="image" src="/ultra-violet.svg" className="tct-image" />
               <span className="tct-text1">UV light</span>
               <span className="tct-text2">
                 Did you know that UV light is an important component in air and

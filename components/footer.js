@@ -396,7 +396,7 @@ Footer.defaultProps = {
   text5: 'UV LIGHT',
   text: 'Subscribe to our newsletter',
   text11: '(888) 503-1722',
-  image_src: '/playground_assets/logo-651.svg',
+  image_src: '/logo-651.svg',
   text7: 'RESTRICTIONS',
 }
 

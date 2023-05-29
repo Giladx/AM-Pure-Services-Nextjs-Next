@@ -238,7 +238,7 @@ const Content1 = (props) => {
 Content1.defaultProps = {
   image_alt: 'image',
   text: 'We train the best and brightest duct cleaning technicians that Michigan has to offer. All technicians are certified at AM Pure, allowing them to understand the needs of your air ducts.',
-  image_src: '/playground_assets/undraw_all_the_data_h4ki.svg',
+  image_src: '/undraw_all_the_data_h4ki.svg',
   rootClassName: '',
   text1:
     'We will beat any competitor prices and service for a limited time only!',

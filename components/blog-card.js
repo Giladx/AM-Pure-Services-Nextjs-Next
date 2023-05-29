@@ -140,7 +140,7 @@ BlogCard.defaultProps = {
   button: 'Web Design',
   image_alt: 'image',
   text1: 'Dec 8, 2022',
-  image_src: '/playground_assets/duct_cleaner-1500w.webp',
+  image_src: '/duct_cleaner-1500w.webp',
   rootClassName: '',
   text2: 'Air Duct Cleaning',
   text: 'Read More',

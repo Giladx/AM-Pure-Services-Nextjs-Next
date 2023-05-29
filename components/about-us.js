@@ -254,7 +254,7 @@ AboutUs.defaultProps = {
   image_alt: 'image',
   text3: 'Availability',
   text1: 'We are a full air duct cleaning service',
-  image_src: '/playground_assets/photo-1621905252507-b35492cc74b4-1000w.webp',
+  image_src: '/photo-1621905252507-b35492cc74b4-1000w.webp',
   text2: 'Quality service all time',
   text7: 'Support in any implementation',
   text4: 'FREE Estimate',

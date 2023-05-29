@@ -51,7 +51,7 @@ const Packages = (props) => {
                   Start="Air Duct Cleaning"
                   Title="Premium"
                   Details=" For unlimited vents under negative pressure machine, including basic cleaning for the furnace. "
-                  image_src="/playground_assets/file-document-200h.png"
+                  image_src="/file-document-200h.png"
                   className="packages-component1"
                 ></PackagesCard>
               </a>
@@ -63,7 +63,7 @@ const Packages = (props) => {
                   Start="Air Duct Cleaning"
                   Title="Duct Cleaning"
                   Details=" For unlimited vents and returns under negative pressure machine, including basic cleaning for the furnace. "
-                  image_src="/playground_assets/dice-5-200h.png"
+                  image_src="/dice-5-200h.png"
                   className="packages-component2"
                 ></PackagesCard>
               </a>

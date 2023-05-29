@@ -21,11 +21,7 @@ const Info = (props) => {
             <span>but you can always make yourself a sandcastle!</span>
             <br></br>
           </h1>
-          <img
-            alt="image"
-            src="/playground_assets/fun1-1500w.gif"
-            className="info-image"
-          />
+          <img alt="image" src="/fun1-1500w.gif" className="info-image" />
           <Link href="/">
             <a className="info-link">
               <span>Go Back -&gt;</span>

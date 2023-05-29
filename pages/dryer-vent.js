@@ -35,7 +35,7 @@ const DryerVent = (props) => {
             <div className="dryer-vent-content-wrap">
               <img
                 alt="image"
-                src="/playground_assets/duct_cleaner-1500w.webp"
+                src="/duct_cleaner-1500w.webp"
                 className="dryer-vent-image"
               />
               <span className="dryer-vent-text03">DRYER VENT CLEANING</span>

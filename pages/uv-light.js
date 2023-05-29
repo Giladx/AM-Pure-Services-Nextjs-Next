@@ -32,7 +32,7 @@ const UVLight = (props) => {
             <div className="u-light-content-wrap">
               <img
                 alt="image"
-                src="/playground_assets/ultra-violet.svg"
+                src="/ultra-violet.svg"
                 className="u-light-image"
               />
               <span className="u-light-text1">UV light</span>
