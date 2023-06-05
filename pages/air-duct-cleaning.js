@@ -11,10 +11,21 @@ const AirDuctCleaning = (props) => {
     <>
       <div className="air-duct-cleaning-container">
         <Head>
-          <title>Air-duct-cleaning - AM Pure Services Nextjs</title>
+          <title>
+            Air-duct-cleaning - AM Pure Services | Airduct Cleaning | Drayer
+            Vent Cleaning
+          </title>
+          <meta
+            name="description"
+            content="Pure Services | Professional Airduct Cleaning Service | HVAC Systems | A/C Systems | Air Duct Cleaning | Drayer Vent Cleaning | Best Airduct"
+          />
           <meta
             property="og:title"
-            content="Air-duct-cleaning - AM Pure Services Nextjs"
+            content="Air-duct-cleaning - AM Pure Services | Airduct Cleaning | Drayer Vent Cleaning"
+          />
+          <meta
+            property="og:description"
+            content="Pure Services | Professional Airduct Cleaning Service | HVAC Systems | A/C Systems | Air Duct Cleaning | Drayer Vent Cleaning | Best Airduct"
           />
           <meta
             property="og:image"

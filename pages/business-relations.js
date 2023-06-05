@@ -12,10 +12,21 @@ const BusinessRelations = (props) => {
     <>
       <div className="business-relations-container">
         <Head>
-          <title>Business-Relations - AM Pure Services Nextjs</title>
+          <title>
+            Business-Relations - AM Pure Services | Airduct Cleaning | Drayer
+            Vent Cleaning
+          </title>
+          <meta
+            name="description"
+            content="Pure Services | Professional Airduct Cleaning Service | HVAC Systems | A/C Systems | Air Duct Cleaning | Drayer Vent Cleaning | Best Airduct"
+          />
           <meta
             property="og:title"
-            content="Business-Relations - AM Pure Services Nextjs"
+            content="Business-Relations - AM Pure Services | Airduct Cleaning | Drayer Vent Cleaning"
+          />
+          <meta
+            property="og:description"
+            content="Pure Services | Professional Airduct Cleaning Service | HVAC Systems | A/C Systems | Air Duct Cleaning | Drayer Vent Cleaning | Best Airduct"
           />
           <meta
             property="og:image"

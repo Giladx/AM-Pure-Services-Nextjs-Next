@@ -8,10 +8,20 @@ const Review = (props) => {
     <>
       <div className="review-container">
         <Head>
-          <title>Review - AM Pure Services Nextjs</title>
+          <title>
+            Review - AM Pure Services | Airduct Cleaning | Drayer Vent Cleaning
+          </title>
+          <meta
+            name="description"
+            content="Pure Services | Professional Airduct Cleaning Service | HVAC Systems | A/C Systems | Air Duct Cleaning | Drayer Vent Cleaning | Best Airduct"
+          />
           <meta
             property="og:title"
-            content="Review - AM Pure Services Nextjs"
+            content="Review - AM Pure Services | Airduct Cleaning | Drayer Vent Cleaning"
+          />
+          <meta
+            property="og:description"
+            content="Pure Services | Professional Airduct Cleaning Service | HVAC Systems | A/C Systems | Air Duct Cleaning | Drayer Vent Cleaning | Best Airduct"
           />
           <meta
             property="og:image"

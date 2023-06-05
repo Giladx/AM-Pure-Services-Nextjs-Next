@@ -11,10 +11,21 @@ const UVLight = (props) => {
     <>
       <div className="u-light-container">
         <Head>
-          <title>UV-Light - AM Pure Services Nextjs</title>
+          <title>
+            UV-Light - AM Pure Services | Airduct Cleaning | Drayer Vent
+            Cleaning
+          </title>
+          <meta
+            name="description"
+            content="Pure Services | Professional Airduct Cleaning Service | HVAC Systems | A/C Systems | Air Duct Cleaning | Drayer Vent Cleaning | Best Airduct"
+          />
           <meta
             property="og:title"
-            content="UV-Light - AM Pure Services Nextjs"
+            content="UV-Light - AM Pure Services | Airduct Cleaning | Drayer Vent Cleaning"
+          />
+          <meta
+            property="og:description"
+            content="Pure Services | Professional Airduct Cleaning Service | HVAC Systems | A/C Systems | Air Duct Cleaning | Drayer Vent Cleaning | Best Airduct"
           />
           <meta
             property="og:image"

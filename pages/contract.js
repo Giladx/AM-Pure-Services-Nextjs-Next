@@ -8,10 +8,21 @@ const Contract = (props) => {
     <>
       <div className="contract-container">
         <Head>
-          <title>Contract - AM Pure Services Nextjs</title>
+          <title>
+            Contract - AM Pure Services | Airduct Cleaning | Drayer Vent
+            Cleaning
+          </title>
+          <meta
+            name="description"
+            content="Pure Services | Professional Airduct Cleaning Service | HVAC Systems | A/C Systems | Air Duct Cleaning | Drayer Vent Cleaning | Best Airduct"
+          />
           <meta
             property="og:title"
-            content="Contract - AM Pure Services Nextjs"
+            content="Contract - AM Pure Services | Airduct Cleaning | Drayer Vent Cleaning"
+          />
+          <meta
+            property="og:description"
+            content="Pure Services | Professional Airduct Cleaning Service | HVAC Systems | A/C Systems | Air Duct Cleaning | Drayer Vent Cleaning | Best Airduct"
           />
           <meta
             property="og:image"

@@ -8,10 +8,21 @@ const Estimate = (props) => {
     <>
       <div className="estimate-container">
         <Head>
-          <title>Estimate - AM Pure Services Nextjs</title>
+          <title>
+            Estimate - AM Pure Services | Airduct Cleaning | Drayer Vent
+            Cleaning
+          </title>
+          <meta
+            name="description"
+            content="Pure Services | Professional Airduct Cleaning Service | HVAC Systems | A/C Systems | Air Duct Cleaning | Drayer Vent Cleaning | Best Airduct"
+          />
           <meta
             property="og:title"
-            content="Estimate - AM Pure Services Nextjs"
+            content="Estimate - AM Pure Services | Airduct Cleaning | Drayer Vent Cleaning"
+          />
+          <meta
+            property="og:description"
+            content="Pure Services | Professional Airduct Cleaning Service | HVAC Systems | A/C Systems | Air Duct Cleaning | Drayer Vent Cleaning | Best Airduct"
           />
           <meta
             property="og:image"

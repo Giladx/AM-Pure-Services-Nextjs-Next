@@ -8,10 +8,20 @@ const Refund = (props) => {
     <>
       <div className="refund-container">
         <Head>
-          <title>Refund - AM Pure Services Nextjs</title>
+          <title>
+            Refund - AM Pure Services | Airduct Cleaning | Drayer Vent Cleaning
+          </title>
+          <meta
+            name="description"
+            content="Pure Services | Professional Airduct Cleaning Service | HVAC Systems | A/C Systems | Air Duct Cleaning | Drayer Vent Cleaning | Best Airduct"
+          />
           <meta
             property="og:title"
-            content="Refund - AM Pure Services Nextjs"
+            content="Refund - AM Pure Services | Airduct Cleaning | Drayer Vent Cleaning"
+          />
+          <meta
+            property="og:description"
+            content="Pure Services | Professional Airduct Cleaning Service | HVAC Systems | A/C Systems | Air Duct Cleaning | Drayer Vent Cleaning | Best Airduct"
           />
           <meta
             property="og:image"
