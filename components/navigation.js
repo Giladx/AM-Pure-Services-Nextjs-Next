@@ -20,6 +20,8 @@ const Navigation = (props) => {
                 src={props.image_src}
                 width="140"
                 height="55"
+                loading="lazy"
+                id="logo"
                 className="navigation-image"
               />
             </a>
