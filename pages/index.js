@@ -59,6 +59,7 @@ const Home = (props) => {
                   width="162"
                   height="160"
                   data-aos="fade-right"
+                  loading="lazy"
                   className="home-image"
                 />
                 <img
@@ -67,6 +68,7 @@ const Home = (props) => {
                   width="160"
                   height="146"
                   data-aos="fade-up"
+                  loading="lazy"
                   className="home-image1"
                 />
                 <img
@@ -75,6 +77,7 @@ const Home = (props) => {
                   width="162"
                   height="160"
                   data-aos="fade-left"
+                  loading="lazy"
                   className="home-image2"
                 />
               </div>
@@ -85,6 +88,7 @@ const Home = (props) => {
               <img
                 alt="image"
                 src="/undraw_absorbed_in_re_ymd6-1500w-1500w.webp"
+                loading="lazy"
                 className="home-image4"
               />
             </div>
@@ -172,6 +176,7 @@ const Home = (props) => {
                 alt="image"
                 src="/undraw_all_the_data_h4ki.svg"
                 data-aos="fade-left"
+                loading="lazy"
                 className="home-image6"
               />
             </div>

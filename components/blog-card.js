@@ -9,6 +9,7 @@ const BlogCard = (props) => {
         <img
           alt={props.image_alt}
           src={props.image_src}
+          loading="lazy"
           className="blog-card-image"
         />
         <div className="blog-card-container">
