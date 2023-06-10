@@ -48,7 +48,7 @@ const Page = (props) => {
             justify-content: center;
           }
           .page-text {
-            font-size: 55vh;
+            font-size: 45vh;
             align-self: center;
             font-style: normal;
             text-align: center;

@@ -141,27 +141,27 @@ const Restrictions = (props) => {
                 <br></br>
               </span>
               <span className="restrictions-text42">
-                &quot;Whole house&quot; Package and coupon:
+                &quot;Duct Cleaning&quot; Package and coupon:
               </span>
               <span className="restrictions-text43">
-                <span>The &quot;whole house&quot; is the package name.</span>
+                <span>The &quot;duct cleaning&quot; is the package name.</span>
                 <br></br>
                 <br></br>
                 <span>
-                  The &quot;whole house&quot; package is considered a basic
+                  The &quot;duct cleaning&quot; package is considered a basic
                   cleaning by AM Pure standards.
                 </span>
                 <br></br>
                 <br></br>
                 <span>
-                  The cleaning of the &quot;whole house&quot; package will
+                  The cleaning of the &quot;duct cleaning&quot; package will
                   remove some loose dust and debris starting in the main supply
                   line only.
                 </span>
                 <br></br>
                 <br></br>
                 <span>
-                  The cleaning of the &quot;whole house&quot; package does not
+                  The cleaning of the &quot;duct cleaning&quot; package does not
                   include opening the registers and cleaning individual air
                   ducts in the house area.
                 </span>
