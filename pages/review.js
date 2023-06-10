@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 
 const Review = (props) => {
   return (
@@ -29,7 +29,7 @@ const Review = (props) => {
           />
         </Head>
         <div className="review-div">
-          <DangerousHTML
+          <Script
             html={`<iframe
       id="JotFormIFrame-210285931209049"
       title="AM Pure Review"
@@ -126,7 +126,7 @@ const Review = (props) => {
         window.attachEvent("onmessage", handleIFrameMessage);
       }
       </script>`}
-          ></DangerousHTML>
+          ></Script>
         </div>
       </div>
       <style jsx>

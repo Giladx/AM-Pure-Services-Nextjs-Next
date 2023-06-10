@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 
 const Irc = (props) => {
   return (
@@ -29,9 +29,9 @@ const Irc = (props) => {
           />
         </Head>
         <div className="irc-div">
-          <DangerousHTML
+          <Script
             html={`<iframe src="https://kiwiirc.com/client/irc.kiwiirc.com/?nick=Tech1|?#AMPS" style="border:0;top:0; width:100%; height:100vh;"></iframe>`}
-          ></DangerousHTML>
+          ></Script>
         </div>
       </div>
       <style jsx>

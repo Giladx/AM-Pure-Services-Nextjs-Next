@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 
 import Navigation from '../components/navigation'
 import Process from '../components/process'
@@ -44,7 +44,7 @@ const Contact = (props) => {
         </div>
         <div className="contact-contact-form">
           <div className="contact-div">
-            <DangerousHTML
+            <Script
               html={`<iframe id="JotFormIFrame-92946808135466" title="Pure Contact" onload="window.parent.scrollTo(0,0)"
     allowtransparency="true" allowfullscreen="true" allow="geolocation; microphone; camera"
     src="https://form.jotform.me/92946808135466" frameborder="0" style="
@@ -137,7 +137,7 @@ const Contact = (props) => {
   color:red;
 }
 </style>`}
-            ></DangerousHTML>
+            ></Script>
           </div>
         </div>
         <Process rootClassName="process-root-class-name"></Process>

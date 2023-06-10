@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 
 const Estimate = (props) => {
   return (
@@ -30,7 +30,7 @@ const Estimate = (props) => {
           />
         </Head>
         <div className="estimate-div">
-          <DangerousHTML
+          <Script
             html={`  <iframe
 id="JotFormIFrame-212754518132048"
 title="Clone of AM Pure Services Job Contract part 1"
@@ -127,7 +127,7 @@ if (window.addEventListener) {
   window.attachEvent("onmessage", handleIFrameMessage);
 }
 </script>`}
-          ></DangerousHTML>
+          ></Script>
         </div>
       </div>
       <style jsx>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 
 import Navigation from '../components/navigation'
 import Process from '../components/process'
@@ -45,7 +45,7 @@ const OrderRquest = (props) => {
         </div>
         <div className="order-rquest-code">
           <div className="order-rquest-div">
-            <DangerousHTML
+            <Script
               html={`<iframe id="JotFormIFrame-93106174470453" title="Order Service Package" onload="window.parent.scrollTo(0,0)"
     allowtransparency="true" allowfullscreen="true" allow="geolocation; microphone; camera"
     src="https://form.jotform.me/93106174470453" frameborder="0" style="
@@ -133,7 +133,7 @@ const OrderRquest = (props) => {
         window.attachEvent("onmessage", handleIFrameMessage);
       }
 </script>`}
-            ></DangerousHTML>
+            ></Script>
           </div>
         </div>
         <Process rootClassName="process-root-class-name1"></Process>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 
 import Navigation from '../components/navigation'
 import Banner from '../components/banner'
@@ -59,7 +59,7 @@ const BusinessRelations = (props) => {
             <span>Thank you!</span>
           </span>
           <div className="business-relations-div">
-            <DangerousHTML
+            <Script
               html={`<iframe id="JotFormIFrame-213542509507454" title="AM Pure Relations Contact Form" onload="window.parent.scrollTo(0,0)"
     allowtransparency="true" allowfullscreen="true" allow="geolocation; microphone; camera"
     src="https://form.jotform.com/213542509507454" frameborder="0" style="
@@ -147,7 +147,7 @@ const BusinessRelations = (props) => {
         window.attachEvent("onmessage", handleIFrameMessage);
       }
 </script>`}
-            ></DangerousHTML>
+            ></Script>
           </div>
           <Banner rootClassName="banner-root-class-name4"></Banner>
         </main>

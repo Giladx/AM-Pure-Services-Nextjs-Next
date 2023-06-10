@@ -1,6 +1,6 @@
 import React from 'react'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 import PropTypes from 'prop-types'
 
 const Div = (props) => {
@@ -22,7 +22,7 @@ const Div = (props) => {
           </div>
         </div>
         <div>
-          <DangerousHTML
+          <Script
             html={`<style>
 /* (D) SLIDE ANIMATION */
 @keyframes slideh {
@@ -47,7 +47,7 @@ const Div = (props) => {
 .hmove { animation: slideh linear 8s infinite; }
 .hmove:hover { animation-play-state: paused; }
 </style>`}
-          ></DangerousHTML>
+          ></Script>
         </div>
       </div>
       <style jsx>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 
 const Contract = (props) => {
   return (
@@ -30,7 +30,7 @@ const Contract = (props) => {
           />
         </Head>
         <div className="contract-div">
-          <DangerousHTML
+          <Script
             html={` <iframe
       id="JotFormIFrame-220243455781454"
       title="AM Pure Services Job Contract Continue"
@@ -127,7 +127,7 @@ const Contract = (props) => {
         window.attachEvent("onmessage", handleIFrameMessage);
       }
       </script>`}
-          ></DangerousHTML>
+          ></Script>
         </div>
       </div>
       <style jsx>

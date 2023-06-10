@@ -1,6 +1,6 @@
 import React from 'react'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 import PropTypes from 'prop-types'
 
 const ListContainer = (props) => {
@@ -8,7 +8,7 @@ const ListContainer = (props) => {
     <>
       <div className={`list-container-div ${props.rootClassName} `}>
         <div>
-          <DangerousHTML
+          <Script
             html={`<style>
 
 :root {
@@ -87,7 +87,7 @@ ul li {
   --w: 360;
 }}
 </style>`}
-          ></DangerousHTML>
+          ></Script>
         </div>
         <div className="list-container-g-container g-container">
           <ul className="list-container-ul list">

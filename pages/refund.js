@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 
 const Refund = (props) => {
   return (
@@ -29,7 +29,7 @@ const Refund = (props) => {
           />
         </Head>
         <div className="refund-div">
-          <DangerousHTML
+          <Script
             html={`<iframe
 id="JotFormIFrame-210101469985053"
 title="AM Pure Refund"
@@ -111,7 +111,7 @@ if (window.addEventListener) {
   window.attachEvent("onmessage", handleIFrameMessage);
 }
 </script>`}
-          ></DangerousHTML>
+          ></Script>
         </div>
       </div>
       <style jsx>
