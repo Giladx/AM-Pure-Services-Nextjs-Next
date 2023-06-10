@@ -14,10 +14,6 @@ const Banner = (props) => {
             <h2 className="banner-text1">
               <span className="banner-text2">CALL US NOW</span>
               <br className="Heading2"></br>
-              <span className="Heading2">Se habla Español.</span>
-              <br className="Heading2"></br>
-              <span className="Heading2">Open 7 Days a Week.</span>
-              <br className="Heading2"></br>
               <span className="Heading2">(888) 503 1722</span>
             </h2>
             <button className="banner-primary button-lg button-secondary-white button">
