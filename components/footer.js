@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
 
-import Script from 'dangerous-html/react'
 import PropTypes from 'prop-types'
 
 const Footer = (props) => {
@@ -64,11 +63,6 @@ const Footer = (props) => {
                 className="footer-textinput input"
               />
               <button className="button-primary button">{props.button}</button>
-              <div className="footer-div">
-                <Script
-                  html={`<iframe width="540" height="305" src="https://5ac30ed9.sibforms.com/serve/MUIEAJ_CPcIJjqaJcmcc0fIPGRw8JaVdJbfZSoTMKRQmWwwk31u-mWp04PBIwlHXrCaMw_ESW2hTwIIXgPrCsDlV7n8YXClYnj_j3iutUz8KmkMJoIhiioCc0Gquu578X51aGJ5l2yhzxGt_d3ZV1zKFmaC5Mz5kXmwRtBdRZooH0Gvm3sxEXyySNcFrPdkaJAdznwpkgb6wn2y3" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>`}
-                ></Script>
-              </div>
             </div>
           </div>
         </div>
@@ -225,10 +219,6 @@ const Footer = (props) => {
             border-left-width: 0px;
             border-right-width: 0px;
             border-bottom-width: 1px;
-          }
-          .footer-div {
-            width: 352px;
-            height: 146px;
           }
           .footer-separator {
             width: 100%;
