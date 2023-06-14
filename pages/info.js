@@ -34,6 +34,17 @@ const Info = (props) => {
             <br></br>
           </h1>
           <img alt="image" src="/fun1-1500w.gif" className="info-image" />
+          <button
+            type="submit"
+            action="action"
+            value="Cancel"
+            className="info-button button"
+          >
+            <span>
+              <span>Back</span>
+              <br></br>
+            </span>
+          </button>
         </div>
       </div>
       <style jsx>
@@ -72,6 +83,13 @@ const Info = (props) => {
             align-self: center;
             object-fit: cover;
             margin-bottom: var(--dl-space-space-twounits);
+          }
+          .info-button {
+            color: var(--dl-color-scheme-white);
+            font-size: 1.5rem;
+            align-self: center;
+            border-color: var(--dl-color-scheme-green);
+            background-color: var(--dl-color-scheme-green);
           }
           @media (max-width: 479px) {
             .info-image {
