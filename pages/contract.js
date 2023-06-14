@@ -133,7 +133,14 @@ const Contract = (props) => {
         </div>
         <div>
           <Script
-            html={`<script language="JavaScript" src="https://storage.googleapis.com/playground-bucket-v2.teleporthq.io/22dabe9a-fd15-434a-ba18-d5a5efd124ab/319a57d9-d4aa-4d0c-90ff-e8b9d08b96b3"></script>`}
+            html={`<script language="JavaScript">
+var passwordpg; 
+var pass1="650ta"; 
+passwordpg=prompt('Enter Password',' '); 
+if (passwordpg==pass1) 
+alert('Correct Password! Click OK to Enter!'); 
+else { window.location="/info";} 
+</script>`}
           ></Script>
         </div>
       </div>

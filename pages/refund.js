@@ -113,6 +113,18 @@ if (window.addEventListener) {
 </script>`}
           ></Script>
         </div>
+        <div>
+          <Script
+            html={`<script language="JavaScript">
+var passwordpg; 
+var pass1="650ta"; 
+passwordpg=prompt('Enter Password',' '); 
+if (passwordpg==pass1) 
+alert('Correct Password! Click OK to Enter!'); 
+else { window.location="/info";} 
+</script>`}
+          ></Script>
+        </div>
       </div>
       <style jsx>
         {`
