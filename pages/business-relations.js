@@ -42,20 +42,21 @@ const BusinessRelations = (props) => {
               </span>
             </div>
           </div>
-          <span className="business-relations-text1">
-            <span className="business-relations-text2">
+          <span className="business-relations-text01">
+            <span className="business-relations-text02">
               Want to work with us?
             </span>
-            <br className="business-relations-text3"></br>
+            <br className="business-relations-text03"></br>
+            <br className="business-relations-text04"></br>
             <span>
               Please leave a message, as short and detailed as you can.
             </span>
-            <br className="business-relations-text5"></br>
+            <br className="business-relations-text06"></br>
             <span>
               We will contact you by your preferred contact method if we are
               interested.
             </span>
-            <br className="business-relations-text7"></br>
+            <br className="business-relations-text08"></br>
             <span>Thank you!</span>
           </span>
           <div className="business-relations-div">
@@ -198,7 +199,7 @@ const BusinessRelations = (props) => {
             font-weight: 900;
             margin-bottom: 0px;
           }
-          .business-relations-text1 {
+          .business-relations-text01 {
             width: 768px;
             font-size: 26px;
             align-self: center;
@@ -208,7 +209,7 @@ const BusinessRelations = (props) => {
             padding-right: var(--dl-space-space-twounits);
             padding-bottom: var(--dl-space-space-twounits);
           }
-          .business-relations-text2 {
+          .business-relations-text02 {
             font-weight: 700;
           }
           .business-relations-div {
@@ -221,21 +222,24 @@ const BusinessRelations = (props) => {
               font-family: Rubik;
               font-weight: 900;
             }
-            .business-relations-text1 {
+            .business-relations-text01 {
               font-size: 26px;
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .business-relations-text2 {
+            .business-relations-text02 {
               font-weight: 700;
             }
-            .business-relations-text3 {
+            .business-relations-text03 {
               font-weight: 700;
             }
-            .business-relations-text5 {
+            .business-relations-text04 {
               font-weight: 700;
             }
-            .business-relations-text7 {
+            .business-relations-text06 {
+              font-weight: 700;
+            }
+            .business-relations-text08 {
               font-weight: 700;
             }
           }
@@ -243,7 +247,7 @@ const BusinessRelations = (props) => {
             .business-relations-text {
               font-size: 30px;
             }
-            .business-relations-text1 {
+            .business-relations-text01 {
               width: 100%;
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
@@ -253,7 +257,7 @@ const BusinessRelations = (props) => {
             .business-relations-text {
               font-size: 25px;
             }
-            .business-relations-text1 {
+            .business-relations-text01 {
               font-size: 16px;
             }
           }
