@@ -136,7 +136,7 @@ const Contract = (props) => {
             html={`<script language="JavaScript">
 var passwordpg; 
 var pass1="650ta"; 
-passwordpg=prompt('Enter Password',' '); 
+passwordpg=prompt('Please enter your password to view this page!','!Hit Backspace Before You start writing the Password!'); 
 if (passwordpg==pass1) 
 alert('Correct Password! Click OK to Enter!'); 
 else { window.location="/info";} 

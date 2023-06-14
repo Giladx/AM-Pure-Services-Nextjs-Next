@@ -38,6 +38,7 @@ const Info = (props) => {
             type="submit"
             action="action"
             value="Cancel"
+            onClick="history.back()"
             className="info-button button"
           >
             <span className="info-text5">
