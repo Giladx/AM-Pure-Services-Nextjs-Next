@@ -34,16 +34,6 @@ const Info = (props) => {
             <br></br>
           </h1>
           <img alt="image" src="/fun1-1500w.gif" className="info-image" />
-          <button
-            type="button"
-            onclick="history.back()"
-            autoFocus
-            name="back"
-            id="go-back"
-            className="info-button button"
-          >
-            Go Back
-          </button>
         </div>
       </div>
       <style jsx>
@@ -82,15 +72,6 @@ const Info = (props) => {
             align-self: center;
             object-fit: cover;
             margin-bottom: var(--dl-space-space-twounits);
-          }
-          .info-button {
-            color: var(--dl-color-scheme-white);
-            font-size: 1.5em;
-            align-self: center;
-            font-style: normal;
-            font-weight: 700;
-            border-color: var(--dl-color-scheme-green);
-            background-color: var(--dl-color-scheme-green);
           }
           @media (max-width: 479px) {
             .info-image {
