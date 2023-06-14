@@ -46,7 +46,9 @@ const Info = (props) => {
             <Script
               html={`<script>
     const button = documet.getElementById(backButton);
-    Button.addEventListener(onClick)
+    button.addEventListener('onClick', () => {
+    history.back()
+    })
 </script>`}
             ></Script>
           </div>
