@@ -127,7 +127,15 @@ if (window.addEventListener) {
   window.attachEvent("onmessage", handleIFrameMessage);
 }
 </script>
-<script type="text/javascript" src="https://storage.googleapis.com/playground-bucket-v2.teleporthq.io/22dabe9a-fd15-434a-ba18-d5a5efd124ab/319a57d9-d4aa-4d0c-90ff-e8b9d08b96b3"></script>`}
+<script>
+  var password;
+var pass1="650ta";
+password=prompt('Please enter your password to view this page!','!Hit Backspace Before You start writing the
+Password!');
+if (password==pass1)
+alert('Password Correct! Click OK to enter!');
+else{window.location="/info";}
+</script>`}
           ></Script>
         </div>
       </div>
