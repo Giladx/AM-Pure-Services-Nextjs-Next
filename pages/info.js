@@ -1,6 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
 
+import Script from 'dangerous-html/react'
+
 const Info = (props) => {
   return (
     <>
@@ -34,18 +36,20 @@ const Info = (props) => {
             <br></br>
           </h1>
           <img alt="image" src="/fun1-1500w.gif" className="info-image" />
-          <button
-            type="submit"
-            action="action"
-            value="Cancel"
-            onClick="history.back()"
-            className="info-button button"
-          >
+          <button id="backButton" type="button" className="info-button button">
             <span className="info-text5">
               <span>Back</span>
               <br></br>
             </span>
           </button>
+          <div>
+            <Script
+              html={`<script>
+    const button = documet.getElementById(backButton);
+    Button.addEventListener(onClick)
+</script>`}
+            ></Script>
+          </div>
         </div>
       </div>
       <style jsx>
