@@ -16,12 +16,12 @@ const Navigation = (props) => {
           <Link href="/">
             <a className="navigation-link">
               <img
+                id="logo"
                 alt={props.image_alt}
                 src={props.image_src}
                 width="140"
                 height="55"
                 loading="lazy"
-                id="logo"
                 className="navigation-image"
               />
             </a>

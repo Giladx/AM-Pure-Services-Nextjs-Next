@@ -58,8 +58,8 @@ const Home = (props) => {
                   src="/elite-solid-border-1200w.webp"
                   width="162"
                   height="160"
-                  data-aos="fade-right"
                   loading="lazy"
+                  data-aos="fade-right"
                   className="home-image"
                 />
                 <img
@@ -67,8 +67,8 @@ const Home = (props) => {
                   src="/soap-solid-border-1200w.webp"
                   width="160"
                   height="146"
-                  data-aos="fade-up"
                   loading="lazy"
+                  data-aos="fade-up"
                   className="home-image1"
                 />
                 <img
@@ -76,8 +76,8 @@ const Home = (props) => {
                   src="/toprated-solid-border-1200w.webp"
                   width="162"
                   height="160"
-                  data-aos="fade-left"
                   loading="lazy"
+                  data-aos="fade-left"
                   className="home-image2"
                 />
               </div>
@@ -175,8 +175,8 @@ const Home = (props) => {
               <img
                 alt="image"
                 src="/undraw_all_the_data_h4ki.svg"
-                data-aos="fade-left"
                 loading="lazy"
+                data-aos="fade-left"
                 className="home-image6"
               />
             </div>
