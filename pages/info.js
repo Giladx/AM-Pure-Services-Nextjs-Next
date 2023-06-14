@@ -37,10 +37,7 @@ const Info = (props) => {
           </h1>
           <img alt="image" src="/fun1-1500w.gif" className="info-image" />
           <button id="backButton" type="button" className="info-button button">
-            <span className="info-text5">
-              <span>Back</span>
-              <br></br>
-            </span>
+            <span className="info-text5">Try Again</span>
           </button>
           <div>
             <Script
