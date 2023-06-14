@@ -27,10 +27,7 @@ const Page = (props) => {
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/22dabe9a-fd15-434a-ba18-d5a5efd124ab/9b2dfd80-db34-45ba-a7c4-c1045c6ffc8a?org_if_sml=1"
           />
         </Head>
-        <iframe
-          src="https://giphy.com/embed/SZugp2K9LkL6w"
-          className="page-iframe"
-        ></iframe>
+        <img src="/404-800w.gif" alt="image" className="page-image" />
         <span className="page-text">Page Not Found</span>
         <Link href="/">
           <a className="page-link">
@@ -50,9 +47,11 @@ const Page = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .page-iframe {
-            width: 828px;
-            height: 482px;
+          .page-image {
+            width: 727px;
+            height: 442px;
+            object-fit: cover;
+            margin-bottom: var(--dl-space-space-twounits);
           }
           .page-text {
             color: var(--dl-color-scheme-green);
