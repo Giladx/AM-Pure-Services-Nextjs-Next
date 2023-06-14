@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 import Head from 'next/head'
 
 const Info = (props) => {
@@ -29,18 +28,15 @@ const Info = (props) => {
         </Head>
         <div className="info-dead-end">
           <h1 className="info-text">
-            <span>sorry your password could not be verified.</span>
+            <span>Sorry your password could not be verified.</span>
             <br></br>
-            <span>but you can always make yourself a sandcastle!</span>
+            <span>But you can always make yourself a sandcastle!</span>
             <br></br>
           </h1>
           <img alt="image" src="/fun1-1500w.gif" className="info-image" />
-          <Link href="/">
-            <a className="info-link">
-              <span>Go Back -&gt;</span>
-              <br></br>
-            </a>
-          </Link>
+          <button type="button" className="info-button button">
+            Go Back
+          </button>
         </div>
       </div>
       <style jsx>
@@ -66,9 +62,12 @@ const Info = (props) => {
             padding-bottom: var(--dl-space-space-fourunits);
           }
           .info-text {
+            color: var(--dl-color-scheme-green);
             width: 100%;
             align-self: center;
+            font-style: normal;
             margin-top: var(--dl-space-space-twounits);
+            font-weight: 400;
             margin-bottom: var(--dl-space-space-twounits);
           }
           .info-image {
@@ -77,12 +76,14 @@ const Info = (props) => {
             object-fit: cover;
             margin-bottom: var(--dl-space-space-twounits);
           }
-          .info-link {
+          .info-button {
+            color: var(--dl-color-scheme-white);
             font-size: 2em;
             align-self: center;
             font-style: normal;
             font-weight: 700;
-            text-decoration: none;
+            border-color: var(--dl-color-scheme-green);
+            background-color: var(--dl-color-scheme-green);
           }
           @media (max-width: 479px) {
             .info-image {
