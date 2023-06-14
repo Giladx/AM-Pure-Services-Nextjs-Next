@@ -37,6 +37,9 @@ const Info = (props) => {
           <button
             type="button"
             onclick="history.back()"
+            autoFocus
+            name="back"
+            id="go-back"
             className="info-button button"
           >
             Go Back
@@ -82,7 +85,7 @@ const Info = (props) => {
           }
           .info-button {
             color: var(--dl-color-scheme-white);
-            font-size: 2em;
+            font-size: 1.5em;
             align-self: center;
             font-style: normal;
             font-weight: 700;

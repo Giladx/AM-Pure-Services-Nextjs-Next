@@ -326,7 +326,7 @@ const Home = (props) => {
           }
           .home-text03 {
             width: 100%;
-            font-size: 28px;
+            font-size: 26px;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-weight: 700;
@@ -362,7 +362,7 @@ const Home = (props) => {
           }
           .home-text12 {
             width: 100%;
-            font-size: 28px;
+            font-size: 26px;
             font-style: normal;
             font-family: Rubik;
             font-weight: 700;
@@ -378,7 +378,7 @@ const Home = (props) => {
           }
           .home-text18 {
             width: 100%;
-            font-size: 28px;
+            font-size: 26px;
             font-style: normal;
             font-weight: 700;
             padding-bottom: var(--dl-space-space-twounits);
