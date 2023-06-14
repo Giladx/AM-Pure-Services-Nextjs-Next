@@ -86,6 +86,7 @@ const Info = (props) => {
           }
           .info-button {
             color: var(--dl-color-scheme-white);
+            cursor: pointer;
             font-size: 1.5rem;
             align-self: center;
             border-color: var(--dl-color-scheme-green);
