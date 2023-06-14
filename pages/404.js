@@ -1,9 +1,8 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 
 const Page = (props) => {
-  useEffect(() => import('@lottiefiles/lottie-player'), [])
   return (
     <>
       <div className="page-container">
@@ -28,15 +27,10 @@ const Page = (props) => {
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/22dabe9a-fd15-434a-ba18-d5a5efd124ab/9b2dfd80-db34-45ba-a7c4-c1045c6ffc8a?org_if_sml=1"
           />
         </Head>
-        <div className="page-div">
-          <lottie-player
-            src="https://assets8.lottiefiles.com/private_files/lf30_k6fpeaa5.json"
-            autoplay
-            speed="1"
-            background="transparent"
-            loop
-          ></lottie-player>
-        </div>
+        <iframe
+          src="https://giphy.com/embed/SZugp2K9LkL6w"
+          className="page-iframe"
+        ></iframe>
         <span className="page-text">Page Not Found</span>
         <Link href="/">
           <a className="page-link">
@@ -56,12 +50,12 @@ const Page = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .page-div {
-            width: 100%;
-            height: 764px;
+          .page-iframe {
+            width: 828px;
+            height: 482px;
           }
           .page-text {
-            color: var(--dl-color-scheme-darkgray);
+            color: var(--dl-color-scheme-green);
             font-size: 3rem;
             font-style: normal;
             text-align: center;
@@ -79,7 +73,7 @@ const Page = (props) => {
             padding-right: var(--dl-space-space-twounits);
             padding-bottom: var(--dl-space-space-unit);
             text-decoration: none;
-            background-color: var(--dl-color-scheme-darkgray);
+            background-color: var(--dl-color-scheme-green);
           }
           @media (max-width: 1600px) {
             .page-text {
@@ -106,10 +100,6 @@ const Page = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .page-div {
-              width: 479px;
-              height: 401px;
-            }
             .page-text {
               color: var(--dl-color-scheme-darkgray);
               width: 100%;
