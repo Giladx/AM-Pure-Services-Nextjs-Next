@@ -127,14 +127,18 @@ if (window.addEventListener) {
   window.attachEvent("onmessage", handleIFrameMessage);
 }
 </script>
-<script>
-  var password;
-var pass1="650ta";
-password=prompt('Please enter your password to view this page!','!Hit Backspace Before You start writing the
-Password!');
-if (password==pass1)
-alert('Password Correct! Click OK to enter!');
-else{window.location="/info";}
+`}
+          ></Script>
+        </div>
+        <div>
+          <Script
+            html={`<script language="JavaScript">
+var passwordpg; 
+var pass1="650ta"; 
+passwordpg=prompt('Enter Password',' '); 
+if (passwordpg==pass1) 
+alert('Correct Password! Click OK to Enter!'); 
+else { window.location="/info";} 
 </script>`}
           ></Script>
         </div>
