@@ -34,7 +34,11 @@ const Info = (props) => {
             <br></br>
           </h1>
           <img alt="image" src="/fun1-1500w.gif" className="info-image" />
-          <button type="button" className="info-button button">
+          <button
+            type="button"
+            onclick="history.back()"
+            className="info-button button"
+          >
             Go Back
           </button>
         </div>
