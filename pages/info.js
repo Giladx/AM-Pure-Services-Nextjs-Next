@@ -40,7 +40,7 @@ const Info = (props) => {
             value="Cancel"
             className="info-button button"
           >
-            <span>
+            <span className="info-text5">
               <span>Back</span>
               <br></br>
             </span>
@@ -91,6 +91,10 @@ const Info = (props) => {
             align-self: center;
             border-color: var(--dl-color-scheme-green);
             background-color: var(--dl-color-scheme-green);
+          }
+          .info-text5 {
+            font-style: normal;
+            font-weight: 700;
           }
           @media (max-width: 479px) {
             .info-image {
