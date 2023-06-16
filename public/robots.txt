@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /contract/
+Disallow: /estimate/
+Disallow: /refund/
+Sitemap: https://ampureservices.com/sitemap.xml
