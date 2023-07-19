@@ -6,19 +6,33 @@ import PropTypes from 'prop-types'
 const PackagesCard = (props) => {
   return (
     <>
-      <div data-aos="fade-down" className="services-card">
+      <div
+        data-aos="fade-down"
+        className={`packages-card-services-card services-card ${props.rootClassName} `}
+      >
         <span className="packages-card-title">{props.Title}</span>
         <span className="packages-card-price">{props.Price}</span>
         <span className="packages-card-text">{props.Start}</span>
-        <span className="packages-card-details">{props.Details}</span>
-        <Link href="/order-rquest">
-          <a className="packages-card-link button">{props.Button}</a>
-        </Link>
-        <span className="packages-card-restrictions">{props.Form}</span>
-        <span className="packages-card-restrictions1">{props.Form1}</span>
+        <div className="packages-card-features">
+          <span className="packages-card-details">{props.Details111}</span>
+          <span className="packages-card-details1">{props.Details}</span>
+          <span className="packages-card-details2">{props.Details1}</span>
+          <span className="packages-card-details3">{props.Details11}</span>
+          <span className="packages-card-details4">{props.Details1111}</span>
+        </div>
+        <div className="packages-card-button-res">
+          <Link href="/order-rquest">
+            <a className="packages-card-link button">{props.Button}</a>
+          </Link>
+          <span className="packages-card-restrictions">{props.Form}</span>
+          <span className="packages-card-restrictions1">{props.Form1}</span>
+        </div>
       </div>
       <style jsx>
         {`
+          .packages-card-services-card {
+            height: auto;
+          }
           .packages-card-title {
             width: 100%;
             font-size: 24px;
@@ -50,11 +64,50 @@ const PackagesCard = (props) => {
             font-weight: 300;
             padding-bottom: var(--dl-space-space-oneandhalfunits);
           }
+          .packages-card-features {
+            flex: 0 0 auto;
+            width: 100%;
+            height: var(--dl-size-size-xxlarge);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+          }
           .packages-card-details {
             width: 100%;
-            height: var(--dl-size-size-medium);
+            height: auto;
             text-align: center;
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
+            margin-bottom: var(--dl-space-space-halfunit);
+          }
+          .packages-card-details1 {
+            width: 100%;
+            height: auto;
+            text-align: center;
+            margin-bottom: var(--dl-space-space-halfunit);
+          }
+          .packages-card-details2 {
+            width: 100%;
+            height: auto;
+            text-align: center;
+            margin-bottom: var(--dl-space-space-halfunit);
+          }
+          .packages-card-details3 {
+            width: 100%;
+            height: auto;
+            text-align: center;
+            margin-bottom: var(--dl-space-space-halfunit);
+          }
+          .packages-card-details4 {
+            width: 100%;
+            height: auto;
+            text-align: center;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .packages-card-button-res {
+            flex: 0 0 auto;
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
           }
           .packages-card-link {
             color: var(--dl-color-scheme-green);
@@ -70,6 +123,12 @@ const PackagesCard = (props) => {
             color: var(--dl-color-scheme-white);
             cursor: pointer;
             background-color: var(--dl-color-scheme-green);
+          }
+          .packages-card-root-class-name {
+            display: none;
+          }
+          .packages-card-root-class-name1 {
+            display: none;
           }
           @media (max-width: 1200px) {
             .packages-card-title {
@@ -90,6 +149,22 @@ const PackagesCard = (props) => {
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
             .packages-card-details {
+              width: 100%;
+              text-align: center;
+            }
+            .packages-card-details1 {
+              width: 100%;
+              text-align: center;
+            }
+            .packages-card-details2 {
+              width: 100%;
+              text-align: center;
+            }
+            .packages-card-details3 {
+              width: 100%;
+              text-align: center;
+            }
+            .packages-card-details4 {
               width: 100%;
               text-align: center;
             }
@@ -117,20 +192,30 @@ PackagesCard.defaultProps = {
   Form1: '** “Restrictions May Apply”',
   Title: 'Dryer vent',
   Button: 'Order Now',
+  rootClassName: '',
   Price: '149$',
+  Details11: '',
+  Details1111: '',
   Form: '* Fill an Order Form',
+  Details111: '',
   Start: 'Starting at',
+  Details1: '',
   Details:
-    'Create your ubest unique App development, crafted for your business needs.',
+    'Create your ubest unique App development, crafted for your business needs.Create your ubest unique App development, crafted for your business needs.',
 }
 
 PackagesCard.propTypes = {
   Form1: PropTypes.string,
   Title: PropTypes.string,
   Button: PropTypes.string,
+  rootClassName: PropTypes.string,
   Price: PropTypes.string,
+  Details11: PropTypes.string,
+  Details1111: PropTypes.string,
   Form: PropTypes.string,
+  Details111: PropTypes.string,
   Start: PropTypes.string,
+  Details1: PropTypes.string,
   Details: PropTypes.string,
 }
 

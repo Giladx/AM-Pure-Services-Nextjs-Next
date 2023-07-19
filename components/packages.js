@@ -50,7 +50,8 @@ const Packages = (props) => {
                   Price="149$"
                   Start="Air Duct Cleaning"
                   Title="Premium"
-                  Details=" For unlimited vents under negative pressure machine, including basic cleaning for the furnace. "
+                  Details="Vacuum up to 12 supply vents "
+                  Details1="Camera inspection"
                   image_src="/file-document-200h.png"
                   className="packages-component1"
                 ></PackagesCard>
@@ -62,9 +63,28 @@ const Packages = (props) => {
                   Price="249$"
                   Start="Air Duct Cleaning"
                   Title="Duct Cleaning"
-                  Details=" For unlimited vents and returns under negative pressure machine, including basic cleaning for the furnace. "
+                  Details="Negative pressure connection to the main supply line and main return line. "
+                  Details1="Dryer vent cleaning from outside (1st-floor exit only) "
+                  Details11="Basic furnace cleaning"
                   image_src="/dice-5-200h.png"
+                  Details1111="Camera inspection"
                   className="packages-component2"
+                ></PackagesCard>
+              </a>
+            </Link>
+            <Link href="/order-rquest">
+              <a>
+                <PackagesCard
+                  Price="100$ OFF"
+                  Start="Air Duct Cleaning"
+                  Title="Deep cleaning"
+                  Details="Negative pressure connection to the main supply line and main return line. "
+                  Details1="Dryer vent cleaning from outside (1st-floor exit only) "
+                  Details11="Basic furnace cleaning -Camera inspection"
+                  image_src="/dice-5-200h.png"
+                  Details111="Deep cleaning vents and returns "
+                  Details1111="Camera inspection"
+                  className="packages-component3"
                 ></PackagesCard>
               </a>
             </Link>
@@ -126,6 +146,9 @@ const Packages = (props) => {
             text-decoration: none;
           }
           .packages-component2 {
+            text-decoration: none;
+          }
+          .packages-component3 {
             text-decoration: none;
           }
         `}
