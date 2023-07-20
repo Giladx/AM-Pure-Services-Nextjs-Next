@@ -32,6 +32,10 @@ const PackagesCard = (props) => {
         {`
           .packages-card-services-card {
             height: auto;
+            padding-top: var(--dl-space-space-twounits);
+            padding-left: var(--dl-space-space-oneandhalfunits);
+            padding-right: var(--dl-space-space-oneandhalfunits);
+            padding-bottom: var(--dl-space-space-twounits);
           }
           .packages-card-title {
             width: 100%;
