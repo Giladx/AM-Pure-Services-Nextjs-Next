@@ -7,8 +7,8 @@ const BlogCard = (props) => {
     <>
       <div className={`blog-card-blog-card ${props.rootClassName} `}>
         <img
-          alt={props.image_alt}
-          src={props.image_src}
+          alt={props.imageAlt}
+          src={props.imageSrc}
           loading="lazy"
           className="blog-card-image"
         />
@@ -139,9 +139,9 @@ const BlogCard = (props) => {
 
 BlogCard.defaultProps = {
   button: 'Web Design',
-  image_alt: 'image',
+  imageAlt: 'image',
   text1: 'Dec 8, 2022',
-  image_src: '/duct_cleaner-1500w.webp',
+  imageSrc: '/duct_cleaner-1500w.webp',
   rootClassName: '',
   text2: 'Air Duct Cleaning',
   text: 'Read More',
@@ -149,9 +149,9 @@ BlogCard.defaultProps = {
 
 BlogCard.propTypes = {
   button: PropTypes.string,
-  image_alt: PropTypes.string,
+  imageAlt: PropTypes.string,
   text1: PropTypes.string,
-  image_src: PropTypes.string,
+  imageSrc: PropTypes.string,
   rootClassName: PropTypes.string,
   text2: PropTypes.string,
   text: PropTypes.string,

@@ -31,7 +31,7 @@ const OrderRquest = (props) => {
           />
           <meta
             property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/22dabe9a-fd15-434a-ba18-d5a5efd124ab/9b2dfd80-db34-45ba-a7c4-c1045c6ffc8a?org_if_sml=1"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/22dabe9a-fd15-434a-ba18-d5a5efd124ab/9b2dfd80-db34-45ba-a7c4-c1045c6ffc8a?org_if_sml=1&amp;force_format=original"
           />
         </Head>
         <Navigation rootClassName="navigation-root-class-name2"></Navigation>
@@ -44,9 +44,10 @@ const OrderRquest = (props) => {
           </div>
         </div>
         <div className="order-rquest-code">
-          <div className="order-rquest-div">
-            <Script
-              html={`<iframe id="JotFormIFrame-93106174470453" title="Order Service Package" onload="window.parent.scrollTo(0,0)"
+          <div className="order-rquest-container1">
+            <div className="order-rquest-container2">
+              <Script
+                html={`<iframe id="JotFormIFrame-93106174470453" title="Order Service Package" onload="window.parent.scrollTo(0,0)"
     allowtransparency="true" allowfullscreen="true" allow="geolocation; microphone; camera"
     src="https://form.jotform.me/93106174470453" frameborder="0" style="
       min-width: 100%;
@@ -133,7 +134,8 @@ const OrderRquest = (props) => {
         window.attachEvent("onmessage", handleIFrameMessage);
       }
 </script>`}
-            ></Script>
+              ></Script>
+            </div>
           </div>
         </div>
         <Process rootClassName="process-root-class-name1"></Process>
@@ -186,9 +188,12 @@ const OrderRquest = (props) => {
             margin-top: 0px;
             align-items: flex-start;
           }
-          .order-rquest-div {
+          .order-rquest-container1 {
             width: 100%;
             height: 100vh;
+          }
+          .order-rquest-container2 {
+            display: contents;
           }
           @media (max-width: 1200px) {
             .order-rquest-text {
@@ -197,12 +202,12 @@ const OrderRquest = (props) => {
               font-family: Rubik;
               font-weight: 900;
             }
-            .order-rquest-div {
+            .order-rquest-container1 {
               width: 100%;
             }
           }
           @media (max-width: 991px) {
-            .order-rquest-div {
+            .order-rquest-container1 {
               width: 100%;
             }
           }
@@ -210,7 +215,7 @@ const OrderRquest = (props) => {
             .order-rquest-text {
               font-size: 30px;
             }
-            .order-rquest-div {
+            .order-rquest-container1 {
               width: 100%;
             }
           }
@@ -221,7 +226,7 @@ const OrderRquest = (props) => {
             .order-rquest-code {
               height: auto;
             }
-            .order-rquest-div {
+            .order-rquest-container1 {
               width: 100%;
             }
           }

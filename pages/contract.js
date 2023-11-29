@@ -26,12 +26,13 @@ const Contract = (props) => {
           />
           <meta
             property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/22dabe9a-fd15-434a-ba18-d5a5efd124ab/9b2dfd80-db34-45ba-a7c4-c1045c6ffc8a?org_if_sml=1"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/22dabe9a-fd15-434a-ba18-d5a5efd124ab/9b2dfd80-db34-45ba-a7c4-c1045c6ffc8a?org_if_sml=1&amp;force_format=original"
           />
         </Head>
-        <div className="contract-div">
-          <Script
-            html={` <iframe
+        <div className="contract-container1">
+          <div className="contract-container2">
+            <Script
+              html={` <iframe
       id="JotFormIFrame-220243455781454"
       title="AM Pure Services Job Contract Continue"
       onload="window.parent.scrollTo(0,0)"
@@ -129,11 +130,13 @@ const Contract = (props) => {
       </script>
        <script src="https://storage.googleapis.com/playground-bucket-v2.teleporthq.io/22dabe9a-fd15-434a-ba18-d5a5efd124ab/319a57d9-d4aa-4d0c-90ff-e8b9d08b96b3"></script>
 `}
-          ></Script>
+            ></Script>
+          </div>
         </div>
         <div>
-          <Script
-            html={`<script language="JavaScript">
+          <div className="contract-container4">
+            <Script
+              html={`<script language="JavaScript">
 var passwordpg; 
 var pass1="650ta"; 
 passwordpg=prompt('Please enter your password to view this page!','!Hit Backspace Before You start writing the Password!'); 
@@ -141,7 +144,8 @@ if (passwordpg==pass1)
 alert('Correct Password! Click OK to Enter!'); 
 else { window.location="/info";} 
 </script>`}
-          ></Script>
+            ></Script>
+          </div>
         </div>
       </div>
       <style jsx>
@@ -154,8 +158,14 @@ else { window.location="/info";}
             align-items: center;
             flex-direction: column;
           }
-          .contract-div {
+          .contract-container1 {
             width: 100%;
+          }
+          .contract-container2 {
+            display: contents;
+          }
+          .contract-container4 {
+            display: contents;
           }
         `}
       </style>

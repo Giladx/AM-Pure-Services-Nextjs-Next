@@ -25,7 +25,7 @@ const Info = (props) => {
           />
           <meta
             property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/22dabe9a-fd15-434a-ba18-d5a5efd124ab/9b2dfd80-db34-45ba-a7c4-c1045c6ffc8a?org_if_sml=1"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/22dabe9a-fd15-434a-ba18-d5a5efd124ab/9b2dfd80-db34-45ba-a7c4-c1045c6ffc8a?org_if_sml=1&amp;force_format=original"
           />
         </Head>
         <div className="info-dead-end">
@@ -40,13 +40,15 @@ const Info = (props) => {
             <span className="info-text5">Try Again</span>
           </button>
           <div>
-            <Script
-              html={`<script>
+            <div className="info-container2">
+              <Script
+                html={`<script>
   document.getElementById("backButton").addEventListener("click", () => {
   history.back();
   });
 </script>`}
-            ></Script>
+              ></Script>
+            </div>
           </div>
         </div>
       </div>
@@ -98,6 +100,9 @@ const Info = (props) => {
           .info-text5 {
             font-style: normal;
             font-weight: 700;
+          }
+          .info-container2 {
+            display: contents;
           }
           @media (max-width: 479px) {
             .info-image {

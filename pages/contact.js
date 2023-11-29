@@ -30,7 +30,7 @@ const Contact = (props) => {
           />
           <meta
             property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/22dabe9a-fd15-434a-ba18-d5a5efd124ab/9b2dfd80-db34-45ba-a7c4-c1045c6ffc8a?org_if_sml=1"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/22dabe9a-fd15-434a-ba18-d5a5efd124ab/9b2dfd80-db34-45ba-a7c4-c1045c6ffc8a?org_if_sml=1&amp;force_format=original"
           />
         </Head>
         <Navigation rootClassName="navigation-root-class-name1"></Navigation>
@@ -43,9 +43,10 @@ const Contact = (props) => {
           </div>
         </div>
         <div className="contact-contact-form">
-          <div className="contact-div">
-            <Script
-              html={`
+          <div className="contact-container1">
+            <div className="contact-container2">
+              <Script
+                html={`
     <iframe
       id="JotFormIFrame-92946808135466"
       title="Pure Contact"
@@ -142,7 +143,8 @@ const Contact = (props) => {
       window.attachEvent("onmessage", handleIFrameMessage);
     }
     </script>`}
-            ></Script>
+              ></Script>
+            </div>
           </div>
         </div>
         <Process rootClassName="process-root-class-name"></Process>
@@ -194,10 +196,13 @@ const Contact = (props) => {
             display: flex;
             align-items: flex-start;
           }
-          .contact-div {
+          .contact-container1 {
             width: 100%;
             height: 100vh;
             margin-bottom: Infinitypx;
+          }
+          .contact-container2 {
+            display: contents;
           }
           @media (max-width: 1200px) {
             .contact-text {

@@ -33,7 +33,7 @@ const Home = (props) => {
           />
           <meta
             property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/22dabe9a-fd15-434a-ba18-d5a5efd124ab/9b2dfd80-db34-45ba-a7c4-c1045c6ffc8a?org_if_sml=1"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/22dabe9a-fd15-434a-ba18-d5a5efd124ab/9b2dfd80-db34-45ba-a7c4-c1045c6ffc8a?org_if_sml=1&amp;force_format=original"
           />
         </Head>
         <Navigation></Navigation>
@@ -183,8 +183,8 @@ const Home = (props) => {
           </div>
           <Packages></Packages>
           <AboutUs
-            image_alt="am pure services - air duct cleaning"
-            image_src="https://images.unsplash.com/photo-1592967050810-fb4aa3f8bf9d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEwfHxNaWNoaWdhbnxlbnwwfHx8fDE2NzgyMDU5NDE&amp;ixlib=rb-4.0.3&amp;w=1000"
+            imageAlt="am pure services - air duct cleaning"
+            imageSrc="https://images.unsplash.com/photo-1592967050810-fb4aa3f8bf9d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEwfHxNaWNoaWdhbnxlbnwwfHx8fDE2NzgyMDU5NDE&amp;ixlib=rb-4.0.3&amp;w=1000"
             rootClassName="about-us-root-class-name"
           ></AboutUs>
           <Process></Process>

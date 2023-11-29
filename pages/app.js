@@ -25,13 +25,15 @@ const App = (props) => {
           />
           <meta
             property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/22dabe9a-fd15-434a-ba18-d5a5efd124ab/9b2dfd80-db34-45ba-a7c4-c1045c6ffc8a?org_if_sml=1"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/22dabe9a-fd15-434a-ba18-d5a5efd124ab/9b2dfd80-db34-45ba-a7c4-c1045c6ffc8a?org_if_sml=1&amp;force_format=original"
           />
         </Head>
-        <div className="app-code-embed">
-          <Script
-            html={`<iframe id="JotFormIFrame-221005831703443" title="AM Pure Services APP" src="https://www.jotform.com/app/221005831703443?appEmbedded=1" style="width:100%;height:100%;border: 0;"></iframe>`}
-          ></Script>
+        <div className="app-container1">
+          <div className="app-container2">
+            <Script
+              html={`<iframe id="JotFormIFrame-221005831703443" title="AM Pure Services APP" src="https://www.jotform.com/app/221005831703443?appEmbedded=1" style="width:100%;height:100%;border: 0;"></iframe>`}
+            ></Script>
+          </div>
         </div>
       </div>
       <style jsx>
@@ -45,16 +47,19 @@ const App = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .app-code-embed {
+          .app-container1 {
             width: 100%;
             height: 100vh;
             align-self: center;
+          }
+          .app-container2 {
+            display: contents;
           }
           @media (max-width: 479px) {
             .app-container {
               align-items: center;
             }
-            .app-code-embed {
+            .app-container1 {
               width: 100%;
               height: 100vh;
             }

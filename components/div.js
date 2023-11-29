@@ -22,8 +22,9 @@ const Div = (props) => {
           </div>
         </div>
         <div>
-          <Script
-            html={`<style>
+          <div className="div-container1">
+            <Script
+              html={`<style>
 /* (D) SLIDE ANIMATION */
 @keyframes slideh {
   /* (D0) THE IDEA - USE KEYFRAMES TO SHIFT SLIDES *
@@ -47,7 +48,8 @@ const Div = (props) => {
 .hmove { animation: slideh linear 8s infinite; }
 .hmove:hover { animation-play-state: paused; }
 </style>`}
-          ></Script>
+            ></Script>
+          </div>
         </div>
       </div>
       <style jsx>
@@ -96,6 +98,9 @@ const Div = (props) => {
             width: 100%;
             padding: var(--dl-space-space-twounits);
             font-size: 3em;
+          }
+          .div-container1 {
+            display: contents;
           }
           @media (max-width: 1600px) {
             .div-text {

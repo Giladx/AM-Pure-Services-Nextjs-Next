@@ -8,8 +8,8 @@ const Content2 = (props) => {
       <div className="content2-content">
         <div className="content2-container">
           <img
-            alt={props.image_alt}
-            src={props.image_src}
+            alt={props.imageAlt}
+            src={props.imageSrc}
             className="content2-image"
           />
         </div>
@@ -137,13 +137,13 @@ const Content2 = (props) => {
 }
 
 Content2.defaultProps = {
-  image_src: '/undraw_absorbed_in_re_ymd6-800w.webp',
-  image_alt: 'image',
+  imageSrc: '/undraw_absorbed_in_re_ymd6-800w.webp',
+  imageAlt: 'image',
 }
 
 Content2.propTypes = {
-  image_src: PropTypes.string,
-  image_alt: PropTypes.string,
+  imageSrc: PropTypes.string,
+  imageAlt: PropTypes.string,
 }
 
 export default Content2

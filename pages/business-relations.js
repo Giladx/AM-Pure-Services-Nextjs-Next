@@ -30,7 +30,7 @@ const BusinessRelations = (props) => {
           />
           <meta
             property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/22dabe9a-fd15-434a-ba18-d5a5efd124ab/9b2dfd80-db34-45ba-a7c4-c1045c6ffc8a?org_if_sml=1"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/22dabe9a-fd15-434a-ba18-d5a5efd124ab/9b2dfd80-db34-45ba-a7c4-c1045c6ffc8a?org_if_sml=1&amp;force_format=original"
           />
         </Head>
         <Navigation rootClassName="navigation-root-class-name3"></Navigation>
@@ -59,9 +59,10 @@ const BusinessRelations = (props) => {
             <br className="business-relations-text08"></br>
             <span>Thank you!</span>
           </span>
-          <div className="business-relations-div">
-            <Script
-              html={`<iframe id="JotFormIFrame-213542509507454" title="AM Pure Relations Contact Form" onload="window.parent.scrollTo(0,0)"
+          <div className="business-relations-container1">
+            <div className="business-relations-container2">
+              <Script
+                html={`<iframe id="JotFormIFrame-213542509507454" title="AM Pure Relations Contact Form" onload="window.parent.scrollTo(0,0)"
     allowtransparency="true" allowfullscreen="true" allow="geolocation; microphone; camera"
     src="https://form.jotform.com/213542509507454" frameborder="0" style="
       min-width: 100%;
@@ -148,7 +149,8 @@ const BusinessRelations = (props) => {
         window.attachEvent("onmessage", handleIFrameMessage);
       }
 </script>`}
-            ></Script>
+              ></Script>
+            </div>
           </div>
           <Banner rootClassName="banner-root-class-name4"></Banner>
         </main>
@@ -212,8 +214,11 @@ const BusinessRelations = (props) => {
           .business-relations-text02 {
             font-weight: 700;
           }
-          .business-relations-div {
+          .business-relations-container1 {
             width: 100%;
+          }
+          .business-relations-container2 {
+            display: contents;
           }
           @media (max-width: 1200px) {
             .business-relations-text {

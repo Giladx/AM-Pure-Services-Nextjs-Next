@@ -8,8 +8,9 @@ const ListContainer = (props) => {
     <>
       <div className={`list-container-div ${props.rootClassName} `}>
         <div>
-          <Script
-            html={`<style>
+          <div className="list-container-container1">
+            <Script
+              html={`<style>
 
 :root {
   --w: 720;
@@ -87,7 +88,8 @@ ul li {
   --w: 360;
 }}
 </style>`}
-          ></Script>
+            ></Script>
+          </div>
         </div>
         <div className="list-container-g-container g-container">
           <ul className="list-container-ul list">
@@ -116,6 +118,9 @@ ul li {
         {`
           .list-container-div {
             display: flex;
+          }
+          .list-container-container1 {
+            display: contents;
           }
           .list-container-g-container {
             flex: 0 0 auto;

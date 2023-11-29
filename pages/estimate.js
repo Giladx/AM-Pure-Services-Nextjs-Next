@@ -26,12 +26,13 @@ const Estimate = (props) => {
           />
           <meta
             property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/22dabe9a-fd15-434a-ba18-d5a5efd124ab/9b2dfd80-db34-45ba-a7c4-c1045c6ffc8a?org_if_sml=1"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/22dabe9a-fd15-434a-ba18-d5a5efd124ab/9b2dfd80-db34-45ba-a7c4-c1045c6ffc8a?org_if_sml=1&amp;force_format=original"
           />
         </Head>
-        <div className="estimate-div">
-          <Script
-            html={`  <iframe
+        <div className="estimate-container1">
+          <div className="estimate-container2">
+            <Script
+              html={`  <iframe
 id="JotFormIFrame-212754518132048"
 title="Clone of AM Pure Services Job Contract part 1"
 onload="window.parent.scrollTo(0,0)"
@@ -128,11 +129,13 @@ if (window.addEventListener) {
 }
 </script>
 `}
-          ></Script>
+            ></Script>
+          </div>
         </div>
         <div>
-          <Script
-            html={`<script language="JavaScript">
+          <div className="estimate-container4">
+            <Script
+              html={`<script language="JavaScript">
 var passwordpg; 
 var pass1="650ta"; 
 passwordpg=prompt('Please enter your password to view this page!','!Hit Backspace Before You start writing the Password!'); 
@@ -140,7 +143,8 @@ if (passwordpg==pass1)
 alert('Correct Password! Click OK to Enter!'); 
 else { window.location="/info";} 
 </script>`}
-          ></Script>
+            ></Script>
+          </div>
         </div>
       </div>
       <style jsx>
@@ -153,8 +157,14 @@ else { window.location="/info";}
             align-items: center;
             flex-direction: column;
           }
-          .estimate-div {
+          .estimate-container1 {
             width: 100%;
+          }
+          .estimate-container2 {
+            display: contents;
+          }
+          .estimate-container4 {
+            display: contents;
           }
         `}
       </style>

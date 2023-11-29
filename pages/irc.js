@@ -25,13 +25,15 @@ const Irc = (props) => {
           />
           <meta
             property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/22dabe9a-fd15-434a-ba18-d5a5efd124ab/9b2dfd80-db34-45ba-a7c4-c1045c6ffc8a?org_if_sml=1"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/22dabe9a-fd15-434a-ba18-d5a5efd124ab/9b2dfd80-db34-45ba-a7c4-c1045c6ffc8a?org_if_sml=1&amp;force_format=original"
           />
         </Head>
-        <div className="irc-div">
-          <Script
-            html={`<iframe src="https://kiwiirc.com/client/irc.kiwiirc.com/?nick=Tech1|?#AMPS" style="border:0;top:0; width:100%; height:100vh;"></iframe>`}
-          ></Script>
+        <div className="irc-container1">
+          <div className="irc-container2">
+            <Script
+              html={`<iframe src="https://kiwiirc.com/client/irc.kiwiirc.com/?nick=Tech1|?#AMPS" style="border:0;top:0; width:100%; height:100vh;"></iframe>`}
+            ></Script>
+          </div>
         </div>
       </div>
       <style jsx>
@@ -44,9 +46,12 @@ const Irc = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .irc-div {
+          .irc-container1 {
             width: 100%;
             height: 100vh;
+          }
+          .irc-container2 {
+            display: contents;
           }
         `}
       </style>
