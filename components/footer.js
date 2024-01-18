@@ -72,9 +72,9 @@ const Footer = (props) => {
             <a>
               <img
                 alt={props.imageAlt}
-                src={props.imageSrc}
                 width="150"
-                height="59"
+                height="68"
+                src={props.imageSrc}
                 className="footer-image"
               />
             </a>
@@ -232,7 +232,7 @@ const Footer = (props) => {
             justify-content: space-between;
           }
           .footer-image {
-            width: 144px;
+            width: 150px;
             object-fit: cover;
             text-decoration: none;
           }
@@ -396,7 +396,7 @@ Footer.defaultProps = {
   text5: 'UV LIGHT',
   text: 'Subscribe to our newsletter',
   text11: '(888) 503-1722',
-  imageSrc: '/logo-651.svg',
+  imageSrc: '/logoam-200h.webp',
   text7: 'RESTRICTIONS',
 }
 

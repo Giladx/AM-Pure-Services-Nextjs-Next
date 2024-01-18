@@ -5,8 +5,8 @@ import { DataProvider, Repeater } from '@teleporthq/react-components'
 import Script from 'dangerous-html/react'
 import PropTypes from 'prop-types'
 
-import postPageInitialPaths7a218Resource from '../../resources/post-page-initial-paths-7a218'
-import postPageInitialPropsD718aResource from '../../resources/post-page-initial-props-d718a'
+import postPageInitialPaths1e16fResource from '../../resources/post-page-initial-paths-1e16f'
+import postPageInitialPropsC1251Resource from '../../resources/post-page-initial-props-c1251'
 
 const Post = (props) => {
   return (
@@ -90,7 +90,7 @@ export default Post
 
 export async function getStaticPaths() {
   try {
-    const response = await postPageInitialPaths7a218Resource({})
+    const response = await postPageInitialPaths1e16fResource({})
     return {
       paths: (response || []).map((item) => {
         return {
@@ -111,7 +111,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps(context) {
   try {
-    const response = await postPageInitialPropsD718aResource({
+    const response = await postPageInitialPropsC1251Resource({
       ...context?.params,
     })
     if (!response?.data?.[0]) {

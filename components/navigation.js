@@ -18,10 +18,10 @@ const Navigation = (props) => {
               <img
                 id="logo"
                 alt={props.imageAlt}
-                src={props.imageSrc}
-                width="140"
-                height="55"
+                width="150"
+                height="68"
                 loading="lazy"
+                src={props.imageSrc}
                 className="navigation-image"
               />
             </a>
@@ -109,7 +109,8 @@ const Navigation = (props) => {
             display: contents;
           }
           .navigation-image {
-            width: 140px;
+            width: 150px;
+            height: auto;
             text-decoration: none;
           }
           .navigation-register {
@@ -189,6 +190,10 @@ const Navigation = (props) => {
           }
 
           .navigation-root-class-name6 {
+            top: 0px;
+            left: 0px;
+          }
+          .navigation-root-class-name7 {
             top: 0px;
             left: 0px;
           }
@@ -311,7 +316,7 @@ const Navigation = (props) => {
 
 Navigation.defaultProps = {
   rootClassName: '',
-  imageSrc: '/logo-651.svg',
+  imageSrc: '/logoam-200h.webp',
   button: '(888)-503-1722',
   imageAlt1: 'image',
   imageSrc1: '/logo-651.svg',
