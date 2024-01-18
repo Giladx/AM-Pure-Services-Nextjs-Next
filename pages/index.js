@@ -55,7 +55,7 @@ const Home = (props) => {
               <div className="home-container1">
                 <img
                   alt="image"
-                  src="/elite-solid-border-1200w.webp"
+                  src="/elite-solid-border-1100w.webp"
                   width="162"
                   height="160"
                   loading="lazy"
@@ -64,7 +64,7 @@ const Home = (props) => {
                 />
                 <img
                   alt="image"
-                  src="/soap-solid-border-1200w.webp"
+                  src="/soap-solid-border-1100w.webp"
                   width="160"
                   height="146"
                   loading="lazy"
@@ -73,7 +73,7 @@ const Home = (props) => {
                 />
                 <img
                   alt="image"
-                  src="/toprated-solid-border-1200w.webp"
+                  src="/toprated-solid-border-1100w.webp"
                   width="162"
                   height="160"
                   loading="lazy"
@@ -546,6 +546,9 @@ const Home = (props) => {
               height: 738px;
               padding-bottom: 0px;
             }
+            .home-container1 {
+              width: 100%;
+            }
             .home-image {
               margin-left: var(--dl-space-space-oneandhalfunits);
               margin-right: var(--dl-space-space-oneandhalfunits);
@@ -628,19 +631,19 @@ const Home = (props) => {
               width: 100%;
             }
             .home-image {
-              width: 80%;
-              margin-left: var(--dl-space-space-halfunit);
-              margin-right: var(--dl-space-space-halfunit);
+              width: 70%;
+              margin-left: 0px;
+              margin-right: 0px;
             }
             .home-image1 {
-              width: 80%;
-              margin-left: var(--dl-space-space-halfunit);
-              margin-right: var(--dl-space-space-halfunit);
+              width: 70%;
+              margin-left: 0px;
+              margin-right: 0px;
             }
             .home-image2 {
-              width: 80%;
-              margin-left: var(--dl-space-space-halfunit);
-              margin-right: var(--dl-space-space-halfunit);
+              width: 70%;
+              margin-left: 0px;
+              margin-right: 0px;
             }
             .home-content {
               height: auto;
