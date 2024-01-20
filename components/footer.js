@@ -59,7 +59,7 @@ const Footer = (props) => {
               <span className="footer-text5">{props.text}</span>
               <input
                 type="text"
-                placeholder={props.textinput_placeholder}
+                placeholder={props.textinputPlaceholder}
                 className="footer-textinput input"
               />
               <button className="button-primary button">{props.button}</button>
@@ -381,14 +381,14 @@ const Footer = (props) => {
 Footer.defaultProps = {
   text3: 'AIR DUCT CLEANING',
   text1: 'Product',
-  textinput_placeholder: 'Enter your e-mail address',
+  textinputPlaceholder: 'Enter your e-mail address',
   rootClassName: '',
   button: 'Subscribe',
   text121: 'Developed by 011.ninja',
   text6: 'Info',
   text8: 'CONTACT',
   text4: 'DRYER VENT CLEANING',
-  image_alt: 'image',
+  imageAlt: 'image',
   text10: 'SERVICE@AMPURESERVICES.COM',
   text12: 'All rights reserved @ AM Pure Services',
   text9: 'Contact Us',
@@ -396,21 +396,21 @@ Footer.defaultProps = {
   text5: 'UV LIGHT',
   text: 'Subscribe to our newsletter',
   text11: '(888) 503-1722',
-  image_src: '20769734-2b37-4566-8316-77ad864b1180',
+  imageSrc: '20769734-2b37-4566-8316-77ad864b1180',
   text7: 'RESTRICTIONS',
 }
 
 Footer.propTypes = {
   text3: PropTypes.string,
   text1: PropTypes.string,
-  textinput_placeholder: PropTypes.string,
+  textinputPlaceholder: PropTypes.string,
   rootClassName: PropTypes.string,
   button: PropTypes.string,
   text121: PropTypes.string,
   text6: PropTypes.string,
   text8: PropTypes.string,
   text4: PropTypes.string,
-  image_alt: PropTypes.string,
+  imageAlt: PropTypes.string,
   text10: PropTypes.string,
   text12: PropTypes.string,
   text9: PropTypes.string,
@@ -418,7 +418,7 @@ Footer.propTypes = {
   text5: PropTypes.string,
   text: PropTypes.string,
   text11: PropTypes.string,
-  image_src: PropTypes.string,
+  imageSrc: PropTypes.string,
   text7: PropTypes.string,
 }
 

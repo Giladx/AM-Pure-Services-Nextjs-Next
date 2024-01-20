@@ -21,8 +21,8 @@ const Blog = (props) => {
                 <BlogCard
                   text="Read More"
                   button="Duct Clean"
-                  image_alt="clean air duct"
-                  image_src="/air_duct-1500w.webp"
+                  imageAlt="clean air duct"
+                  imageSrc="/air_duct-1500w.webp"
                   rootClassName="blog-card-root-class-name6"
                   className="blog-component"
                 ></BlogCard>
@@ -35,7 +35,7 @@ const Blog = (props) => {
                   text1="Aug 14, 2022"
                   text2="DRYER VENT CLEANING"
                   button="DRYER VENT"
-                  image_src="/duct_cleaner-1500w.webp"
+                  imageSrc="/duct_cleaner-1500w.webp"
                   rootClassName="blog-card-root-class-name7"
                   className="blog-component1"
                 ></BlogCard>
@@ -48,7 +48,7 @@ const Blog = (props) => {
                   text1="Jul 12, 2022"
                   text2="UV Light"
                   button="UV"
-                  image_src="/photo-1618853606840-d2138cef5431-1500w.webp"
+                  imageSrc="/photo-1618853606840-d2138cef5431-1500w.webp"
                   rootClassName="blog-card-root-class-name8"
                   className="blog-component2"
                 ></BlogCard>

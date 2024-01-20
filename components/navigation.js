@@ -55,8 +55,8 @@ const Navigation = (props) => {
                 <Link href="/">
                   <a className="navigation-link1">
                     <img
-                      alt={props.image_alt1}
-                      src={props.image_src1}
+                      alt={props.imageAlt1}
+                      src={props.imageSrc1}
                       className="navigation-image1"
                     />
                   </a>
@@ -316,24 +316,24 @@ const Navigation = (props) => {
 
 Navigation.defaultProps = {
   rootClassName: '',
-  image_src: '20769734-2b37-4566-8316-77ad864b1180',
+  imageSrc: '20769734-2b37-4566-8316-77ad864b1180',
   button: '(888)-503-1722',
-  image_alt1: 'image',
-  image_src1: '/logo-651.svg',
+  imageAlt1: 'image',
+  imageSrc1: '/logo-651.svg',
   button2: '(888)-503-1722',
   button1: '(888)-503-1722',
-  image_alt: 'logo',
+  imageAlt: 'logo',
 }
 
 Navigation.propTypes = {
   rootClassName: PropTypes.string,
-  image_src: PropTypes.string,
+  imageSrc: PropTypes.string,
   button: PropTypes.string,
-  image_alt1: PropTypes.string,
-  image_src1: PropTypes.string,
+  imageAlt1: PropTypes.string,
+  imageSrc1: PropTypes.string,
   button2: PropTypes.string,
   button1: PropTypes.string,
-  image_alt: PropTypes.string,
+  imageAlt: PropTypes.string,
 }
 
 export default Navigation
