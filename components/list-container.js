@@ -127,11 +127,13 @@ ul li {
             width: 720px;
             height: auto;
             display: flex;
+            overflow: hidden;
             position: relative;
             align-items: flex-start;
           }
           .list-container-ul {
             width: 720px;
+            overflow: hidden;
             align-self: flex-start;
             align-items: center;
           }

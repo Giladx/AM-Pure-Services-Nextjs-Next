@@ -72,9 +72,9 @@ const Footer = (props) => {
             <a>
               <img
                 alt={props.imageAlt}
+                src={props.imageSrc}
                 width="150"
                 height="68"
-                src={props.imageSrc}
                 className="footer-image"
               />
             </a>
