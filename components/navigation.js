@@ -17,11 +17,11 @@ const Navigation = (props) => {
             <a className="navigation-link">
               <img
                 id="logo"
-                alt={props.imageAlt}
-                src={props.imageSrc}
                 width="150"
                 height="68"
                 loading="lazy"
+                src="/logoam-200h.webp"
+                alt="logo"
                 className="navigation-image"
               />
             </a>
@@ -316,7 +316,7 @@ const Navigation = (props) => {
 
 Navigation.defaultProps = {
   rootClassName: '',
-  imageSrc: '/logoam-200h.webp',
+  imageSrc: '20769734-2b37-4566-8316-77ad864b1180',
   button: '(888)-503-1722',
   imageAlt1: 'image',
   imageSrc1: '/logo-651.svg',

@@ -71,10 +71,10 @@ const Footer = (props) => {
           <Link href="/">
             <a>
               <img
-                alt={props.imageAlt}
-                src={props.imageSrc}
                 width="150"
                 height="68"
+                src="/logoam-200h.webp"
+                alt="image"
                 className="footer-image"
               />
             </a>
@@ -396,7 +396,7 @@ Footer.defaultProps = {
   text5: 'UV LIGHT',
   text: 'Subscribe to our newsletter',
   text11: '(888) 503-1722',
-  imageSrc: '/logoam-200h.webp',
+  imageSrc: '20769734-2b37-4566-8316-77ad864b1180',
   text7: 'RESTRICTIONS',
 }
 
