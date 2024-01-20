@@ -7,7 +7,7 @@ const ListContainer = (props) => {
   return (
     <>
       <div className={`list-container-div ${props.rootClassName} `}>
-        <div>
+        <div className="list-container-container">
           <div className="list-container-container1">
             <Script
               html={`<style>
@@ -26,7 +26,6 @@ li{
   height: 136px;
   line-height: 90px;
   background: #ffffff00;
-  overflow: hidden;
   margin-top: 5em;
 }
 
@@ -128,10 +127,6 @@ ul li {
       </div>
       <style jsx>
         {`
-          .list-container-div {
-            display: flex;
-            overflow: hidden;
-          }
           .list-container-container1 {
             display: contents;
           }
@@ -140,15 +135,14 @@ ul li {
             width: 720px;
             height: auto;
             display: flex;
+            overflow: hidden;
             position: relative;
             align-items: flex-start;
             flex-direction: row;
           }
           .list-container-ul {
             width: 720px;
-            align-self: flex-start;
             align-items: center;
-            flex-direction: row;
           }
           .list-container-text {
             color: var(--dl-color-scheme-green);
@@ -219,9 +213,20 @@ ul li {
               width: 720px;
             }
           }
-          @media (max-width: 991px) {
+          @media (max-width: 1200px) {
             .list-container-ul {
-              overflow: hidden;
+              align-items: center;
+              flex-direction: row;
+            }
+          }
+          @media (max-width: 991px) {
+            .list-container-container {
+              left: NaNpx;
+              bottom: 0px;
+              position: absolute;
+            }
+            .list-container-ul {
+              flex-direction: row;
             }
             .list-container-text {
               font-size: 4.3em;
