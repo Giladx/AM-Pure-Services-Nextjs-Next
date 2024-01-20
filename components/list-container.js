@@ -100,16 +100,24 @@ ul li {
               <h1 className="list-container-text1">{props.slide1211}</h1>
             </li>
             <li className="list-item">
-              <h1 className="list-container-heading">{props.slide123}</h1>
+              <h1 className="list-container-heading">
+                WE BELIEVE IN SAVING ENERGY
+              </h1>
             </li>
             <li className="list-item">
-              <h1 className="list-container-heading1">{props.slide12}</h1>
+              <h1 className="list-container-heading1">
+                WE WILL GIVE YOU BEST PERFORMANCE
+              </h1>
             </li>
             <li className="list-item">
-              <h1 className="list-container-heading2">{props.slide124}</h1>
+              <h1 className="list-container-heading2">
+                PURE CLEAN AIR DUCT FOR HEALTHY LIFE
+              </h1>
             </li>
             <li className="list-item">
-              <h1 className="list-container-text2">{props.slide1212}</h1>
+              <h1 className="list-container-text2">
+                WE BELIEVE IN ONE WAY: INTEGRITY
+              </h1>
             </li>
           </ul>
         </div>
@@ -129,12 +137,14 @@ ul li {
             display: flex;
             position: relative;
             align-items: flex-start;
+            flex-direction: row;
           }
           .list-container-ul {
             width: 720px;
             overflow: hidden;
             align-self: flex-start;
             align-items: center;
+            flex-direction: row;
           }
           .list-container-text {
             color: var(--dl-color-scheme-green);
@@ -184,6 +194,7 @@ ul li {
             }
             .list-container-ul {
               width: 720px;
+              overflow: hidden;
               align-items: center;
             }
             .list-container-text {
@@ -205,7 +216,15 @@ ul li {
               width: 720px;
             }
           }
+          @media (max-width: 1200px) {
+            .list-container-ul {
+              overflow: hidden;
+            }
+          }
           @media (max-width: 991px) {
+            .list-container-ul {
+              overflow: hidden;
+            }
             .list-container-text {
               font-size: 4.3em;
             }
@@ -226,6 +245,9 @@ ul li {
             }
           }
           @media (max-width: 767px) {
+            .list-container-ul {
+              overflow: hidden;
+            }
             .list-container-text {
               font-size: 4em;
             }
@@ -255,6 +277,7 @@ ul li {
             }
             .list-container-ul {
               width: 360px;
+              overflow: hidden;
             }
             .list-container-text {
               width: 360px;
