@@ -94,10 +94,14 @@ ul li {
         <div className="list-container-g-container g-container">
           <ul className="list-container-ul list">
             <li className="list-item">
-              <h1 className="list-container-text">{props.slide121}</h1>
+              <h1 className="list-container-text">
+                WE BELIEVE IN ONE WAY: INTEGRITY
+              </h1>
             </li>
             <li className="list-item">
-              <h1 className="list-container-text1">{props.slide1211}</h1>
+              <h1 className="list-container-text1">
+                WE CARE FOR PEOPLE HEALTH
+              </h1>
             </li>
             <li className="list-item">
               <h1 className="list-container-heading">
@@ -126,6 +130,7 @@ ul li {
         {`
           .list-container-div {
             display: flex;
+            overflow: hidden;
           }
           .list-container-container1 {
             display: contents;
@@ -141,7 +146,6 @@ ul li {
           }
           .list-container-ul {
             width: 720px;
-            overflow: hidden;
             align-self: flex-start;
             align-items: center;
             flex-direction: row;
@@ -194,7 +198,6 @@ ul li {
             }
             .list-container-ul {
               width: 720px;
-              overflow: hidden;
               align-items: center;
             }
             .list-container-text {
@@ -214,11 +217,6 @@ ul li {
             }
             .list-container-text2 {
               width: 720px;
-            }
-          }
-          @media (max-width: 1200px) {
-            .list-container-ul {
-              overflow: hidden;
             }
           }
           @media (max-width: 991px) {
@@ -245,9 +243,6 @@ ul li {
             }
           }
           @media (max-width: 767px) {
-            .list-container-ul {
-              overflow: hidden;
-            }
             .list-container-text {
               font-size: 4em;
             }
@@ -277,7 +272,6 @@ ul li {
             }
             .list-container-ul {
               width: 360px;
-              overflow: hidden;
             }
             .list-container-text {
               width: 360px;
