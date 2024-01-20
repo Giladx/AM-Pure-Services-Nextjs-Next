@@ -10,22 +10,22 @@ const PackagesCard = (props) => {
         data-aos="fade-down"
         className={`packages-card-services-card services-card ${props.rootClassName} `}
       >
-        <span className="packages-card-title">{props.title}</span>
-        <span className="packages-card-price">{props.price}</span>
-        <span className="packages-card-text">{props.start}</span>
+        <span className="packages-card-title">{props.Title}</span>
+        <span className="packages-card-price">{props.Price}</span>
+        <span className="packages-card-text">{props.Start}</span>
         <div className="packages-card-features">
-          <span className="packages-card-details">{props.details111}</span>
-          <span className="packages-card-details1">{props.details}</span>
-          <span className="packages-card-details2">{props.details1}</span>
-          <span className="packages-card-details3">{props.details11}</span>
-          <span className="packages-card-details4">{props.details1111}</span>
+          <span className="packages-card-details">{props.Details111}</span>
+          <span className="packages-card-details1">{props.Details}</span>
+          <span className="packages-card-details2">{props.Details1}</span>
+          <span className="packages-card-details3">{props.Details11}</span>
+          <span className="packages-card-details4">{props.Details1111}</span>
         </div>
         <div className="packages-card-button-res">
           <Link href="/order-rquest">
-            <a className="packages-card-link button">{props.button}</a>
+            <a className="packages-card-link button">{props.Button}</a>
           </Link>
-          <span className="packages-card-restrictions">{props.form}</span>
-          <span className="packages-card-restrictions1">{props.form1}</span>
+          <span className="packages-card-restrictions">{props.Form}</span>
+          <span className="packages-card-restrictions1">{props.Form1}</span>
         </div>
       </div>
       <style jsx>
@@ -193,34 +193,34 @@ const PackagesCard = (props) => {
 }
 
 PackagesCard.defaultProps = {
-  form1: '** “Restrictions May Apply”',
-  title: 'Dryer vent',
-  button: 'Order Now',
+  Form1: '** “Restrictions May Apply”',
+  Title: 'Dryer vent',
+  Button: 'Order Now',
   rootClassName: '',
-  price: '149$',
-  details11: '',
-  details1111: '',
-  form: '* Fill an Order Form',
-  details111: '',
-  start: 'Starting at',
-  details1: '',
-  details:
+  Price: '149$',
+  Details11: '',
+  Details1111: '',
+  Form: '* Fill an Order Form',
+  Details111: '',
+  Start: 'Starting at',
+  Details1: '',
+  Details:
     'Create your ubest unique App development, crafted for your business needs.Create your ubest unique App development, crafted for your business needs.',
 }
 
 PackagesCard.propTypes = {
-  form1: PropTypes.string,
-  title: PropTypes.string,
-  button: PropTypes.string,
+  Form1: PropTypes.string,
+  Title: PropTypes.string,
+  Button: PropTypes.string,
   rootClassName: PropTypes.string,
-  price: PropTypes.string,
-  details11: PropTypes.string,
-  details1111: PropTypes.string,
-  form: PropTypes.string,
-  details111: PropTypes.string,
-  start: PropTypes.string,
-  details1: PropTypes.string,
-  details: PropTypes.string,
+  Price: PropTypes.string,
+  Details11: PropTypes.string,
+  Details1111: PropTypes.string,
+  Form: PropTypes.string,
+  Details111: PropTypes.string,
+  Start: PropTypes.string,
+  Details1: PropTypes.string,
+  Details: PropTypes.string,
 }
 
 export default PackagesCard

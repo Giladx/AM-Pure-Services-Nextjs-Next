@@ -56,8 +56,8 @@ const AboutUs = (props) => {
           </div>
           <div className="about-us-image-container">
             <img
-              alt={props.imageAlt}
-              src={props.imageSrc}
+              alt={props.image_alt}
+              src={props.image_src}
               loading="lazy"
               className="about-us-image"
             />
@@ -256,10 +256,10 @@ const AboutUs = (props) => {
 }
 
 AboutUs.defaultProps = {
-  imageAlt: 'image',
+  image_alt: 'image',
   text3: 'Availability',
   text1: 'We are a full air duct cleaning service',
-  imageSrc: '/photo-1621905252507-b35492cc74b4-1100w.webp',
+  image_src: '/photo-1621905252507-b35492cc74b4-1100w.webp',
   text2: 'Quality service all time',
   text7: 'Support in any implementation',
   text4: 'FREE Estimate',
@@ -270,10 +270,10 @@ AboutUs.defaultProps = {
 }
 
 AboutUs.propTypes = {
-  imageAlt: PropTypes.string,
+  image_alt: PropTypes.string,
   text3: PropTypes.string,
   text1: PropTypes.string,
-  imageSrc: PropTypes.string,
+  image_src: PropTypes.string,
   text2: PropTypes.string,
   text7: PropTypes.string,
   text4: PropTypes.string,

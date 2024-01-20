@@ -43,8 +43,8 @@ const Content1 = (props) => {
         </div>
         <div className="content1-image">
           <img
-            alt={props.imageAlt}
-            src={props.imageSrc}
+            alt={props.image_alt}
+            src={props.image_src}
             className="content1-image1"
           />
         </div>
@@ -236,18 +236,18 @@ const Content1 = (props) => {
 }
 
 Content1.defaultProps = {
-  imageAlt: 'image',
+  image_alt: 'image',
   text: 'We train the best and brightest duct cleaning technicians that Michigan has to offer. All technicians are certified at AM Pure, allowing them to understand the needs of your air ducts.',
-  imageSrc: '/undraw_all_the_data_h4ki.svg',
+  image_src: '/undraw_all_the_data_h4ki.svg',
   rootClassName: '',
   text1:
     'We will beat any competitor prices and service for a limited time only!',
 }
 
 Content1.propTypes = {
-  imageAlt: PropTypes.string,
+  image_alt: PropTypes.string,
   text: PropTypes.string,
-  imageSrc: PropTypes.string,
+  image_src: PropTypes.string,
   rootClassName: PropTypes.string,
   text1: PropTypes.string,
 }
