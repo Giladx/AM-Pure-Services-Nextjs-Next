@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
+import Script from 'dangerous-html/react'
 import PropTypes from 'prop-types'
 
 import PackagesCard from './packages-card'
@@ -24,6 +25,7 @@ const Packages = (props) => {
               <button
                 name="slide-left"
                 aria-label="slide-left"
+                id="slideLeft"
                 className="control-btn"
               >
                 <svg viewBox="0 0 1024 1024" className="packages-icon">
@@ -34,6 +36,7 @@ const Packages = (props) => {
               <button
                 name="slide-right"
                 aria-label="slide-right"
+                id="slideRight"
                 className="control-btn"
               >
                 <svg viewBox="0 0 1024 1024" className="packages-icon2">
@@ -43,7 +46,7 @@ const Packages = (props) => {
               </button>
             </div>
           </div>
-          <div className="items">
+          <div id="items" className="items">
             <Link href="/order-rquest">
               <a>
                 <PackagesCard
@@ -96,6 +99,23 @@ const Packages = (props) => {
                 ></PackagesCard>
               </a>
             </Link>
+          </div>
+        </div>
+        <div>
+          <div className="packages-container1">
+            <Script
+              html={`<script>
+const buttonRight = document.getElementById('slideRight');
+    const buttonLeft = document.getElementById('slideLeft');
+
+    buttonRight.onclick = function () {
+      document.getElementById('items').scrollLeft += 20;
+    };
+    buttonLeft.onclick = function () {
+      document.getElementById('items').scrollLeft -= 20;
+    };
+</script>`}
+            ></Script>
           </div>
         </div>
       </div>
@@ -158,6 +178,9 @@ const Packages = (props) => {
           }
           .packages-component3 {
             text-decoration: none;
+          }
+          .packages-container1 {
+            display: contents;
           }
         `}
       </style>

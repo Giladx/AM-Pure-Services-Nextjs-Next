@@ -278,7 +278,6 @@
   grid-gap: 20px;
   position: relative;
   transform: scale(0.98);
-  overflow-x: scroll;
   overflow-y: hidden;
   transition: all 0.2s;
   user-select: none;
